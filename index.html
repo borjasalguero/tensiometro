@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="pragma" content="no-cache"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>Tensiometro</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="style/fonts/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet" type="text/css" href="style/app.css">
+    <!-- Scripts -->
+    <script defer src="js/app.js"></script>
+  </head>
+
+  <body role="application" class="landscape">
+    <div id="background"></div>
+
+    <div id="scrollable">
+      <button id="chart"></button>
+      <button id="update"></button>
+      <ul class="calendar hidden">
+        <li class="calendar-day completed">21</li>
+        <li class="calendar-day danger">22</li>
+        <li class="calendar-day today">23</li>
+        <li class="calendar-day">24</li>
+        <li class="calendar-day">25</li>
+      </ul>
+      <div class="calendar-date" id="lr-date">No hay resultado aún</div>
+      <ul class="last-result">
+        <li>
+          <span class="unit">
+            <div class="unit-title">
+              Sys
+            </div>
+            <div class="unit-subtitle">
+              mmHg
+            </div>
+          </span>
+          <span id="lr-sys" class="value">
+            ---
+          </span>
+        </li>
+        <li>
+          <span class="unit">
+            <div class="unit-title">
+              Dia
+            </div>
+            <div class="unit-subtitle">
+              mmHg
+            </div>
+          </span>
+          <span id="lr-dias" class="value">
+            ---
+          </span>
+        </li>
+        <li>
+          <span class="unit">
+            <div class="unit-title">
+              Pulso
+            </div>
+            <div class="unit-subtitle">
+              rpm
+            </div>
+          </span>
+          <span id="lr-rpm" class="value">
+            ---
+          </span>
+        </li>
+      </ul>
+      <button id="new-sample">
+        Tomar nueva medida
+      </button>
+      <section id="last-samples">
+        <ul id="last-samples-container">
+          <li>
+            <span class="ls-value">120/80/73</span>
+            <span class="ls-date">22 de Febrero, 2015 - 11:23</span>
+          </li>
+          <li>
+            <span class="ls-value">110/72/70</span>
+            <span class="ls-date">21 de Febrero, 2015 - 14:42</span>
+          </li>
+          <li>
+            <span class="ls-value">132/67/81</span>
+            <span class="ls-date">20 de Febrero, 2015 - 11:21</span>
+          </li>
+
+        </ul>
+      </section>
+
+    </div>
+    <div id="form" class="hidden">
+      <button id="send-sample-button">
+        Enviar
+      </button>
+      <ul class="last-result">
+        <li>
+          <span class="unit">
+            <div class="unit-title">
+              Sys
+            </div>
+            <div class="unit-subtitle">
+              mmHg
+            </div>
+          </span>
+          <input class="value" type="number" name="systolic" min="10" max="300"></input>
+        </li>
+        <li>
+          <span class="unit">
+            <div class="unit-title">
+              Dia
+            </div>
+            <div class="unit-subtitle">
+              mmHg
+            </div>
+          </span>
+          <input class="value" type="number" name="diastolic" min="10" max="300"></input>
+        </li>
+        <li>
+          <span class="unit">
+            <div class="unit-title">
+              Pulso
+            </div>
+            <div class="unit-subtitle">
+              rpm
+            </div>
+          </span>
+          <input class="value" type="number" name="heart" min="10" max="300"></input>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
