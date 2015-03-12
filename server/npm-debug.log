@@ -1,0 +1,1957 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 warn package.json foxcast_backend@0.0.1 No repository field.
+5 warn package.json foxcast_backend@0.0.1 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/fbsc/Sites/foxcast/server',
+7 verbose install   [ 'express', 'request', 'mongoose', 'ejs', 'cors', 'crypto' ] ]
+8 info preinstall foxcast_backend@0.0.1
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'mongoose@3.5.4', null ]
+11 verbose cache add name=undefined spec="mongoose@3.5.4" args=["mongoose@3.5.4",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'mongoose@3.5.4',
+12 verbose parsed url   path: 'mongoose@3.5.4',
+12 verbose parsed url   href: 'mongoose@3.5.4' }
+13 verbose cache add name="mongoose" spec="3.5.4" args=["mongoose","3.5.4"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '3.5.4',
+14 verbose parsed url   path: '3.5.4',
+14 verbose parsed url   href: '3.5.4' }
+15 verbose addNamed [ 'mongoose', '3.5.4' ]
+16 verbose addNamed [ '3.5.4', '3.5.4' ]
+17 verbose cache add [ 'express@3.0.0rc5', null ]
+18 verbose cache add name=undefined spec="express@3.0.0rc5" args=["express@3.0.0rc5",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'express@3.0.0rc5',
+19 verbose parsed url   path: 'express@3.0.0rc5',
+19 verbose parsed url   href: 'express@3.0.0rc5' }
+20 verbose cache add name="express" spec="3.0.0rc5" args=["express","3.0.0rc5"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '3.0.0rc5',
+21 verbose parsed url   path: '3.0.0rc5',
+21 verbose parsed url   href: '3.0.0rc5' }
+22 verbose addNamed [ 'express', '3.0.0rc5' ]
+23 verbose addNamed [ null, null ]
+24 verbose cache add [ 'request@*', null ]
+25 verbose cache add name=undefined spec="request@*" args=["request@*",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'request@*',
+26 verbose parsed url   path: 'request@*',
+26 verbose parsed url   href: 'request@*' }
+27 verbose cache add name="request" spec="*" args=["request","*"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '*',
+28 verbose parsed url   path: '*',
+28 verbose parsed url   href: '*' }
+29 verbose addNamed [ 'request', '*' ]
+30 verbose addNamed [ null, '*' ]
+31 verbose cache add [ 'ejs@*', null ]
+32 verbose cache add name=undefined spec="ejs@*" args=["ejs@*",null]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: 'ejs@*',
+33 verbose parsed url   path: 'ejs@*',
+33 verbose parsed url   href: 'ejs@*' }
+34 verbose cache add name="ejs" spec="*" args=["ejs","*"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '*',
+35 verbose parsed url   path: '*',
+35 verbose parsed url   href: '*' }
+36 verbose addNamed [ 'ejs', '*' ]
+37 verbose addNamed [ null, '*' ]
+38 verbose cache add [ 'cors@*', null ]
+39 verbose cache add name=undefined spec="cors@*" args=["cors@*",null]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: 'cors@*',
+40 verbose parsed url   path: 'cors@*',
+40 verbose parsed url   href: 'cors@*' }
+41 verbose cache add name="cors" spec="*" args=["cors","*"]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: '*',
+42 verbose parsed url   path: '*',
+42 verbose parsed url   href: '*' }
+43 verbose addNamed [ 'cors', '*' ]
+44 verbose addNamed [ null, '*' ]
+45 verbose cache add [ 'crypto@*', null ]
+46 verbose cache add name=undefined spec="crypto@*" args=["crypto@*",null]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: 'crypto@*',
+47 verbose parsed url   path: 'crypto@*',
+47 verbose parsed url   href: 'crypto@*' }
+48 verbose cache add name="crypto" spec="*" args=["crypto","*"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '*',
+49 verbose parsed url   path: '*',
+49 verbose parsed url   href: '*' }
+50 verbose addNamed [ 'crypto', '*' ]
+51 verbose addNamed [ null, '*' ]
+52 silly lockFile 22f6d366-mongoose-3-5-4 mongoose@3.5.4
+53 verbose lock mongoose@3.5.4 /Users/fbsc/.npm/22f6d366-mongoose-3-5-4.lock
+54 silly lockFile 7e7c581c-express-3-0-0rc5 express@3.0.0rc5
+55 verbose lock express@3.0.0rc5 /Users/fbsc/.npm/7e7c581c-express-3-0-0rc5.lock
+56 silly lockFile a4c2c8dc-request request@*
+57 verbose lock request@* /Users/fbsc/.npm/a4c2c8dc-request.lock
+58 silly lockFile 9d73ed50-ejs ejs@*
+59 verbose lock ejs@* /Users/fbsc/.npm/9d73ed50-ejs.lock
+60 silly lockFile 25e847dc-cors cors@*
+61 verbose lock cors@* /Users/fbsc/.npm/25e847dc-cors.lock
+62 silly lockFile 63b9c09b-crypto crypto@*
+63 verbose lock crypto@* /Users/fbsc/.npm/63b9c09b-crypto.lock
+64 silly addNameRange { name: 'request', range: '*', hasData: false }
+65 silly addNameRange { name: 'ejs', range: '*', hasData: false }
+66 silly addNameRange { name: 'cors', range: '*', hasData: false }
+67 silly addNameRange { name: 'crypto', range: '*', hasData: false }
+68 verbose url raw express/3.0.0-rc5
+69 verbose url resolving [ 'https://registry.npmjs.org/', './express/3.0.0-rc5' ]
+70 verbose url resolved https://registry.npmjs.org/express/3.0.0-rc5
+71 info trying registry request attempt 1 at 14:54:55
+72 verbose etag "9WKMWX6KO0R9X9KEB1P989B2O"
+73 http GET https://registry.npmjs.org/express/3.0.0-rc5
+74 verbose url raw mongoose/3.5.4
+75 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose/3.5.4' ]
+76 verbose url resolved https://registry.npmjs.org/mongoose/3.5.4
+77 info trying registry request attempt 1 at 14:54:55
+78 verbose etag "7RXPUCUEVI31H05OF0TZ2SJ74"
+79 http GET https://registry.npmjs.org/mongoose/3.5.4
+80 verbose url raw request
+81 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+82 verbose url resolved https://registry.npmjs.org/request
+83 info trying registry request attempt 1 at 14:54:55
+84 verbose etag "ACFT4E8K3NY7BRIP8C3BD8VQV"
+85 http GET https://registry.npmjs.org/request
+86 verbose url raw crypto
+87 verbose url resolving [ 'https://registry.npmjs.org/', './crypto' ]
+88 verbose url resolved https://registry.npmjs.org/crypto
+89 info trying registry request attempt 1 at 14:54:55
+90 verbose etag "87PQLMSR3T55NEAXNIO8VAJV1"
+91 http GET https://registry.npmjs.org/crypto
+92 verbose url raw ejs
+93 verbose url resolving [ 'https://registry.npmjs.org/', './ejs' ]
+94 verbose url resolved https://registry.npmjs.org/ejs
+95 info trying registry request attempt 1 at 14:54:55
+96 verbose etag "A5830KFEC470CS4Z2VOATHNF8"
+97 http GET https://registry.npmjs.org/ejs
+98 verbose url raw cors
+99 verbose url resolving [ 'https://registry.npmjs.org/', './cors' ]
+100 verbose url resolved https://registry.npmjs.org/cors
+101 info trying registry request attempt 1 at 14:54:55
+102 verbose etag "29ON3LBNUAQA4SV48OQBWXSA0"
+103 http GET https://registry.npmjs.org/cors
+104 http 200 https://registry.npmjs.org/request
+105 silly registry.get cb [ 200,
+105 silly registry.get   { date: 'Mon, 26 Jan 2015 14:54:57 GMT',
+105 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+105 silly registry.get     etag: '"D2XSTWF03NSL60FDBAANEHB8B"',
+105 silly registry.get     'content-type': 'application/json',
+105 silly registry.get     'cache-control': 'max-age=60',
+105 silly registry.get     'content-length': '133587',
+105 silly registry.get     'accept-ranges': 'bytes',
+105 silly registry.get     via: '1.1 varnish',
+105 silly registry.get     age: '50',
+105 silly registry.get     'x-served-by': 'cache-ams4127-AMS',
+105 silly registry.get     'x-cache': 'HIT',
+105 silly registry.get     'x-cache-hits': '3',
+105 silly registry.get     'x-timer': 'S1422284097.685662,VS0,VE0',
+105 silly registry.get     vary: 'Accept',
+105 silly registry.get     'keep-alive': 'timeout=10, max=50',
+105 silly registry.get     connection: 'Keep-Alive' } ]
+106 silly addNameRange number 2 { name: 'request', range: '*', hasData: true }
+107 silly addNameRange versions [ 'request',
+107 silly addNameRange   [ '0.10.0',
+107 silly addNameRange     '0.8.3',
+107 silly addNameRange     '0.9.0',
+107 silly addNameRange     '0.9.1',
+107 silly addNameRange     '0.9.5',
+107 silly addNameRange     '1.0.0',
+107 silly addNameRange     '1.1.0',
+107 silly addNameRange     '1.1.1',
+107 silly addNameRange     '1.2.0',
+107 silly addNameRange     '1.9.0',
+107 silly addNameRange     '1.9.1',
+107 silly addNameRange     '1.9.2',
+107 silly addNameRange     '1.9.3',
+107 silly addNameRange     '1.9.5',
+107 silly addNameRange     '1.9.7',
+107 silly addNameRange     '1.9.8',
+107 silly addNameRange     '1.9.9',
+107 silly addNameRange     '2.0.0',
+107 silly addNameRange     '2.0.1',
+107 silly addNameRange     '2.0.2',
+107 silly addNameRange     '2.0.3',
+107 silly addNameRange     '2.0.4',
+107 silly addNameRange     '2.0.5',
+107 silly addNameRange     '2.1.0',
+107 silly addNameRange     '2.1.1',
+107 silly addNameRange     '2.2.0',
+107 silly addNameRange     '2.2.5',
+107 silly addNameRange     '2.2.6',
+107 silly addNameRange     '2.2.9',
+107 silly addNameRange     '2.9.0',
+107 silly addNameRange     '2.9.1',
+107 silly addNameRange     '2.9.2',
+107 silly addNameRange     '2.9.3',
+107 silly addNameRange     '2.9.100',
+107 silly addNameRange     '2.9.150',
+107 silly addNameRange     '2.9.151',
+107 silly addNameRange     '2.9.152',
+107 silly addNameRange     '2.9.153',
+107 silly addNameRange     '2.9.200',
+107 silly addNameRange     '2.9.201',
+107 silly addNameRange     '2.9.202',
+107 silly addNameRange     '2.9.203',
+107 silly addNameRange     '2.10.0',
+107 silly addNameRange     '2.11.0',
+107 silly addNameRange     '2.11.1',
+107 silly addNameRange     '2.11.2',
+107 silly addNameRange     '2.11.3',
+107 silly addNameRange     '2.11.4',
+107 silly addNameRange     '2.12.0',
+107 silly addNameRange     '2.14.0',
+107 silly addNameRange     '2.16.0',
+107 silly addNameRange     '2.16.2',
+107 silly addNameRange     '2.16.4',
+107 silly addNameRange     '2.16.6',
+107 silly addNameRange     '2.18.0',
+107 silly addNameRange     '2.19.0',
+107 silly addNameRange     '2.20.0',
+107 silly addNameRange     '2.21.0',
+107 silly addNameRange     '2.22.0',
+107 silly addNameRange     '2.23.0',
+107 silly addNameRange     '2.24.0',
+107 silly addNameRange     '2.25.0',
+107 silly addNameRange     '2.26.0',
+107 silly addNameRange     '2.27.0',
+107 silly addNameRange     '2.28.0',
+107 silly addNameRange     '2.29.0',
+107 silly addNameRange     '2.30.0',
+107 silly addNameRange     '2.31.0',
+107 silly addNameRange     '2.32.0',
+107 silly addNameRange     '2.33.0',
+107 silly addNameRange     '2.34.0',
+107 silly addNameRange     '2.35.0',
+107 silly addNameRange     '2.36.0',
+107 silly addNameRange     '2.37.0',
+107 silly addNameRange     '2.38.0',
+107 silly addNameRange     '2.39.0',
+107 silly addNameRange     '2.40.0',
+107 silly addNameRange     '2.41.0',
+107 silly addNameRange     '2.42.0',
+107 silly addNameRange     '2.43.0',
+107 silly addNameRange     '2.44.0',
+107 silly addNameRange     '2.45.0',
+107 silly addNameRange     '2.46.0',
+107 silly addNameRange     '2.47.0',
+107 silly addNameRange     '2.48.0',
+107 silly addNameRange     '2.49.0',
+107 silly addNameRange     '2.50.0',
+107 silly addNameRange     '2.51.0' ] ]
+108 verbose addNamed [ 'request', '2.51.0' ]
+109 verbose addNamed [ '2.51.0', '2.51.0' ]
+110 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+111 verbose lock request@2.51.0 /Users/fbsc/.npm/85707acc-request-2-51-0.lock
+112 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+113 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+114 silly lockFile a4c2c8dc-request request@*
+115 silly lockFile a4c2c8dc-request request@*
+116 http 200 https://registry.npmjs.org/crypto
+117 silly registry.get cb [ 200,
+117 silly registry.get   { date: 'Mon, 26 Jan 2015 14:54:57 GMT',
+117 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+117 silly registry.get     etag: '"6S6R8DRKC8CPBOMEBMBI34NGK"',
+117 silly registry.get     'content-type': 'application/json',
+117 silly registry.get     'cache-control': 'max-age=60',
+117 silly registry.get     'content-length': '2923',
+117 silly registry.get     'accept-ranges': 'bytes',
+117 silly registry.get     via: '1.1 varnish',
+117 silly registry.get     age: '0',
+117 silly registry.get     'x-served-by': 'cache-ams4131-AMS',
+117 silly registry.get     'x-cache': 'HIT',
+117 silly registry.get     'x-cache-hits': '1',
+117 silly registry.get     'x-timer': 'S1422284097.677672,VS0,VE183',
+117 silly registry.get     vary: 'Accept',
+117 silly registry.get     'keep-alive': 'timeout=10, max=50',
+117 silly registry.get     connection: 'Keep-Alive' } ]
+118 silly addNameRange number 2 { name: 'crypto', range: '*', hasData: true }
+119 silly addNameRange versions [ 'crypto', [ '0.0.1', '0.0.3' ] ]
+120 verbose addNamed [ 'crypto', '0.0.3' ]
+121 verbose addNamed [ '0.0.3', '0.0.3' ]
+122 silly lockFile 4d0ed277-crypto-0-0-3 crypto@0.0.3
+123 verbose lock crypto@0.0.3 /Users/fbsc/.npm/4d0ed277-crypto-0-0-3.lock
+124 silly lockFile 4d0ed277-crypto-0-0-3 crypto@0.0.3
+125 silly lockFile 4d0ed277-crypto-0-0-3 crypto@0.0.3
+126 silly lockFile 63b9c09b-crypto crypto@*
+127 silly lockFile 63b9c09b-crypto crypto@*
+128 http 200 https://registry.npmjs.org/express/3.0.0-rc5
+129 silly registry.get cb [ 200,
+129 silly registry.get   { date: 'Mon, 26 Jan 2015 14:54:58 GMT',
+129 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+129 silly registry.get     etag: '"1FOC043YDGHUW9EN9I4H0IK41"',
+129 silly registry.get     'content-type': 'application/json',
+129 silly registry.get     'cache-control': 'max-age=60',
+129 silly registry.get     'content-length': '1378',
+129 silly registry.get     'accept-ranges': 'bytes',
+129 silly registry.get     via: '1.1 varnish',
+129 silly registry.get     age: '0',
+129 silly registry.get     'x-served-by': 'cache-ams4149-AMS',
+129 silly registry.get     'x-cache': 'MISS',
+129 silly registry.get     'x-cache-hits': '0',
+129 silly registry.get     'x-timer': 'S1422284097.681090,VS0,VE511',
+129 silly registry.get     vary: 'Accept',
+129 silly registry.get     'keep-alive': 'timeout=10, max=50',
+129 silly registry.get     connection: 'Keep-Alive' } ]
+130 silly lockFile 7b38014f-org-express-express-3-0-0rc5-tgz https://registry.npmjs.org/express/-/express-3.0.0rc5.tgz
+131 verbose lock https://registry.npmjs.org/express/-/express-3.0.0rc5.tgz /Users/fbsc/.npm/7b38014f-org-express-express-3-0-0rc5-tgz.lock
+132 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-3.0.0rc5.tgz',
+132 verbose addRemoteTarball   'c63b56257f33a74498dbc0ba8986a3d5b627fc9d' ]
+133 info retry fetch attempt 1 at 14:54:56
+134 verbose fetch to= /var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/tmp.tgz
+135 http GET https://registry.npmjs.org/express/-/express-3.0.0rc5.tgz
+136 http 200 https://registry.npmjs.org/express/-/express-3.0.0rc5.tgz
+137 http 200 https://registry.npmjs.org/ejs
+138 silly registry.get cb [ 200,
+138 silly registry.get   { date: 'Mon, 26 Jan 2015 14:54:58 GMT',
+138 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+138 silly registry.get     etag: '"4DVFZ9J4HSZ636H03MOBFH9UN"',
+138 silly registry.get     'content-type': 'application/json',
+138 silly registry.get     'cache-control': 'max-age=60',
+138 silly registry.get     'content-length': '41919',
+138 silly registry.get     'accept-ranges': 'bytes',
+138 silly registry.get     via: '1.1 varnish',
+138 silly registry.get     age: '0',
+138 silly registry.get     'x-served-by': 'cache-ams4131-AMS',
+138 silly registry.get     'x-cache': 'HIT',
+138 silly registry.get     'x-cache-hits': '1',
+138 silly registry.get     'x-timer': 'S1422284097.690265,VS0,VE663',
+138 silly registry.get     vary: 'Accept',
+138 silly registry.get     'keep-alive': 'timeout=10, max=50',
+138 silly registry.get     connection: 'Keep-Alive' } ]
+139 silly addNameRange number 2 { name: 'ejs', range: '*', hasData: true }
+140 silly addNameRange versions [ 'ejs',
+140 silly addNameRange   [ '0.0.1',
+140 silly addNameRange     '0.0.2',
+140 silly addNameRange     '0.0.3',
+140 silly addNameRange     '0.0.4',
+140 silly addNameRange     '0.1.0',
+140 silly addNameRange     '0.2.0',
+140 silly addNameRange     '0.2.1',
+140 silly addNameRange     '0.3.0',
+140 silly addNameRange     '0.3.1',
+140 silly addNameRange     '0.4.0',
+140 silly addNameRange     '0.4.1',
+140 silly addNameRange     '0.4.2',
+140 silly addNameRange     '0.4.3',
+140 silly addNameRange     '0.5.0',
+140 silly addNameRange     '0.6.0',
+140 silly addNameRange     '0.6.1',
+140 silly addNameRange     '0.7.0',
+140 silly addNameRange     '0.7.1',
+140 silly addNameRange     '0.7.2',
+140 silly addNameRange     '0.8.0',
+140 silly addNameRange     '0.8.1',
+140 silly addNameRange     '0.8.2',
+140 silly addNameRange     '0.8.3',
+140 silly addNameRange     '0.8.4',
+140 silly addNameRange     '0.8.5',
+140 silly addNameRange     '0.8.6',
+140 silly addNameRange     '0.8.8',
+140 silly addNameRange     '1.0.0',
+140 silly addNameRange     '2.0.2',
+140 silly addNameRange     '2.0.3',
+140 silly addNameRange     '2.0.4',
+140 silly addNameRange     '2.0.5',
+140 silly addNameRange     '2.0.6',
+140 silly addNameRange     '2.0.7',
+140 silly addNameRange     '2.0.8',
+140 silly addNameRange     '2.1.1',
+140 silly addNameRange     '2.1.2',
+140 silly addNameRange     '2.1.3',
+140 silly addNameRange     '2.1.4',
+140 silly addNameRange     '2.2.1',
+140 silly addNameRange     '2.2.2',
+140 silly addNameRange     '2.2.3' ] ]
+141 verbose addNamed [ 'ejs', '2.2.3' ]
+142 verbose addNamed [ '2.2.3', '2.2.3' ]
+143 silly lockFile 7333c456-ejs-2-2-3 ejs@2.2.3
+144 verbose lock ejs@2.2.3 /Users/fbsc/.npm/7333c456-ejs-2-2-3.lock
+145 http 200 https://registry.npmjs.org/mongoose/3.5.4
+146 silly registry.get cb [ 200,
+146 silly registry.get   { date: 'Mon, 26 Jan 2015 14:54:58 GMT',
+146 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+146 silly registry.get     etag: '"E44FRZT3AZUGXPFHQH92B9Q0X"',
+146 silly registry.get     'content-type': 'application/json',
+146 silly registry.get     'cache-control': 'max-age=60',
+146 silly registry.get     'content-length': '1239',
+146 silly registry.get     'accept-ranges': 'bytes',
+146 silly registry.get     via: '1.1 varnish',
+146 silly registry.get     age: '0',
+146 silly registry.get     'x-served-by': 'cache-ams4123-AMS',
+146 silly registry.get     'x-cache': 'MISS',
+146 silly registry.get     'x-cache-hits': '0',
+146 silly registry.get     'x-timer': 'S1422284097.676458,VS0,VE724',
+146 silly registry.get     vary: 'Accept',
+146 silly registry.get     'keep-alive': 'timeout=10, max=50',
+146 silly registry.get     connection: 'Keep-Alive' } ]
+147 silly lockFile a8e2d980-stry-npmjs-org-ejs-ejs-2-2-3-tgz https://registry.npmjs.org/ejs/-/ejs-2.2.3.tgz
+148 verbose lock https://registry.npmjs.org/ejs/-/ejs-2.2.3.tgz /Users/fbsc/.npm/a8e2d980-stry-npmjs-org-ejs-ejs-2-2-3-tgz.lock
+149 verbose addRemoteTarball [ 'https://registry.npmjs.org/ejs/-/ejs-2.2.3.tgz',
+149 verbose addRemoteTarball   '8d78070eeb2689d94de660279bb9898de9df1ba0' ]
+150 info retry fetch attempt 1 at 14:54:56
+151 verbose fetch to= /var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/tmp.tgz
+152 http GET https://registry.npmjs.org/ejs/-/ejs-2.2.3.tgz
+153 silly lockFile 1dd0afd6--org-mongoose-mongoose-3-5-4-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.5.4.tgz
+154 verbose lock https://registry.npmjs.org/mongoose/-/mongoose-3.5.4.tgz /Users/fbsc/.npm/1dd0afd6--org-mongoose-mongoose-3-5-4-tgz.lock
+155 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-3.5.4.tgz',
+155 verbose addRemoteTarball   '1336b5459713230ab936d2fd195b37fc1bcfc176' ]
+156 info retry fetch attempt 1 at 14:54:56
+157 verbose fetch to= /var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/tmp.tgz
+158 http GET https://registry.npmjs.org/mongoose/-/mongoose-3.5.4.tgz
+159 http 200 https://registry.npmjs.org/cors
+160 silly registry.get cb [ 200,
+160 silly registry.get   { date: 'Mon, 26 Jan 2015 14:54:58 GMT',
+160 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+160 silly registry.get     etag: '"2AJ1BKL93CQZFLDZRO642LGEV"',
+160 silly registry.get     'content-type': 'application/json',
+160 silly registry.get     'cache-control': 'max-age=60',
+160 silly registry.get     'content-length': '40252',
+160 silly registry.get     'accept-ranges': 'bytes',
+160 silly registry.get     via: '1.1 varnish',
+160 silly registry.get     age: '0',
+160 silly registry.get     'x-served-by': 'cache-ams4127-AMS',
+160 silly registry.get     'x-cache': 'HIT',
+160 silly registry.get     'x-cache-hits': '1',
+160 silly registry.get     'x-timer': 'S1422284097.791837,VS0,VE680',
+160 silly registry.get     vary: 'Accept',
+160 silly registry.get     'keep-alive': 'timeout=10, max=49',
+160 silly registry.get     connection: 'Keep-Alive' } ]
+161 silly addNameRange number 2 { name: 'cors', range: '*', hasData: true }
+162 silly addNameRange versions [ 'cors',
+162 silly addNameRange   [ '0.0.1',
+162 silly addNameRange     '0.0.2',
+162 silly addNameRange     '0.0.3',
+162 silly addNameRange     '0.0.4',
+162 silly addNameRange     '0.0.5',
+162 silly addNameRange     '0.1.0',
+162 silly addNameRange     '0.1.1',
+162 silly addNameRange     '1.0.0',
+162 silly addNameRange     '1.0.1',
+162 silly addNameRange     '2.0.0',
+162 silly addNameRange     '2.1.0',
+162 silly addNameRange     '2.1.1',
+162 silly addNameRange     '2.2.0',
+162 silly addNameRange     '2.3.0',
+162 silly addNameRange     '2.3.1',
+162 silly addNameRange     '2.3.2',
+162 silly addNameRange     '2.4.0',
+162 silly addNameRange     '2.4.1',
+162 silly addNameRange     '2.4.2',
+162 silly addNameRange     '2.5.0',
+162 silly addNameRange     '2.5.1',
+162 silly addNameRange     '2.5.2',
+162 silly addNameRange     '2.5.3' ] ]
+163 verbose addNamed [ 'cors', '2.5.3' ]
+164 verbose addNamed [ '2.5.3', '2.5.3' ]
+165 silly lockFile bebe630f-cors-2-5-3 cors@2.5.3
+166 verbose lock cors@2.5.3 /Users/fbsc/.npm/bebe630f-cors-2-5-3.lock
+167 http 200 https://registry.npmjs.org/ejs/-/ejs-2.2.3.tgz
+168 verbose tar unpack /var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/tmp.tgz
+169 silly lockFile d8c8f769-96571-0-8558543787803501-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/package
+170 verbose lock tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/package /Users/fbsc/.npm/d8c8f769-96571-0-8558543787803501-package.lock
+171 silly lockFile 91248354-96571-0-8558543787803501-tmp-tgz tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/tmp.tgz
+172 verbose lock tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/tmp.tgz /Users/fbsc/.npm/91248354-96571-0-8558543787803501-tmp-tgz.lock
+173 silly gunzTarPerm modes [ '755', '644' ]
+174 verbose tar unpack /var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/tmp.tgz
+175 silly lockFile da3905eb-6775-0-42800104105845094-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/package
+176 verbose lock tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/package /Users/fbsc/.npm/da3905eb-6775-0-42800104105845094-package.lock
+177 silly lockFile b16a9011-6775-0-42800104105845094-tmp-tgz tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/tmp.tgz
+178 verbose lock tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/tmp.tgz /Users/fbsc/.npm/b16a9011-6775-0-42800104105845094-tmp-tgz.lock
+179 silly gunzTarPerm extractEntry package.json
+180 silly lockFile bebe630f-cors-2-5-3 cors@2.5.3
+181 silly lockFile bebe630f-cors-2-5-3 cors@2.5.3
+182 silly lockFile 25e847dc-cors cors@*
+183 silly lockFile 25e847dc-cors cors@*
+184 silly gunzTarPerm modes [ '755', '644' ]
+185 silly gunzTarPerm extractEntry .npmignore
+186 silly gunzTarPerm extractEntry LICENSE
+187 silly gunzTarPerm extractEntry
+188 silly gunzTarPerm extractEntry ejs.js
+189 silly gunzTarPerm extractEntry ejs.min.js
+190 silly gunzTarPerm extractEntry client.js
+191 silly gunzTarPerm extractEntry index.js
+192 silly gunzTarPerm extractEntry Jakefile
+193 silly gunzTarPerm extractEntry lib/
+194 silly gunzTarPerm extractEntry test.js
+195 silly gunzTarPerm extractEntry .travis.yml
+196 silly gunzTarPerm extractEntry History.md
+197 silly gunzTarPerm extractEntry Makefile
+198 silly gunzTarPerm extractEntry bin/express
+199 silly gunzTarPerm extractEntry Readme.md
+200 silly gunzTarPerm extractEntry lib/application.js
+201 silly gunzTarPerm extractEntry lib/express.js
+202 silly gunzTarPerm extractEntry lib/middleware.js
+203 silly gunzTarPerm extractEntry lib/request.js
+204 silly gunzTarPerm extractEntry lib/response.js
+205 silly gunzTarPerm extractEntry lib/utils.js
+206 silly gunzTarPerm extractEntry lib/view.js
+207 silly gunzTarPerm extractEntry lib/router/index.js
+208 silly gunzTarPerm extractEntry lib/router/route.js
+209 silly gunzTarPerm extractEntry package.json
+210 silly gunzTarPerm extractEntry README.md
+211 silly gunzTarPerm extractEntry test/
+212 silly gunzTarPerm extractEntry test/ejs.js
+213 silly gunzTarPerm extractEntry test/fixtures/
+214 silly gunzTarPerm extractEntry test/mocha.opts
+215 silly gunzTarPerm extractEntry test/tmp/
+216 silly gunzTarPerm extractEntry test/tmp/include.ejs
+217 silly gunzTarPerm extractEntry test/tmp/include_preprocessor.ejs
+218 silly gunzTarPerm extractEntry test/tmp/renderFile.ejs
+219 silly gunzTarPerm extractEntry test/fixtures/backslash.ejs
+220 silly gunzTarPerm extractEntry test/fixtures/backslash.html
+221 silly gunzTarPerm extractEntry test/fixtures/comments.ejs
+222 silly gunzTarPerm extractEntry test/fixtures/comments.html
+223 silly gunzTarPerm extractEntry test/fixtures/consecutive-tags.ejs
+224 silly gunzTarPerm extractEntry test/fixtures/consecutive-tags.html
+225 silly gunzTarPerm extractEntry test/fixtures/double-quote.ejs
+226 silly gunzTarPerm extractEntry test/fixtures/double-quote.html
+227 silly gunzTarPerm extractEntry test/fixtures/error.ejs
+228 silly gunzTarPerm extractEntry test/fixtures/error.out
+229 silly gunzTarPerm extractEntry test/fixtures/fail.ejs
+230 silly gunzTarPerm extractEntry test/fixtures/hello-world.ejs
+231 silly gunzTarPerm extractEntry test/fixtures/include-abspath.ejs
+232 silly gunzTarPerm extractEntry test/fixtures/include-simple.ejs
+233 silly gunzTarPerm extractEntry test/fixtures/include-simple.html
+234 silly gunzTarPerm extractEntry test/fixtures/include.css.ejs
+235 silly gunzTarPerm extractEntry test/fixtures/include.css.html
+236 silly gunzTarPerm extractEntry test/fixtures/include.ejs
+237 silly gunzTarPerm extractEntry test/fixtures/include.html
+238 silly gunzTarPerm extractEntry test/fixtures/include_cache.ejs
+239 silly gunzTarPerm extractEntry test/fixtures/include_cache.html
+240 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.css.ejs
+241 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.css.html
+242 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.ejs
+243 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.html
+244 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_cache.ejs
+245 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_cache.html
+246 silly gunzTarPerm extractEntry test/fixtures/includes/
+247 silly gunzTarPerm extractEntry test/fixtures/literal.ejs
+248 silly gunzTarPerm extractEntry test/fixtures/literal.html
+249 silly gunzTarPerm extractEntry test/fixtures/menu.ejs
+250 silly gunzTarPerm extractEntry test/fixtures/menu.html
+251 silly gunzTarPerm extractEntry test/fixtures/menu_preprocessor.ejs
+252 silly gunzTarPerm extractEntry test/fixtures/menu_preprocessor.html
+253 silly gunzTarPerm extractEntry test/fixtures/menu_var.ejs
+254 silly gunzTarPerm extractEntry test/fixtures/messed.ejs
+255 silly gunzTarPerm extractEntry test/fixtures/messed.html
+256 silly gunzTarPerm extractEntry test/fixtures/newlines.ejs
+257 silly gunzTarPerm extractEntry test/fixtures/newlines.html
+258 silly gunzTarPerm extractEntry test/fixtures/no.newlines.ejs
+259 silly gunzTarPerm extractEntry test/fixtures/no.newlines.html
+260 silly gunzTarPerm extractEntry test/fixtures/para.ejs
+261 silly gunzTarPerm extractEntry test/fixtures/pet.ejs
+262 silly gunzTarPerm extractEntry test/fixtures/single-quote.ejs
+263 silly gunzTarPerm extractEntry test/fixtures/single-quote.html
+264 silly gunzTarPerm extractEntry test/fixtures/style.css
+265 silly gunzTarPerm extractEntry test/fixtures/user-no-with.ejs
+266 silly gunzTarPerm extractEntry test/fixtures/user.ejs
+267 silly lockFile d8c8f769-96571-0-8558543787803501-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/package
+268 silly lockFile d8c8f769-96571-0-8558543787803501-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/package
+269 silly lockFile 91248354-96571-0-8558543787803501-tmp-tgz tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/tmp.tgz
+270 silly lockFile 91248354-96571-0-8558543787803501-tmp-tgz tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/tmp.tgz
+271 verbose tar pack [ '/Users/fbsc/.npm/express/3.0.0-rc5/package.tgz',
+271 verbose tar pack   '/var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/package' ]
+272 verbose tarball /Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+273 verbose folder /var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/package
+274 silly lockFile d8c8f769-96571-0-8558543787803501-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/package
+275 verbose lock tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/package /Users/fbsc/.npm/d8c8f769-96571-0-8558543787803501-package.lock
+276 silly lockFile 5da8ed2c-pm-express-3-0-0-rc5-package-tgz tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+277 verbose lock tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz /Users/fbsc/.npm/5da8ed2c-pm-express-3-0-0-rc5-package-tgz.lock
+278 silly gunzTarPerm extractEntry test/fixtures/includes/menu/
+279 silly gunzTarPerm extractEntry test/fixtures/includes/menu-item.ejs
+280 silly gunzTarPerm extractEntry test/fixtures/includes/menu/item.ejs
+281 silly gunzTarPerm extractEntry lib/ejs.js
+282 silly gunzTarPerm extractEntry lib/utils.js
+283 silly lockFile d8c8f769-96571-0-8558543787803501-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/package
+284 silly lockFile d8c8f769-96571-0-8558543787803501-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096571-0.8558543787803501/package
+285 silly lockFile 5da8ed2c-pm-express-3-0-0-rc5-package-tgz tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+286 silly lockFile 5da8ed2c-pm-express-3-0-0-rc5-package-tgz tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+287 silly lockFile f8f8deac-sc-npm-express-3-0-0-rc5-package /Users/fbsc/.npm/express/3.0.0-rc5/package
+288 verbose lock /Users/fbsc/.npm/express/3.0.0-rc5/package /Users/fbsc/.npm/f8f8deac-sc-npm-express-3-0-0-rc5-package.lock
+289 silly lockFile f8f8deac-sc-npm-express-3-0-0-rc5-package /Users/fbsc/.npm/express/3.0.0-rc5/package
+290 silly lockFile f8f8deac-sc-npm-express-3-0-0-rc5-package /Users/fbsc/.npm/express/3.0.0-rc5/package
+291 verbose tar unpack /Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+292 silly lockFile 458e111b-sc-npm-express-3-0-0-rc5-package tar:///Users/fbsc/.npm/express/3.0.0-rc5/package
+293 verbose lock tar:///Users/fbsc/.npm/express/3.0.0-rc5/package /Users/fbsc/.npm/458e111b-sc-npm-express-3-0-0-rc5-package.lock
+294 silly lockFile 5da8ed2c-pm-express-3-0-0-rc5-package-tgz tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+295 verbose lock tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz /Users/fbsc/.npm/5da8ed2c-pm-express-3-0-0-rc5-package-tgz.lock
+296 silly gunzTarPerm modes [ '755', '644' ]
+297 silly gunzTarPerm extractEntry package.json
+298 silly gunzTarPerm extractEntry .npmignore
+299 silly gunzTarPerm extractEntry LICENSE
+300 silly gunzTarPerm extractEntry index.js
+301 silly gunzTarPerm extractEntry client.js
+302 silly gunzTarPerm extractEntry test.js
+303 silly gunzTarPerm extractEntry .travis.yml
+304 silly gunzTarPerm extractEntry Readme.md
+305 silly gunzTarPerm extractEntry Makefile
+306 silly lockFile da3905eb-6775-0-42800104105845094-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/package
+307 silly lockFile da3905eb-6775-0-42800104105845094-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/package
+308 silly lockFile b16a9011-6775-0-42800104105845094-tmp-tgz tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/tmp.tgz
+309 silly lockFile b16a9011-6775-0-42800104105845094-tmp-tgz tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/tmp.tgz
+310 silly gunzTarPerm extractEntry lib/application.js
+311 verbose tar pack [ '/Users/fbsc/.npm/ejs/2.2.3/package.tgz',
+311 verbose tar pack   '/var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/package' ]
+312 verbose tarball /Users/fbsc/.npm/ejs/2.2.3/package.tgz
+313 verbose folder /var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/package
+314 silly lockFile da3905eb-6775-0-42800104105845094-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/package
+315 verbose lock tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/package /Users/fbsc/.npm/da3905eb-6775-0-42800104105845094-package.lock
+316 silly lockFile 2b198ca8-s-fbsc-npm-ejs-2-2-3-package-tgz tar:///Users/fbsc/.npm/ejs/2.2.3/package.tgz
+317 verbose lock tar:///Users/fbsc/.npm/ejs/2.2.3/package.tgz /Users/fbsc/.npm/2b198ca8-s-fbsc-npm-ejs-2-2-3-package-tgz.lock
+318 silly gunzTarPerm extractEntry lib/express.js
+319 silly gunzTarPerm extractEntry lib/middleware.js
+320 silly gunzTarPerm extractEntry lib/request.js
+321 silly gunzTarPerm extractEntry lib/response.js
+322 silly gunzTarPerm extractEntry lib/utils.js
+323 silly gunzTarPerm extractEntry lib/view.js
+324 silly gunzTarPerm extractEntry lib/router/index.js
+325 silly gunzTarPerm extractEntry lib/router/route.js
+326 silly gunzTarPerm extractEntry History.md
+327 silly gunzTarPerm extractEntry bin/express
+328 http 200 https://registry.npmjs.org/mongoose/-/mongoose-3.5.4.tgz
+329 silly lockFile 458e111b-sc-npm-express-3-0-0-rc5-package tar:///Users/fbsc/.npm/express/3.0.0-rc5/package
+330 silly lockFile 458e111b-sc-npm-express-3-0-0-rc5-package tar:///Users/fbsc/.npm/express/3.0.0-rc5/package
+331 silly lockFile 5da8ed2c-pm-express-3-0-0-rc5-package-tgz tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+332 silly lockFile 5da8ed2c-pm-express-3-0-0-rc5-package-tgz tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+333 verbose chmod /Users/fbsc/.npm/express/3.0.0-rc5/package.tgz 644
+334 verbose chown /Users/fbsc/.npm/express/3.0.0-rc5/package.tgz [ 501, 20 ]
+335 silly lockFile 7b38014f-org-express-express-3-0-0rc5-tgz https://registry.npmjs.org/express/-/express-3.0.0rc5.tgz
+336 silly lockFile 7b38014f-org-express-express-3-0-0rc5-tgz https://registry.npmjs.org/express/-/express-3.0.0rc5.tgz
+337 silly lockFile 7e7c581c-express-3-0-0rc5 express@3.0.0rc5
+338 silly lockFile 7e7c581c-express-3-0-0rc5 express@3.0.0rc5
+339 verbose tar unpack /var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/tmp.tgz
+340 silly lockFile 7d8bfd08-6781-0-44003345584496856-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/package
+341 verbose lock tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/package /Users/fbsc/.npm/7d8bfd08-6781-0-44003345584496856-package.lock
+342 silly lockFile bda4f035-6781-0-44003345584496856-tmp-tgz tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/tmp.tgz
+343 verbose lock tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/tmp.tgz /Users/fbsc/.npm/bda4f035-6781-0-44003345584496856-tmp-tgz.lock
+344 silly gunzTarPerm modes [ '755', '644' ]
+345 silly gunzTarPerm extractEntry package.json
+346 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+347 silly gunzTarPerm extractEntry .npmignore
+348 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+349 silly gunzTarPerm extractEntry README.md
+350 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+351 silly gunzTarPerm extractEntry static.js
+352 silly gunzTarPerm modified mode [ 'static.js', 438, 420 ]
+353 silly gunzTarPerm extractEntry website.js
+354 silly gunzTarPerm modified mode [ 'website.js', 438, 420 ]
+355 silly gunzTarPerm extractEntry index.js
+356 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+357 silly gunzTarPerm extractEntry .travis.yml
+358 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+359 silly lockFile da3905eb-6775-0-42800104105845094-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/package
+360 silly lockFile da3905eb-6775-0-42800104105845094-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096775-0.42800104105845094/package
+361 silly lockFile 2b198ca8-s-fbsc-npm-ejs-2-2-3-package-tgz tar:///Users/fbsc/.npm/ejs/2.2.3/package.tgz
+362 silly lockFile 2b198ca8-s-fbsc-npm-ejs-2-2-3-package-tgz tar:///Users/fbsc/.npm/ejs/2.2.3/package.tgz
+363 silly lockFile 7a658b38-Users-fbsc-npm-ejs-2-2-3-package /Users/fbsc/.npm/ejs/2.2.3/package
+364 verbose lock /Users/fbsc/.npm/ejs/2.2.3/package /Users/fbsc/.npm/7a658b38-Users-fbsc-npm-ejs-2-2-3-package.lock
+365 silly lockFile 7a658b38-Users-fbsc-npm-ejs-2-2-3-package /Users/fbsc/.npm/ejs/2.2.3/package
+366 silly lockFile 7a658b38-Users-fbsc-npm-ejs-2-2-3-package /Users/fbsc/.npm/ejs/2.2.3/package
+367 verbose tar unpack /Users/fbsc/.npm/ejs/2.2.3/package.tgz
+368 silly lockFile 92f2c128-Users-fbsc-npm-ejs-2-2-3-package tar:///Users/fbsc/.npm/ejs/2.2.3/package
+369 verbose lock tar:///Users/fbsc/.npm/ejs/2.2.3/package /Users/fbsc/.npm/92f2c128-Users-fbsc-npm-ejs-2-2-3-package.lock
+370 silly lockFile 2b198ca8-s-fbsc-npm-ejs-2-2-3-package-tgz tar:///Users/fbsc/.npm/ejs/2.2.3/package.tgz
+371 verbose lock tar:///Users/fbsc/.npm/ejs/2.2.3/package.tgz /Users/fbsc/.npm/2b198ca8-s-fbsc-npm-ejs-2-2-3-package-tgz.lock
+372 silly gunzTarPerm modes [ '755', '644' ]
+373 silly gunzTarPerm extractEntry lib/collection.js
+374 silly gunzTarPerm modified mode [ 'lib/collection.js', 438, 420 ]
+375 silly gunzTarPerm extractEntry lib/error.js
+376 silly gunzTarPerm modified mode [ 'lib/error.js', 438, 420 ]
+377 silly gunzTarPerm extractEntry package.json
+378 silly gunzTarPerm extractEntry README.md
+379 silly gunzTarPerm extractEntry ejs.js
+380 silly gunzTarPerm extractEntry lib/statemachine.js
+381 silly gunzTarPerm modified mode [ 'lib/statemachine.js', 438, 420 ]
+382 silly gunzTarPerm extractEntry lib/index.js
+383 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+384 silly gunzTarPerm extractEntry ejs.min.js
+385 silly gunzTarPerm extractEntry lib/utils.js
+386 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+387 silly gunzTarPerm extractEntry lib/namedscope.js
+388 silly gunzTarPerm modified mode [ 'lib/namedscope.js', 438, 420 ]
+389 silly gunzTarPerm extractEntry lib/connection.js
+390 silly gunzTarPerm modified mode [ 'lib/connection.js', 438, 420 ]
+391 silly gunzTarPerm extractEntry lib/query.js
+392 silly gunzTarPerm modified mode [ 'lib/query.js', 438, 420 ]
+393 silly gunzTarPerm extractEntry Jakefile
+394 silly gunzTarPerm extractEntry lib/ejs.js
+395 silly gunzTarPerm extractEntry lib/querystream.js
+396 silly gunzTarPerm modified mode [ 'lib/querystream.js', 438, 420 ]
+397 silly gunzTarPerm extractEntry lib/schematype.js
+398 silly gunzTarPerm modified mode [ 'lib/schematype.js', 438, 420 ]
+399 silly gunzTarPerm extractEntry lib/document.js
+400 silly gunzTarPerm modified mode [ 'lib/document.js', 438, 420 ]
+401 silly gunzTarPerm extractEntry lib/schema.js
+402 silly gunzTarPerm modified mode [ 'lib/schema.js', 438, 420 ]
+403 silly gunzTarPerm extractEntry lib/connectionstate.js
+404 silly gunzTarPerm modified mode [ 'lib/connectionstate.js', 438, 420 ]
+405 silly gunzTarPerm extractEntry lib/schemadefault.js
+406 silly gunzTarPerm modified mode [ 'lib/schemadefault.js', 438, 420 ]
+407 silly gunzTarPerm extractEntry lib/utils.js
+408 silly gunzTarPerm extractEntry test/ejs.js
+409 silly gunzTarPerm extractEntry lib/model.js
+410 silly gunzTarPerm modified mode [ 'lib/model.js', 438, 420 ]
+411 silly gunzTarPerm extractEntry lib/virtualtype.js
+412 silly gunzTarPerm modified mode [ 'lib/virtualtype.js', 438, 420 ]
+413 silly gunzTarPerm extractEntry lib/promise.js
+414 silly gunzTarPerm modified mode [ 'lib/promise.js', 438, 420 ]
+415 silly gunzTarPerm extractEntry lib/schema/array.js
+416 silly gunzTarPerm modified mode [ 'lib/schema/array.js', 438, 420 ]
+417 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.html
+418 silly gunzTarPerm extractEntry test/fixtures/backslash.ejs
+419 silly gunzTarPerm extractEntry test/fixtures/comments.ejs
+420 silly gunzTarPerm extractEntry test/fixtures/comments.html
+421 silly gunzTarPerm extractEntry lib/schema/boolean.js
+422 silly gunzTarPerm modified mode [ 'lib/schema/boolean.js', 438, 420 ]
+423 silly gunzTarPerm extractEntry lib/schema/buffer.js
+424 silly gunzTarPerm modified mode [ 'lib/schema/buffer.js', 438, 420 ]
+425 silly gunzTarPerm extractEntry lib/schema/date.js
+426 silly gunzTarPerm modified mode [ 'lib/schema/date.js', 438, 420 ]
+427 silly gunzTarPerm extractEntry lib/schema/documentarray.js
+428 silly gunzTarPerm modified mode [ 'lib/schema/documentarray.js', 438, 420 ]
+429 silly gunzTarPerm extractEntry test/fixtures/consecutive-tags.ejs
+430 silly gunzTarPerm extractEntry test/fixtures/consecutive-tags.html
+431 silly gunzTarPerm extractEntry test/fixtures/double-quote.ejs
+432 silly gunzTarPerm extractEntry test/fixtures/double-quote.html
+433 silly gunzTarPerm extractEntry lib/schema/index.js
+434 silly gunzTarPerm modified mode [ 'lib/schema/index.js', 438, 420 ]
+435 silly gunzTarPerm extractEntry lib/schema/mixed.js
+436 silly gunzTarPerm modified mode [ 'lib/schema/mixed.js', 438, 420 ]
+437 silly gunzTarPerm extractEntry test/fixtures/error.ejs
+438 silly gunzTarPerm extractEntry test/fixtures/error.out
+439 silly gunzTarPerm extractEntry test/fixtures/fail.ejs
+440 silly gunzTarPerm extractEntry test/fixtures/hello-world.ejs
+441 silly gunzTarPerm extractEntry test/fixtures/include-abspath.ejs
+442 silly gunzTarPerm extractEntry test/fixtures/include-simple.ejs
+443 silly gunzTarPerm extractEntry test/fixtures/include-simple.html
+444 silly gunzTarPerm extractEntry test/fixtures/include.css.ejs
+445 silly gunzTarPerm extractEntry test/fixtures/include.css.html
+446 silly gunzTarPerm extractEntry test/fixtures/include.ejs
+447 silly gunzTarPerm extractEntry test/fixtures/include.html
+448 silly gunzTarPerm extractEntry test/fixtures/include_cache.ejs
+449 silly gunzTarPerm extractEntry test/fixtures/include_cache.html
+450 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.css.ejs
+451 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.css.html
+452 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.ejs
+453 silly gunzTarPerm extractEntry test/fixtures/backslash.html
+454 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_cache.ejs
+455 silly gunzTarPerm extractEntry lib/schema/number.js
+456 silly gunzTarPerm modified mode [ 'lib/schema/number.js', 438, 420 ]
+457 silly gunzTarPerm extractEntry lib/schema/objectid.js
+458 silly gunzTarPerm modified mode [ 'lib/schema/objectid.js', 438, 420 ]
+459 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_cache.html
+460 silly gunzTarPerm extractEntry test/fixtures/includes/menu/item.ejs
+461 silly gunzTarPerm extractEntry test/fixtures/includes/menu-item.ejs
+462 silly gunzTarPerm extractEntry test/fixtures/literal.ejs
+463 silly gunzTarPerm extractEntry lib/schema/string.js
+464 silly gunzTarPerm modified mode [ 'lib/schema/string.js', 438, 420 ]
+465 silly gunzTarPerm extractEntry test/fixtures/literal.html
+466 silly gunzTarPerm extractEntry test/fixtures/menu.ejs
+467 silly gunzTarPerm extractEntry test/fixtures/menu.html
+468 silly gunzTarPerm extractEntry test/fixtures/menu_preprocessor.ejs
+469 silly gunzTarPerm extractEntry test/fixtures/menu_preprocessor.html
+470 silly gunzTarPerm extractEntry test/fixtures/menu_var.ejs
+471 silly gunzTarPerm extractEntry test/fixtures/messed.ejs
+472 silly gunzTarPerm extractEntry test/fixtures/messed.html
+473 silly gunzTarPerm extractEntry lib/errors/cast.js
+474 silly gunzTarPerm modified mode [ 'lib/errors/cast.js', 438, 420 ]
+475 silly gunzTarPerm extractEntry lib/errors/document.js
+476 silly gunzTarPerm modified mode [ 'lib/errors/document.js', 438, 420 ]
+477 silly gunzTarPerm extractEntry test/fixtures/newlines.ejs
+478 silly gunzTarPerm extractEntry test/fixtures/newlines.html
+479 silly gunzTarPerm extractEntry test/fixtures/no.newlines.ejs
+480 silly gunzTarPerm extractEntry test/fixtures/no.newlines.html
+481 silly gunzTarPerm extractEntry test/fixtures/para.ejs
+482 silly gunzTarPerm extractEntry test/fixtures/pet.ejs
+483 silly gunzTarPerm extractEntry test/fixtures/single-quote.ejs
+484 silly gunzTarPerm extractEntry test/fixtures/single-quote.html
+485 silly gunzTarPerm extractEntry test/fixtures/style.css
+486 silly gunzTarPerm extractEntry test/fixtures/user-no-with.ejs
+487 silly gunzTarPerm extractEntry test/fixtures/user.ejs
+488 silly gunzTarPerm extractEntry test/mocha.opts
+489 silly gunzTarPerm extractEntry test/tmp/include.ejs
+490 silly gunzTarPerm extractEntry test/tmp/include_preprocessor.ejs
+491 silly gunzTarPerm extractEntry test/tmp/renderFile.ejs
+492 silly gunzTarPerm extractEntry lib/errors/missingSchema.js
+493 silly gunzTarPerm modified mode [ 'lib/errors/missingSchema.js', 438, 420 ]
+494 silly gunzTarPerm extractEntry lib/errors/overwriteModel.js
+495 silly gunzTarPerm modified mode [ 'lib/errors/overwriteModel.js', 438, 420 ]
+496 silly gunzTarPerm extractEntry lib/errors/validation.js
+497 silly gunzTarPerm modified mode [ 'lib/errors/validation.js', 438, 420 ]
+498 silly gunzTarPerm extractEntry lib/errors/validator.js
+499 silly gunzTarPerm modified mode [ 'lib/errors/validator.js', 438, 420 ]
+500 silly gunzTarPerm extractEntry lib/errors/version.js
+501 silly gunzTarPerm modified mode [ 'lib/errors/version.js', 438, 420 ]
+502 silly gunzTarPerm extractEntry lib/types/array.js
+503 silly gunzTarPerm modified mode [ 'lib/types/array.js', 438, 420 ]
+504 silly gunzTarPerm extractEntry lib/types/buffer.js
+505 silly gunzTarPerm modified mode [ 'lib/types/buffer.js', 438, 420 ]
+506 silly gunzTarPerm extractEntry lib/types/documentarray.js
+507 silly gunzTarPerm modified mode [ 'lib/types/documentarray.js', 438, 420 ]
+508 silly gunzTarPerm extractEntry lib/types/embedded.js
+509 silly gunzTarPerm modified mode [ 'lib/types/embedded.js', 438, 420 ]
+510 silly gunzTarPerm extractEntry lib/types/index.js
+511 silly gunzTarPerm modified mode [ 'lib/types/index.js', 438, 420 ]
+512 silly gunzTarPerm extractEntry lib/types/objectid.js
+513 silly gunzTarPerm modified mode [ 'lib/types/objectid.js', 438, 420 ]
+514 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/binary.js
+515 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/binary.js', 438, 420 ]
+516 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/collection.js
+517 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/collection.js', 438, 420 ]
+518 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/connection.js
+519 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/connection.js', 438, 420 ]
+520 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/objectid.js
+521 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/objectid.js', 438, 420 ]
+522 silly gunzTarPerm extractEntry History.md
+523 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+524 silly gunzTarPerm extractEntry examples/schema.js
+525 silly gunzTarPerm modified mode [ 'examples/schema.js', 438, 420 ]
+526 silly gunzTarPerm extractEntry CONTRIBUTING.md
+527 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 420 ]
+528 silly lockFile 92f2c128-Users-fbsc-npm-ejs-2-2-3-package tar:///Users/fbsc/.npm/ejs/2.2.3/package
+529 silly lockFile 92f2c128-Users-fbsc-npm-ejs-2-2-3-package tar:///Users/fbsc/.npm/ejs/2.2.3/package
+530 silly lockFile 2b198ca8-s-fbsc-npm-ejs-2-2-3-package-tgz tar:///Users/fbsc/.npm/ejs/2.2.3/package.tgz
+531 silly lockFile 2b198ca8-s-fbsc-npm-ejs-2-2-3-package-tgz tar:///Users/fbsc/.npm/ejs/2.2.3/package.tgz
+532 verbose chmod /Users/fbsc/.npm/ejs/2.2.3/package.tgz 644
+533 verbose chown /Users/fbsc/.npm/ejs/2.2.3/package.tgz [ 501, 20 ]
+534 silly lockFile a8e2d980-stry-npmjs-org-ejs-ejs-2-2-3-tgz https://registry.npmjs.org/ejs/-/ejs-2.2.3.tgz
+535 silly lockFile a8e2d980-stry-npmjs-org-ejs-ejs-2-2-3-tgz https://registry.npmjs.org/ejs/-/ejs-2.2.3.tgz
+536 silly lockFile 7333c456-ejs-2-2-3 ejs@2.2.3
+537 silly lockFile 7333c456-ejs-2-2-3 ejs@2.2.3
+538 silly lockFile 9d73ed50-ejs ejs@*
+539 silly lockFile 9d73ed50-ejs ejs@*
+540 silly lockFile 7d8bfd08-6781-0-44003345584496856-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/package
+541 silly lockFile 7d8bfd08-6781-0-44003345584496856-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/package
+542 silly lockFile bda4f035-6781-0-44003345584496856-tmp-tgz tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/tmp.tgz
+543 silly lockFile bda4f035-6781-0-44003345584496856-tmp-tgz tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/tmp.tgz
+544 verbose tar pack [ '/Users/fbsc/.npm/mongoose/3.5.4/package.tgz',
+544 verbose tar pack   '/var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/package' ]
+545 verbose tarball /Users/fbsc/.npm/mongoose/3.5.4/package.tgz
+546 verbose folder /var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/package
+547 silly lockFile 7d8bfd08-6781-0-44003345584496856-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/package
+548 verbose lock tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/package /Users/fbsc/.npm/7d8bfd08-6781-0-44003345584496856-package.lock
+549 silly lockFile 5446cd0f-c-npm-mongoose-3-5-4-package-tgz tar:///Users/fbsc/.npm/mongoose/3.5.4/package.tgz
+550 verbose lock tar:///Users/fbsc/.npm/mongoose/3.5.4/package.tgz /Users/fbsc/.npm/5446cd0f-c-npm-mongoose-3-5-4-package-tgz.lock
+551 silly lockFile 7d8bfd08-6781-0-44003345584496856-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/package
+552 silly lockFile 7d8bfd08-6781-0-44003345584496856-package tar:///var/folders/mg/yfxblt_95dgg8hvsfmvz4c_40000gn/T/npm-4173-CJ2Vnq5U/1422284096781-0.44003345584496856/package
+553 silly lockFile 5446cd0f-c-npm-mongoose-3-5-4-package-tgz tar:///Users/fbsc/.npm/mongoose/3.5.4/package.tgz
+554 silly lockFile 5446cd0f-c-npm-mongoose-3-5-4-package-tgz tar:///Users/fbsc/.npm/mongoose/3.5.4/package.tgz
+555 silly lockFile 0ed50f96--fbsc-npm-mongoose-3-5-4-package /Users/fbsc/.npm/mongoose/3.5.4/package
+556 verbose lock /Users/fbsc/.npm/mongoose/3.5.4/package /Users/fbsc/.npm/0ed50f96--fbsc-npm-mongoose-3-5-4-package.lock
+557 silly lockFile 0ed50f96--fbsc-npm-mongoose-3-5-4-package /Users/fbsc/.npm/mongoose/3.5.4/package
+558 silly lockFile 0ed50f96--fbsc-npm-mongoose-3-5-4-package /Users/fbsc/.npm/mongoose/3.5.4/package
+559 verbose tar unpack /Users/fbsc/.npm/mongoose/3.5.4/package.tgz
+560 silly lockFile 50662c7b--fbsc-npm-mongoose-3-5-4-package tar:///Users/fbsc/.npm/mongoose/3.5.4/package
+561 verbose lock tar:///Users/fbsc/.npm/mongoose/3.5.4/package /Users/fbsc/.npm/50662c7b--fbsc-npm-mongoose-3-5-4-package.lock
+562 silly lockFile 5446cd0f-c-npm-mongoose-3-5-4-package-tgz tar:///Users/fbsc/.npm/mongoose/3.5.4/package.tgz
+563 verbose lock tar:///Users/fbsc/.npm/mongoose/3.5.4/package.tgz /Users/fbsc/.npm/5446cd0f-c-npm-mongoose-3-5-4-package-tgz.lock
+564 silly gunzTarPerm modes [ '755', '644' ]
+565 silly gunzTarPerm extractEntry package.json
+566 silly gunzTarPerm extractEntry .npmignore
+567 silly gunzTarPerm extractEntry README.md
+568 silly gunzTarPerm extractEntry static.js
+569 silly gunzTarPerm extractEntry index.js
+570 silly gunzTarPerm extractEntry website.js
+571 silly gunzTarPerm extractEntry .travis.yml
+572 silly gunzTarPerm extractEntry lib/collection.js
+573 silly gunzTarPerm extractEntry lib/error.js
+574 silly gunzTarPerm extractEntry lib/statemachine.js
+575 silly gunzTarPerm extractEntry lib/index.js
+576 silly gunzTarPerm extractEntry lib/utils.js
+577 silly gunzTarPerm extractEntry lib/namedscope.js
+578 silly gunzTarPerm extractEntry lib/connection.js
+579 silly gunzTarPerm extractEntry lib/query.js
+580 silly gunzTarPerm extractEntry lib/querystream.js
+581 silly gunzTarPerm extractEntry lib/schematype.js
+582 silly gunzTarPerm extractEntry lib/document.js
+583 silly gunzTarPerm extractEntry lib/schema.js
+584 silly gunzTarPerm extractEntry lib/connectionstate.js
+585 silly gunzTarPerm extractEntry lib/schemadefault.js
+586 silly gunzTarPerm extractEntry lib/model.js
+587 silly gunzTarPerm extractEntry lib/virtualtype.js
+588 silly gunzTarPerm extractEntry lib/promise.js
+589 silly gunzTarPerm extractEntry lib/schema/array.js
+590 silly gunzTarPerm extractEntry lib/schema/boolean.js
+591 silly gunzTarPerm extractEntry lib/schema/buffer.js
+592 silly gunzTarPerm extractEntry lib/schema/date.js
+593 silly gunzTarPerm extractEntry lib/schema/documentarray.js
+594 silly gunzTarPerm extractEntry lib/schema/index.js
+595 silly gunzTarPerm extractEntry lib/schema/mixed.js
+596 silly gunzTarPerm extractEntry lib/schema/number.js
+597 silly gunzTarPerm extractEntry lib/schema/objectid.js
+598 silly gunzTarPerm extractEntry lib/schema/string.js
+599 silly gunzTarPerm extractEntry lib/errors/cast.js
+600 silly gunzTarPerm extractEntry lib/errors/document.js
+601 silly gunzTarPerm extractEntry lib/errors/missingSchema.js
+602 silly gunzTarPerm extractEntry lib/errors/overwriteModel.js
+603 silly gunzTarPerm extractEntry lib/errors/validation.js
+604 silly gunzTarPerm extractEntry lib/errors/validator.js
+605 silly gunzTarPerm extractEntry lib/errors/version.js
+606 silly gunzTarPerm extractEntry lib/types/array.js
+607 silly gunzTarPerm extractEntry lib/types/buffer.js
+608 silly gunzTarPerm extractEntry lib/types/documentarray.js
+609 silly gunzTarPerm extractEntry lib/types/embedded.js
+610 silly gunzTarPerm extractEntry lib/types/index.js
+611 silly gunzTarPerm extractEntry lib/types/objectid.js
+612 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/binary.js
+613 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/collection.js
+614 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/connection.js
+615 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/objectid.js
+616 silly gunzTarPerm extractEntry History.md
+617 silly gunzTarPerm extractEntry CONTRIBUTING.md
+618 silly gunzTarPerm extractEntry examples/schema.js
+619 silly lockFile 50662c7b--fbsc-npm-mongoose-3-5-4-package tar:///Users/fbsc/.npm/mongoose/3.5.4/package
+620 silly lockFile 50662c7b--fbsc-npm-mongoose-3-5-4-package tar:///Users/fbsc/.npm/mongoose/3.5.4/package
+621 silly lockFile 5446cd0f-c-npm-mongoose-3-5-4-package-tgz tar:///Users/fbsc/.npm/mongoose/3.5.4/package.tgz
+622 silly lockFile 5446cd0f-c-npm-mongoose-3-5-4-package-tgz tar:///Users/fbsc/.npm/mongoose/3.5.4/package.tgz
+623 verbose chmod /Users/fbsc/.npm/mongoose/3.5.4/package.tgz 644
+624 verbose chown /Users/fbsc/.npm/mongoose/3.5.4/package.tgz [ 501, 20 ]
+625 silly lockFile 1dd0afd6--org-mongoose-mongoose-3-5-4-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.5.4.tgz
+626 silly lockFile 1dd0afd6--org-mongoose-mongoose-3-5-4-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.5.4.tgz
+627 silly lockFile 22f6d366-mongoose-3-5-4 mongoose@3.5.4
+628 silly lockFile 22f6d366-mongoose-3-5-4 mongoose@3.5.4
+629 silly resolved [ { name: 'request',
+629 silly resolved     description: 'Simplified HTTP request client.',
+629 silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+629 silly resolved     version: '2.51.0',
+629 silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+629 silly resolved     repository: { type: 'git', url: 'https://github.com/request/request.git' },
+629 silly resolved     bugs: { url: 'http://github.com/request/request/issues' },
+629 silly resolved     license: 'Apache-2.0',
+629 silly resolved     engines: { node: '>=0.8.0' },
+629 silly resolved     main: 'index.js',
+629 silly resolved     dependencies:
+629 silly resolved      { bl: '~0.9.0',
+629 silly resolved        caseless: '~0.8.0',
+629 silly resolved        'forever-agent': '~0.5.0',
+629 silly resolved        'form-data': '~0.2.0',
+629 silly resolved        'json-stringify-safe': '~5.0.0',
+629 silly resolved        'mime-types': '~1.0.1',
+629 silly resolved        'node-uuid': '~1.4.0',
+629 silly resolved        qs: '~2.3.1',
+629 silly resolved        'tunnel-agent': '~0.4.0',
+629 silly resolved        'tough-cookie': '>=0.12.0',
+629 silly resolved        'http-signature': '~0.10.0',
+629 silly resolved        'oauth-sign': '~0.5.0',
+629 silly resolved        hawk: '1.1.1',
+629 silly resolved        'aws-sign2': '~0.5.0',
+629 silly resolved        stringstream: '~0.0.4',
+629 silly resolved        'combined-stream': '~0.0.5' },
+629 silly resolved     scripts:
+629 silly resolved      { test: 'npm run lint && node node_modules/.bin/taper tests/test-*.js && npm run test-browser',
+629 silly resolved        'test-browser': 'browserify tests/browser/test.js -o tests/browser/test-browser.js && karma start tests/browser/karma.conf.js',
+629 silly resolved        lint: 'node node_modules/.bin/eslint lib/ *.js tests/ && echo Lint passed.' },
+629 silly resolved     devDependencies:
+629 silly resolved      { browserify: '~5.9.1',
+629 silly resolved        coveralls: '~2.11.2',
+629 silly resolved        eslint: '0.5.1',
+629 silly resolved        'function-bind': '~1.0.0',
+629 silly resolved        istanbul: '~0.3.2',
+629 silly resolved        karma: '~0.12.21',
+629 silly resolved        'karma-cli': '0.0.4',
+629 silly resolved        'karma-phantomjs-launcher': '~0.1.4',
+629 silly resolved        'karma-tap': '~1.0.1',
+629 silly resolved        rimraf: '~2.2.8',
+629 silly resolved        tape: '~3.0.0',
+629 silly resolved        taper: '~0.3.0' },
+629 silly resolved     readme: '# Request — Simplified HTTP client\n[![NPM](https://nodei.co/npm/request.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/request/)\n\n[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/request/request?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n## Super simple to use\n\nRequest is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.\n\n```javascript\nvar request = require(\'request\');\nrequest(\'http://www.google.com\', function (error, response, body) {\n  if (!error && response.statusCode == 200) {\n    console.log(body) // Print the google web page.\n  }\n})\n```\n\n## Streaming\n\nYou can stream any response to a file stream.\n\n```javascript\nrequest(\'http://google.com/doodle.png\').pipe(fs.createWriteStream(\'doodle.png\'))\n```\n\nYou can also stream a file to a PUT or POST request. This method will also check the file extension against a mapping of file extensions to content-types (in this case `application/json`) and use the proper `content-type` in the PUT request (if the headers don’t already provide one).\n\n```javascript\nfs.createReadStream(\'file.json\').pipe(request.put(\'http://mysite.com/obj.json\'))\n```\n\nRequest can also `pipe` to itself. When doing so, `content-type` and `content-length` are preserved in the PUT headers.\n\n```javascript\nrequest.get(\'http://google.com/img.png\').pipe(request.put(\'http://mysite.com/img.png\'))\n```\n\nRequest emits a "response" event when a response is received. The `response` argument will be an instance of [http.IncomingMessage](http://nodejs.org/api/http.html#http_http_incomingmessage).\n\n```javascript\nrequest\n  .get(\'http://google.com/img.png\')\n  .on(\'response\', function(response) {\n    console.log(response.statusCode) // 200\n    console.log(response.headers[\'content-type\']) // \'image/png\'\n  })\n  .pipe(request.put(\'http://mysite.com/img.png\'))\n```\n\nTo easily handle errors when streaming requests, listen to the `error` event before piping:\n\n```javascript\nrequest\n  .get(\'http://mysite.com/doodle.png\')\n  .on(\'error\', function(err) {\n    console.log(err)\n  })\n  .pipe(fs.createWriteStream(\'doodle.png\'))\n```\n\nNow let’s get fancy.\n\n```javascript\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    if (req.method === \'PUT\') {\n      req.pipe(request.put(\'http://mysite.com/doodle.png\'))\n    } else if (req.method === \'GET\' || req.method === \'HEAD\') {\n      request.get(\'http://mysite.com/doodle.png\').pipe(resp)\n    }\n  }\n})\n```\n\nYou can also `pipe()` from `http.ServerRequest` instances, as well as to `http.ServerResponse` instances. The HTTP method, headers, and entity-body data will be sent. Which means that, if you don\'t really care about security, you can do:\n\n```javascript\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    var x = request(\'http://mysite.com/doodle.png\')\n    req.pipe(x)\n    x.pipe(resp)\n  }\n})\n```\n\nAnd since `pipe()` returns the destination stream in ≥ Node 0.5.x you can do one line proxying. :)\n\n```javascript\nreq.pipe(request(\'http://mysite.com/doodle.png\')).pipe(resp)\n```\n\nAlso, none of this new functionality conflicts with requests previous features, it just expands them.\n\n```javascript\nvar r = request.defaults({\'proxy\':\'http://localproxy.com\'})\n\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    r.get(\'http://google.com/doodle.png\').pipe(resp)\n  }\n})\n```\n\nYou can still use intermediate proxies, the requests will still follow HTTP forwards, etc.\n\n## Proxies\n\nIf you specify a `proxy` option, then the request (and any subsequent\nredirects) will be sent via a connection to the proxy server.\n\nIf your endpoint is an `https` url, and you are using a proxy, then\nrequest will send a `CONNECT` request to the proxy server *first*, and\nthen use the supplied connection to connect to the endpoint.\n\nThat is, first it will make a request like:\n\n```\nHTTP/1.1 CONNECT endpoint-server.com:80\nHost: proxy-server.com\nUser-Agent: whatever user agent you specify\n```\n\nand then the proxy server make a TCP connection to `endpoint-server`\non port `80`, and return a response that looks like:\n\n```\nHTTP/1.1 200 OK\n```\n\nAt this point, the connection is left open, and the client is\ncommunicating directly with the `endpoint-server.com` machine.\n\nSee [the wikipedia page on HTTP Tunneling](http://en.wikipedia.org/wiki/HTTP_tunnel)\nfor more information.\n\nBy default, when proxying `http` traffic, request will simply make a\nstandard proxied `http` request.  This is done by making the `url`\nsection of the initial line of the request a fully qualified url to\nthe endpoint.\n\nFor example, it will make a single request that looks like:\n\n```\nHTTP/1.1 GET http://endpoint-server.com/some-url\nHost: proxy-server.com\nOther-Headers: all go here\n\nrequest body or whatever\n```\n\nBecause a pure "http over http" tunnel offers no additional security\nor other features, it is generally simpler to go with a\nstraightforward HTTP proxy in this case.  However, if you would like\nto force a tunneling proxy, you may set the `tunnel` option to `true`.\n\nIf you are using a tunneling proxy, you may set the\n`proxyHeaderWhiteList` to share certain headers with the proxy.\n\nYou can also set the `proxyHeaderExclusiveList` to share certain\nheaders only with the proxy and not with destination host.\n\nBy default, this set is:\n\n```\naccept\naccept-charset\naccept-encoding\naccept-language\naccept-ranges\ncache-control\ncontent-encoding\ncontent-language\ncontent-length\ncontent-location\ncontent-md5\ncontent-range\ncontent-type\nconnection\ndate\nexpect\nmax-forwards\npragma\nproxy-authorization\nreferer\nte\ntransfer-encoding\nuser-agent\nvia\n```\n\nNote that, when using a tunneling proxy, the `proxy-authorization`\nheader and any headers from custom `proxyHeaderExclusiveList` are\n*never* sent to the endpoint server, but only to the proxy server.\n\n### Controlling proxy behaviour using environment variables\n\nThe following environment variables are respected by `request`:\n\n * `HTTP_PROXY` / `http_proxy`\n * `HTTPS_PROXY` / `https_proxy`\n * `NO_PROXY` / `no_proxy`\n\nWhen `HTTP_PROXY` / `http_proxy` are set, they will be used to proxy non-SSL requests that do not have an explicit `proxy` configuration option present. Similarly, `HTTPS_PROXY` / `https_proxy` will be respected for SSL requests that do not have an explicit `proxy` configuration option. It is valid to define a proxy in one of the environment variables, but then override it for a specific request, using the `proxy` configuration option. Furthermore, the `proxy` configuration option can be explicitly set to false / null to opt out of proxying altogether for that request.\n\n`request` is also aware of the `NO_PROXY`/`no_proxy` environment variables. These variables provide a granular way to opt out of proxying, on a per-host basis. It should contain a comma separated list of hosts to opt out of proxying. It is also possible to opt of proxying when a particular destination port is used. Finally, the variable may be set to `*` to opt out of the implicit proxy configuration of the other environment variables.\n\nHere\'s some examples of valid `no_proxy` values:\n\n * `google.com` - don\'t proxy HTTP/HTTPS requests to Google.\n * `google.com:443` - don\'t proxy HTTPS requests to Google, but *do* proxy HTTP requests to Google.\n * `google.com:443, yahoo.com:80` - don\'t proxy HTTPS requests to Google, and don\'t proxy HTTP requests to Yahoo!\n * `*` - ignore `https_proxy`/`http_proxy` environment variables altogether.\n\n## UNIX Socket\n\n`request` supports making requests to [UNIX Domain Sockets](http://en.wikipedia.org/wiki/Unix_domain_socket). To make one, use the following URL scheme:\n\n```javascript\n/* Pattern */ \'http://unix:SOCKET:PATH\'\n/* Example */ request.get(\'http://unix:/absolute/path/to/unix.socket:/request/path\')\n```\n\nNote: The `SOCKET` path is assumed to be absolute to the root of the host file system.\n\n\n## Forms\n\n`request` supports `application/x-www-form-urlencoded` and `multipart/form-data` form uploads. For `multipart/related` refer to the `multipart` API.\n\n#### application/x-www-form-urlencoded (URL-Encoded Forms)\n\nURL-encoded forms are simple.\n\n```javascript\nrequest.post(\'http://service.com/upload\', {form:{key:\'value\'}})\n// or\nrequest.post(\'http://service.com/upload\').form({key:\'value\'})\n// or\nrequest.post({url:\'http://service.com/upload\', form: {key:\'value\'}}, function(err,httpResponse,body){ /* ... */ })\n```\n\n#### multipart/form-data (Multipart Form Uploads)\n\nFor `multipart/form-data` we use the [form-data](https://github.com/felixge/node-form-data) library by [@felixge](https://github.com/felixge). For the most cases, you can pass your upload form data via the `formData` option.\n\n\n```javascript\nvar formData = {\n  // Pass a simple key-value pair\n  my_field: \'my_value\',\n  // Pass data via Buffers\n  my_buffer: new Buffer([1, 2, 3]),\n  // Pass data via Streams\n  my_file: fs.createReadStream(__dirname + \'/unicycle.jpg\'),\n  // Pass multiple values /w an Array\n  attachments: [\n    fs.createReadStream(__dirname + \'/attachment1.jpg\'),\n    fs.createReadStream(__dirname + \'/attachment2.jpg\')\n  ],\n  // Pass optional meta-data with an \'options\' object with style: {value: DATA, options: OPTIONS}\n  // Use case: for some types of streams, you\'ll need to provide "file"-related information manually.\n  // See the `form-data` README for more information about options: https://github.com/felixge/node-form-data\n  custom_file: {\n    value:  fs.createReadStream(\'/dev/urandom\'),\n    options: {\n      filename: \'topsecret.jpg\',\n      contentType: \'image/jpg\'\n    }\n  }\n};\nrequest.post({url:\'http://service.com/upload\', formData: formData}, function optionalCallback(err, httpResponse, body) {\n  if (err) {\n    return console.error(\'upload failed:\', err);\n  }\n  console.log(\'Upload successful!  Server responded with:\', body);\n});\n```\n\nFor advanced cases, you can access the form-data object itself via `r.form()`. This can be modified until the request is fired on the next cycle of the event-loop. (Note that this calling `form()` will clear the currently set form data for that request.)\n\n```javascript\n// NOTE: Advanced use-case, for normal use see \'formData\' usage above\nvar r = request.post(\'http://service.com/upload\', function optionalCallback(err, httpResponse, body) { // ...\n\nvar form = r.form();\nform.append(\'my_field\', \'my_value\');\nform.append(\'my_buffer\', new Buffer([1, 2, 3]));\nform.append(\'custom_file\', fs.createReadStream(__dirname + \'/unicycle.jpg\'), {filename: \'unicycle.jpg\'});\n```\nSee the [form-data README](https://github.com/felixge/node-form-data) for more information & examples.\n\n#### multipart/related\n\nSome variations in different HTTP implementations require a newline/CRLF before, after, or both before and after the boundary of a `multipart/related` request (using the multipart option). This has been observed in the .NET WebAPI version 4.0. You can turn on a boundary preambleCRLF or postamble by passing them as `true` to your request options.\n\n```javascript\n  request({\n    method: \'PUT\',\n    preambleCRLF: true,\n    postambleCRLF: true,\n    uri: \'http://service.com/upload\',\n    multipart: [\n      {\n        \'content-type\': \'application/json\'\n        body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n      },\n      { body: \'I am an attachment\' },\n      { body: fs.createReadStream(\'image.png\') }\n    ],\n    // alternatively pass an object containing additional options\n    multipart: {\n      chunked: false,\n      data: [\n        {\n          \'content-type\': \'application/json\',\n          body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n        },\n        { body: \'I am an attachment\' }\n      ]\n    }\n  },\n  function (error, response, body) {\n    if (error) {\n      return console.error(\'upload failed:\', error);\n    }\n    console.log(\'Upload successful!  Server responded with:\', body);\n  })\n```\n\n\n## HTTP Authentication\n\n```javascript\nrequest.get(\'http://some.server.com/\').auth(\'username\', \'password\', false);\n// or\nrequest.get(\'http://some.server.com/\', {\n  \'auth\': {\n    \'user\': \'username\',\n    \'pass\': \'password\',\n    \'sendImmediately\': false\n  }\n});\n// or\nrequest.get(\'http://some.server.com/\').auth(null, null, true, \'bearerToken\');\n// or\nrequest.get(\'http://some.server.com/\', {\n  \'auth\': {\n    \'bearer\': \'bearerToken\'\n  }\n});\n```\n\nIf passed as an option, `auth` should be a hash containing values `user` || `username`, `pass` || `password`, and `sendImmediately` (optional).  The method form takes parameters `auth(username, password, sendImmediately)`.\n\n`sendImmediately` defaults to `true`, which causes a basic authentication header to be sent.  If `sendImmediately` is `false`, then `request` will retry with a proper authentication header after receiving a `401` response from the server (which must contain a `WWW-Authenticate` header indicating the required authentication method).\n\nNote that you can also use for basic authentication a trick using the URL itself, as specified in [RFC 1738](http://www.ietf.org/rfc/rfc1738.txt).\nSimply pass the `user:password` before the host with an `@` sign.\n\n```javascript\nvar username = \'username\',\n    password = \'password\',\n    url = \'http://\' + username + \':\' + password + \'@some.server.com\';\n\nrequest({url: url}, function (error, response, body) {\n   // Do more stuff with \'body\' here\n});\n```\n\nDigest authentication is supported, but it only works with `sendImmediately` set to `false`; otherwise `request` will send basic authentication on the initial request, which will probably cause the request to fail.\n\nBearer authentication is supported, and is activated when the `bearer` value is available. The value may be either a `String` or a `Function` returning a `String`. Using a function to supply the bearer token is particularly useful if used in conjuction with `defaults` to allow a single function to supply the last known token at the time or sending a request or to compute one on the fly.\n\n## OAuth Signing\n\n[OAuth version 1.0](https://tools.ietf.org/html/rfc5849) is supported.  The\ndefault signing algorithm is\n[HMAC-SHA1](https://tools.ietf.org/html/rfc5849#section-3.4.2):\n\n```javascript\n// Twitter OAuth\nvar qs = require(\'querystring\')\n  , oauth =\n    { callback: \'http://mysite.com/callback/\'\n    , consumer_key: CONSUMER_KEY\n    , consumer_secret: CONSUMER_SECRET\n    }\n  , url = \'https://api.twitter.com/oauth/request_token\'\n  ;\nrequest.post({url:url, oauth:oauth}, function (e, r, body) {\n  // Ideally, you would take the body in the response\n  // and construct a URL that a user clicks on (like a sign in button).\n  // The verifier is only available in the response after a user has\n  // verified with twitter that they are authorizing your app.\n  var access_token = qs.parse(body)\n    , oauth =\n      { consumer_key: CONSUMER_KEY\n      , consumer_secret: CONSUMER_SECRET\n      , token: access_token.oauth_token\n      , verifier: access_token.oauth_verifier\n      }\n    , url = \'https://api.twitter.com/oauth/access_token\'\n    ;\n  request.post({url:url, oauth:oauth}, function (e, r, body) {\n    var perm_token = qs.parse(body)\n      , oauth =\n        { consumer_key: CONSUMER_KEY\n        , consumer_secret: CONSUMER_SECRET\n        , token: perm_token.oauth_token\n        , token_secret: perm_token.oauth_token_secret\n        }\n      , url = \'https://api.twitter.com/1.1/users/show.json?\'\n      , params =\n        { screen_name: perm_token.screen_name\n        , user_id: perm_token.user_id\n        }\n      ;\n    url += qs.stringify(params)\n    request.get({url:url, oauth:oauth, json:true}, function (e, r, user) {\n      console.log(user)\n    })\n  })\n})\n```\n\nFor [RSA-SHA1 signing](https://tools.ietf.org/html/rfc5849#section-3.4.3), make\nthe following changes to the OAuth options object:\n* Pass `signature_method : \'RSA-SHA1\'`\n* Instead of `consumer_secret`, specify a `private_key` string in\n  [PEM format](http://how2ssl.com/articles/working_with_pem_files/)\n\n## Custom HTTP Headers\n\nHTTP Headers, such as `User-Agent`, can be set in the `options` object.\nIn the example below, we call the github API to find out the number\nof stars and forks for the request repository. This requires a\ncustom `User-Agent` header as well as https.\n\n```javascript\nvar request = require(\'request\');\n\nvar options = {\n\turl: \'https://api.github.com/repos/request/request\',\n\theaders: {\n\t\t\'User-Agent\': \'request\'\n\t}\n};\n\nfunction callback(error, response, body) {\n\tif (!error && response.statusCode == 200) {\n\t\tvar info = JSON.parse(body);\n\t\tconsole.log(info.stargazers_count + " Stars");\n\t\tconsole.log(info.forks_count + " Forks");\n\t}\n}\n\nrequest(options, callback);\n```\n\n## TLS/SSL Protocol\n\nTLS/SSL Protocol options, such as `cert`, `key` and `passphrase`, can be\nset in the `agentOptions` property of the `options` object.\nIn the example below, we call an API requires client side SSL certificate\n(in PEM format) with passphrase protected private key (in PEM format) and disable the SSLv3 protocol:\n\n```javascript\nvar fs = require(\'fs\')\n    , path = require(\'path\')\n    , certFile = path.resolve(__dirname, \'ssl/client.crt\')\n    , keyFile = path.resolve(__dirname, \'ssl/client.key\')\n    , request = require(\'request\');\n\nvar options = {\n    url: \'https://api.some-server.com/\',\n    agentOptions: {\n        cert: fs.readFileSync(certFile),\n        key: fs.readFileSync(keyFile),\n        // Or use `pfx` property replacing `cert` and `key` when using private key, certificate and CA certs in PFX or PKCS12 format:\n        // pfx: fs.readFileSync(pfxFilePath),\n        passphrase: \'password\',\n        securityOptions: \'SSL_OP_NO_SSLv3\'\n    }\n};\n\nrequest.get(options);\n```\n\nIt is able to force using SSLv3 only by specifying `secureProtocol`:\n\n```javascript\nrequest.get({\n    url: \'https://api.some-server.com/\',\n    agentOptions: {\n        secureProtocol: \'SSLv3_method\'\n    }\n});\n```\n\nIt is possible to accept other certificates than those signed by generally allowed Certificate Authorities (CAs).\nThis can be useful, for example,  when using self-signed certificates.\nTo allow a different certificate, you can specify the signing CA by adding the contents of the CA\'s certificate file to the `agentOptions`:\n\n```javascript\nrequest.get({\n    url: \'https://api.some-server.com/\',\n    agentOptions: {\n        ca: fs.readFileSync(\'ca.cert.pem\')\n    }\n});\n```\n\n## request(options, callback)\n\nThe first argument can be either a `url` or an `options` object. The only required option is `uri`; all others are optional.\n\n* `uri` || `url` - fully qualified uri or a parsed url object from `url.parse()`\n* `qs` - object containing querystring values to be appended to the `uri`\n* `useQuerystring` - If true, use `querystring` to stringify and parse\n  querystrings, otherwise use `qs` (default: `false`).  Set this option to\n  `true` if you need arrays to be serialized as `foo=bar&foo=baz` instead of the\n  default `foo[0]=bar&foo[1]=baz`.\n* `method` - http method (default: `"GET"`)\n* `headers` - http headers (default: `{}`)\n* `body` - entity body for PATCH, POST and PUT requests. Must be a `Buffer` or `String`, unless `json` is `true`. If `json` is `true`, then `body` must be a JSON-serializable object.\n* `form` - when passed an object or a querystring, this sets `body` to a querystring representation of value, and adds `Content-type: application/x-www-form-urlencoded` header. When passed no options, a `FormData` instance is returned (and is piped to request). See "Forms" section above.\n* `formData` - Data to pass for a `multipart/form-data` request. See\n  [Forms](#forms) section above.\n* `multipart` - array of objects which contain their own headers and `body`\n  attributes. Sends a `multipart/related` request. See [Forms](#forms) section\n  above.\n  * Alternatively you can pass in an object `{chunked: false, data: []}` where\n    `chunked` is used to specify whether the request is sent in\n    [chunked transfer encoding](https://en.wikipedia.org/wiki/Chunked_transfer_encoding)\n    (the default is `chunked: true`).  In non-chunked requests, data items with\n    body streams are not allowed.\n* `auth` - A hash containing values `user` || `username`, `pass` || `password`, and `sendImmediately` (optional).  See documentation above.\n* `json` - sets `body` but to JSON representation of value and adds `Content-type: application/json` header.  Additionally, parses the response body as JSON.\n* `jsonReviver` - a [reviver function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) that will be passed to `JSON.parse()` when parsing a JSON response body.\n* `preambleCRLF` - append a newline/CRLF before the boundary of your `multipart/form-data` request.\n* `postambleCRLF` - append a newline/CRLF at the end of the boundary of your `multipart/form-data` request.\n* `followRedirect` - follow HTTP 3xx responses as redirects (default: `true`). This property can also be implemented as function which gets `response` object as a single argument and should return `true` if redirects should continue or `false` otherwise.\n* `followAllRedirects` - follow non-GET HTTP 3xx responses as redirects (default: `false`)\n* `maxRedirects` - the maximum number of redirects to follow (default: `10`)\n* `encoding` - Encoding to be used on `setEncoding` of response data. If `null`, the `body` is returned as a `Buffer`. Anything else **(including the default value of `undefined`)** will be passed as the [encoding](http://nodejs.org/api/buffer.html#buffer_buffer) parameter to `toString()` (meaning this is effectively `utf8` by default).\n* `pool` - An object describing which agents to use for the request. If this option is omitted the request will use the global agent (as long as [your options allow for it](request.js#L747)). Otherwise, request will search the pool for your custom agent. If no custom agent is found, a new agent will be created and added to the pool.\n  * A `maxSockets` property can also be provided on the `pool` object to set the max number of sockets for all agents created (ex: `pool: {maxSockets: Infinity}`).\n  * Note that if you are sending multiple requests in a loop and creating\n    multiple new `pool` objects, `maxSockets` will not work as intended.  To\n    work around this, either use [`request.defaults`](#requestdefaultsoptions)\n    with your pool options or create the pool object with the `maxSockets`\n    property outside of the loop.\n* `timeout` - Integer containing the number of milliseconds to wait for a request to respond before aborting the request\n* `proxy` - An HTTP proxy to be used. Supports proxy Auth with Basic Auth, identical to support for the `url` parameter (by embedding the auth info in the `uri`)\n* `oauth` - Options for OAuth HMAC-SHA1 signing. See documentation above.\n* `hawk` - Options for [Hawk signing](https://github.com/hueniverse/hawk). The `credentials` key must contain the necessary signing info, [see hawk docs for details](https://github.com/hueniverse/hawk#usage-example).\n* `strictSSL` - If `true`, requires SSL certificates be valid. **Note:** to use your own certificate authority, you need to specify an agent that was created with that CA as an option.\n* `agentOptions` - Object containing user agent options. See documentation above. **Note:** [see tls API doc for TLS/SSL options](http://nodejs.org/api/tls.html#tls_tls_connect_options_callback).\n\n* `jar` - If `true` and `tough-cookie` is installed, remember cookies for future use (or define your custom cookie jar; see examples section)\n* `aws` - `object` containing AWS signing information. Should have the properties `key`, `secret`. Also requires the property `bucket`, unless you’re specifying your `bucket` as part of the path, or the request doesn’t use a bucket (i.e. GET Services)\n* `httpSignature` - Options for the [HTTP Signature Scheme](https://github.com/joyent/node-http-signature/blob/master/http_signing.md) using [Joyent\'s library](https://github.com/joyent/node-http-signature). The `keyId` and `key` properties must be specified. See the docs for other options.\n* `localAddress` - Local interface to bind for network connections.\n* `gzip` - If `true`, add an `Accept-Encoding` header to request compressed content encodings from the server (if not already present) and decode supported content encodings in the response.  **Note:** Automatic decoding of the response content is performed on the body data returned through `request` (both through the `request` stream and passed to the callback function) but is not performed on the `response` stream (available from the `response` event) which is the unmodified `http.IncomingMessage` object which may contain compressed data. See example below.\n* `tunnel` - If `true`, then *always* use a tunneling proxy.  If\n  `false` (default), then tunneling will only be used if the\n  destination is `https`, or if a previous request in the redirect\n  chain used a tunneling proxy.\n* `proxyHeaderWhiteList` - A whitelist of headers to send to a\n  tunneling proxy.\n* `proxyHeaderExclusiveList` - A whitelist of headers to send\n  exclusively to a tunneling proxy and not to destination.\n\n\nThe callback argument gets 3 arguments:\n\n1. An `error` when applicable (usually from [`http.ClientRequest`](http://nodejs.org/api/http.html#http_class_http_clientrequest) object)\n2. An [`http.IncomingMessage`](http://nodejs.org/api/http.html#http_http_incomingmessage) object\n3. The third is the `response` body (`String` or `Buffer`, or JSON object if the `json` option is supplied)\n\n## Convenience methods\n\nThere are also shorthand methods for different HTTP METHODs and some other conveniences.\n\n### request.defaults(options)\n\nThis method **returns a wrapper** around the normal request API that defaults\nto whatever options you pass to it.\n\n**Note:** `request.defaults()` **does not** modify the global request API;\ninstead, it **returns a wrapper** that has your default settings applied to it.\n\n**Note:** You can call `.defaults()` on the wrapper that is returned from\n`request.defaults` to add/override defaults that were previously defaulted.\n\nFor example:\n```javascript\n//requests using baseRequest() will set the \'x-token\' header\nvar baseRequest = request.defaults({\n  headers: {x-token: \'my-token\'}\n})\n\n//requests using specialRequest() will include the \'x-token\' header set in\n//baseRequest and will also include the \'special\' header\nvar specialRequest = baseRequest.defaults({\n  headers: {special: \'special value\'}\n})\n```\n\n### request.put\n\nSame as `request()`, but defaults to `method: "PUT"`.\n\n```javascript\nrequest.put(url)\n```\n\n### request.patch\n\nSame as `request()`, but defaults to `method: "PATCH"`.\n\n```javascript\nrequest.patch(url)\n```\n\n### request.post\n\nSame as `request()`, but defaults to `method: "POST"`.\n\n```javascript\nrequest.post(url)\n```\n\n### request.head\n\nSame as request() but defaults to `method: "HEAD"`.\n\n```javascript\nrequest.head(url)\n```\n\n### request.del\n\nSame as `request()`, but defaults to `method: "DELETE"`.\n\n```javascript\nrequest.del(url)\n```\n\n### request.get\n\nSame as `request()` (for uniformity).\n\n```javascript\nrequest.get(url)\n```\n### request.cookie\n\nFunction that creates a new cookie.\n\n```javascript\nrequest.cookie(\'key1=value1\')\n```\n### request.jar()\n\nFunction that creates a new cookie jar.\n\n```javascript\nrequest.jar()\n```\n\n\n## Examples:\n\n```javascript\n  var request = require(\'request\')\n    , rand = Math.floor(Math.random()*100000000).toString()\n    ;\n  request(\n    { method: \'PUT\'\n    , uri: \'http://mikeal.iriscouch.com/testjs/\' + rand\n    , multipart:\n      [ { \'content-type\': \'application/json\'\n        ,  body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n        }\n      , { body: \'I am an attachment\' }\n      ]\n    }\n  , function (error, response, body) {\n      if(response.statusCode == 201){\n        console.log(\'document saved as: http://mikeal.iriscouch.com/testjs/\'+ rand)\n      } else {\n        console.log(\'error: \'+ response.statusCode)\n        console.log(body)\n      }\n    }\n  )\n```\n\nFor backwards-compatibility, response compression is not supported by default.\nTo accept gzip-compressed responses, set the `gzip` option to `true`.  Note\nthat the body data passed through `request` is automatically decompressed\nwhile the response object is unmodified and will contain compressed data if\nthe server sent a compressed response.\n\n```javascript\n  var request = require(\'request\')\n  request(\n    { method: \'GET\'\n    , uri: \'http://www.google.com\'\n    , gzip: true\n    }\n  , function (error, response, body) {\n      // body is the decompressed response body\n      console.log(\'server encoded the data as: \' + (response.headers[\'content-encoding\'] || \'identity\'))\n      console.log(\'the decoded data is: \' + body)\n    }\n  ).on(\'data\', function(data) {\n    // decompressed data as it is received\n    console.log(\'decoded chunk: \' + data)\n  })\n  .on(\'response\', function(response) {\n    // unmodified http.IncomingMessage object\n    response.on(\'data\', function(data) {\n      // compressed data as it is received\n      console.log(\'received \' + data.length + \' bytes of compressed data\')\n    })\n  })\n```\n\nCookies are disabled by default (else, they would be used in subsequent requests). To enable cookies, set `jar` to `true` (either in `defaults` or `options`) and install `tough-cookie`.\n\n```javascript\nvar request = request.defaults({jar: true})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\n\nTo use a custom cookie jar (instead of `request`’s global cookie jar), set `jar` to an instance of `request.jar()` (either in `defaults` or `options`)\n\n```javascript\nvar j = request.jar()\nvar request = request.defaults({jar:j})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\n\nOR\n\n```javascript\nvar j = request.jar();\nvar cookie = request.cookie(\'key1=value1\');\nvar url = \'http://www.google.com\';\nj.setCookie(cookie, url);\nrequest({url: url, jar: j}, function () {\n  request(\'http://images.google.com\')\n})\n```\n\nTo use a custom cookie store (such as a\n[`FileCookieStore`](https://github.com/mitsuru/tough-cookie-filestore)\nwhich supports saving to and restoring from JSON files), pass it as a parameter\nto `request.jar()`:\n\n```javascript\nvar FileCookieStore = require(\'tough-cookie-filestore\');\n// NOTE - currently the \'cookies.json\' file must already exist!\nvar j = request.jar(new FileCookieStore(\'cookies.json\'));\nrequest = request.defaults({ jar : j })\nrequest(\'http://www.google.com\', function() {\n  request(\'http://images.google.com\')\n})\n```\n\nThe cookie store must be a\n[`tough-cookie`](https://github.com/goinstant/tough-cookie)\nstore and it must support synchronous operations; see the\n[`CookieStore` API docs](https://github.com/goinstant/tough-cookie/#cookiestore-api)\nfor details.\n\nTo inspect your cookie jar after a request:\n\n```javascript\nvar j = request.jar()\nrequest({url: \'http://www.google.com\', jar: j}, function () {\n  var cookie_string = j.getCookieString(uri); // "key1=value1; key2=value2; ..."\n  var cookies = j.getCookies(uri);\n  // [{key: \'key1\', value: \'value1\', domain: "www.google.com", ...}, ...]\n})\n```\n\n## Debugging\n\nThere are at least three ways to debug the operation of `request`:\n\n1. Launch the node process like `NODE_DEBUG=request node script.js`\n   (`lib,request,otherlib` works too).\n\n2. Set `require(\'request\').debug = true` at any time (this does the same thing\n   as #1).\n\n3. Use the [request-debug module](https://github.com/nylen/request-debug) to\n   view request and response headers and bodies.\n',
+629 silly resolved     readmeFilename: 'README.md',
+629 silly resolved     homepage: 'https://github.com/request/request',
+629 silly resolved     _id: 'request@2.51.0',
+629 silly resolved     _from: 'request@*' },
+629 silly resolved   { name: 'crypto',
+629 silly resolved     id: 'crypto',
+629 silly resolved     version: '0.0.3',
+629 silly resolved     description: 'JavaScript implementations of standard and secure cryptographic algorithms.',
+629 silly resolved     keywords: [ 'crypto', 'md5', 'sha1' ],
+629 silly resolved     author: { name: 'Irakli Gozalishvili', email: 'rfobic@gmail.com' },
+629 silly resolved     repository:
+629 silly resolved      { type: 'git',
+629 silly resolved        url: 'git://github.com/Gozala/crypto.git',
+629 silly resolved        web: 'https://github.com/Gozala/crypto' },
+629 silly resolved     bugs: { url: 'http://github.com/Gozala/crypto/issues/' },
+629 silly resolved     devDependencies: { test: '>=0.0.10' },
+629 silly resolved     directories: { lib: './' },
+629 silly resolved     scripts: { test: 'node test/test-crypto.js' },
+629 silly resolved     licenses: [ [Object] ],
+629 silly resolved     readme: '# crypto #\n\nJavaScript implementations of standard and secure cryptographic algorithms.\n\n## Install ##\n\n    npm install crypto\n\n',
+629 silly resolved     readmeFilename: 'Readme.md',
+629 silly resolved     _id: 'crypto@0.0.3',
+629 silly resolved     _from: 'crypto@*' },
+629 silly resolved   { name: 'cors',
+629 silly resolved     version: '2.5.3',
+629 silly resolved     author:
+629 silly resolved      { name: 'Troy Goode',
+629 silly resolved        email: 'troygoode@gmail.com',
+629 silly resolved        url: 'https://github.com/troygoode/' },
+629 silly resolved     description: 'middleware for dynamically or statically enabling CORS in express/connect applications',
+629 silly resolved     keywords: [ 'cors', 'express', 'connect', 'middleware' ],
+629 silly resolved     homepage: 'https://github.com/troygoode/node-cors/',
+629 silly resolved     repository: { type: 'git', url: 'git://github.com/troygoode/node-cors.git' },
+629 silly resolved     contributors: [ [Object] ],
+629 silly resolved     licenses: [ [Object] ],
+629 silly resolved     bugs: { url: 'https://github.com/troygoode/node-cors/issues' },
+629 silly resolved     main: './lib/index.js',
+629 silly resolved     engines: { node: '>=0.10.0' },
+629 silly resolved     dependencies: { vary: '^1' },
+629 silly resolved     devDependencies:
+629 silly resolved      { 'basic-auth-connect': '^1',
+629 silly resolved        'body-parser': '^1.4.3',
+629 silly resolved        express: '^4',
+629 silly resolved        lint: '^1.1.2',
+629 silly resolved        mocha: '^1.18.2',
+629 silly resolved        should: '^3.3.1',
+629 silly resolved        supertest: '^0.12' },
+629 silly resolved     scripts:
+629 silly resolved      { test: './node_modules/mocha/bin/mocha',
+629 silly resolved        lint: './node_modules/lint/bin/node-lint lib test' },
+629 silly resolved     readme: '# `cors`\n\nCORS is a node.js package for providing a [Connect](http://www.senchalabs.org/connect/)/[Express](http://expressjs.com/) middleware that can be used to enable [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) with various options.\n\n**[Follow me (@troygoode) on Twitter!](https://twitter.com/intent/user?screen_name=troygoode)**\n\n[![NPM](https://nodei.co/npm/cors.png?downloads=true&stars=true)](https://nodei.co/npm/cors/)\n\n[![build status](https://secure.travis-ci.org/troygoode/node-cors.png)](http://travis-ci.org/troygoode/node-cors)\n* [Installation](#installation)\n* [Usage](#usage)\n  * [Simple Usage](#simple-usage-enable-all-cors-requests)\n  * [Enable CORS for a Single Route](#enable-cors-for-a-single-route)\n  * [Configuring CORS](#configuring-cors)\n  * [Configuring CORS Asynchronously](#configuring-cors-asynchronously)\n  * [Enabling CORS Pre-Flight](#enabling-cors-pre-flight)\n* [Configuration Options](#configuration-options)\n* [Demo](#demo)\n* [License](#license)\n* [Author](#author)\n\n## Installation (via [npm](https://npmjs.org/package/cors))\n\n```bash\n$ npm install cors\n```\n\n## Usage\n\n### Simple Usage (Enable *All* CORS Requests)\n\n```javascript\nvar express = require(\'express\')\n  , cors = require(\'cors\')\n  , app = express();\n\napp.use(cors());\n\napp.get(\'/products/:id\', function(req, res, next){\n  res.json({msg: \'This is CORS-enabled for all origins!\'});\n});\n\napp.listen(80, function(){\n  console.log(\'CORS-enabled web server listening on port 80\');\n});\n```\n\n### Enable CORS for a Single Route\n\n```javascript\nvar express = require(\'express\')\n  , cors = require(\'cors\')\n  , app = express();\n\napp.get(\'/products/:id\', cors(), function(req, res, next){\n  res.json({msg: \'This is CORS-enabled for all origins!\'});\n});\n\napp.listen(80, function(){\n  console.log(\'CORS-enabled web server listening on port 80\');\n});\n```\n\n### Configuring CORS\n\n```javascript\nvar express = require(\'express\')\n  , cors = require(\'cors\')\n  , app = express();\n\nvar corsOptions = {\n  origin: \'http://example.com\'\n};\n\napp.get(\'/products/:id\', cors(corsOptions), function(req, res, next){\n  res.json({msg: \'This is CORS-enabled for only example.com.\'});\n});\n\napp.listen(80, function(){\n  console.log(\'CORS-enabled web server listening on port 80\');\n});\n```\n\n### Configuring CORS w/ Dynamic Origin\n\n```javascript\nvar express = require(\'express\')\n  , cors = require(\'cors\')\n  , app = express();\n\nvar whitelist = [\'http://example1.com\', \'http://example2.com\'];\nvar corsOptions = {\n  origin: function(origin, callback){\n    var originIsWhitelisted = whitelist.indexOf(origin) !== -1;\n    callback(null, originIsWhitelisted);\n  }\n};\n\napp.get(\'/products/:id\', cors(corsOptions), function(req, res, next){\n  res.json({msg: \'This is CORS-enabled for a whitelisted domain.\'});\n});\n\napp.listen(80, function(){\n  console.log(\'CORS-enabled web server listening on port 80\');\n});\n```\n\n### Enabling CORS Pre-Flight\n\nCertain CORS requests are considered \'complex\' and require an initial\n`OPTIONS` request (called the "pre-flight request"). An example of a\n\'complex\' CORS request is one that uses an HTTP verb other than\nGET/HEAD/POST (such as DELETE) or that uses custom headers. To enable\npre-flighting, you must add a new OPTIONS handler for the route you want\nto support:\n\n```javascript\nvar express = require(\'express\')\n  , cors = require(\'cors\')\n  , app = express();\n\napp.options(\'/products/:id\', cors()); // enable pre-flight request for DELETE request\napp.del(\'/products/:id\', cors(), function(req, res, next){\n  res.json({msg: \'This is CORS-enabled for all origins!\'});\n});\n\napp.listen(80, function(){\n  console.log(\'CORS-enabled web server listening on port 80\');\n});\n```\n\nYou can also enable pre-flight across-the-board like so:\n\n```\napp.options(\'*\', cors()); // include before other routes\n```\n\n### Configuring CORS Asynchronously\n\n```javascript\nvar express = require(\'express\')\n  , cors = require(\'cors\')\n  , app = express();\n\nvar whitelist = [\'http://example1.com\', \'http://example2.com\'];\nvar corsOptionsDelegate = function(req, callback){\n  var corsOptions;\n  if(whitelist.indexOf(req.header(\'Origin\')) !== -1){\n    corsOptions = { origin: true }; // reflect (enable) the requested origin in the CORS response\n  }else{\n    corsOptions = { origin: false }; // disable CORS for this request\n  }\n  callback(null, corsOptions); // callback expects two parameters: error and options\n};\n\napp.get(\'/products/:id\', cors(corsOptionsDelegate), function(req, res, next){\n  res.json({msg: \'This is CORS-enabled for a whitelisted domain.\'});\n});\n\napp.listen(80, function(){\n  console.log(\'CORS-enabled web server listening on port 80\');\n});\n```\n\n## Configuration Options\n\n* `origin`: Configures the **Access-Control-Allow-Origin** CORS header. Expects a string (ex: "http://example.com"). Set to `true` to reflect the [request origin](http://tools.ietf.org/html/draft-abarth-origin-09), as defined by `req.header(\'Origin\')`. Set to `false` to disable CORS. Can also be set to a function, which takes the request origin as the first parameter and a callback (which expects the signature `err [object], allow [bool]`) as the second.\n* `methods`: Configures the **Access-Control-Allow-Methods** CORS header. Expects a comma-delimited string (ex: \'GET,PUT,POST\') or an array (ex: `[\'GET\', \'PUT\', \'POST\']`).\n* `allowedHeaders`: Configures the **Access-Control-Allow-Headers** CORS header. Expects a comma-delimited string (ex: \'Content-Type,Authorization\') or an array (ex: `[\'Content-Type\', \'Authorization]`). If not specified, defaults to reflecting the headers specified in the request\'s **Access-Control-Request-Headers** header.\n* `exposedHeaders`: Configures the **Access-Control-Expose-Headers** CORS header. Expects a comma-delimited string (ex: \'Content-Range,X-Content-Range\') or an array (ex: `[\'Content-Range\', \'X-Content-Range]`). If not specified, no custom headers are exposed.\n* `credentials`: Configures the **Access-Control-Allow-Credentials** CORS header. Set to `true` to pass the header, otherwise it is omitted.\n* `maxAge`: Configures the **Access-Control-Allow-Max-Age** CORS header. Set to an integer to pass the header, otherwise it is omitted.\n\nFor details on the effect of each CORS header, [read this article on HTML5 Rocks](http://www.html5rocks.com/en/tutorials/cors/).\n\n## Demo\n\nA demo that illustrates CORS working (and not working) using jQuery is available here: [http://node-cors-client.herokuapp.com/](http://node-cors-client.herokuapp.com/)\n\nCode for that demo can be found here:\n\n* Client: [https://github.com/TroyGoode/node-cors-client](https://github.com/TroyGoode/node-cors-client)\n* Server: [https://github.com/TroyGoode/node-cors-server](https://github.com/TroyGoode/node-cors-server)\n\n## License\n\n[MIT License](http://www.opensource.org/licenses/mit-license.php)\n\n## Author\n\n[Troy Goode](https://github.com/TroyGoode) ([troygoode@gmail.com](mailto:troygoode@gmail.com))\n',
+629 silly resolved     readmeFilename: 'README.md',
+629 silly resolved     _id: 'cors@2.5.3',
+629 silly resolved     _from: 'cors@*' },
+629 silly resolved   { name: 'express',
+629 silly resolved     description: 'Sinatra inspired web development framework',
+629 silly resolved     version: '3.0.0-rc5',
+629 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+629 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+629 silly resolved     dependencies:
+629 silly resolved      { connect: '2.5.0',
+629 silly resolved        commander: '0.6.1',
+629 silly resolved        'range-parser': '0.0.4',
+629 silly resolved        mkdirp: '0.3.3',
+629 silly resolved        cookie: '0.0.4',
+629 silly resolved        crc: '0.2.0',
+629 silly resolved        fresh: '0.1.0',
+629 silly resolved        methods: '0.0.1',
+629 silly resolved        send: '0.1.0',
+629 silly resolved        debug: '*' },
+629 silly resolved     devDependencies:
+629 silly resolved      { ejs: '*',
+629 silly resolved        mocha: '*',
+629 silly resolved        jade: '*',
+629 silly resolved        hjs: '*',
+629 silly resolved        stylus: '*',
+629 silly resolved        should: '*',
+629 silly resolved        'connect-redis': '*',
+629 silly resolved        'github-flavored-markdown': '*',
+629 silly resolved        supertest: '0.0.1' },
+629 silly resolved     keywords:
+629 silly resolved      [ 'express',
+629 silly resolved        'framework',
+629 silly resolved        'sinatra',
+629 silly resolved        'web',
+629 silly resolved        'rest',
+629 silly resolved        'restful',
+629 silly resolved        'router',
+629 silly resolved        'app',
+629 silly resolved        'api' ],
+629 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express' },
+629 silly resolved     main: 'index',
+629 silly resolved     bin: { express: './bin/express' },
+629 silly resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+629 silly resolved     engines: { node: '*' },
+629 silly resolved     readme: '![express logo](http://f.cl.ly/items/0V2S1n0K1i3y1c122g04/Screen%20Shot%202012-04-11%20at%209.59.42%20AM.png)\n\n  Fast, unopinionated, minimalist web framework for [node](http://nodejs.org). [![Build Status](https://secure.travis-ci.org/visionmedia/express.png)](http://travis-ci.org/visionmedia/express)\n\n```js\nvar express = require(\'express\');\nvar app = express();\n\napp.get(\'/\', function(req, res){\n  res.send(\'Hello World\');\n});\n\napp.listen(3000);\n```\n\n## Installation\n\n    $ npm install -g express\n\n To install the 3.0 alpha:\n \n    $ npm install -g express@3.0\n\n## Quick Start\n\n The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:\n\n Create the app:\n\n    $ npm install -g express\n    $ express /tmp/foo && cd /tmp/foo\n\n Install dependencies:\n\n    $ npm install\n\n Start the server:\n\n    $ node app\n\n## Features\n\n  * Built on [Connect](http://github.com/senchalabs/connect)\n  * Robust routing\n  * HTTP helpers (redirection, caching, etc)\n  * View system supporting 14+ template engines\n  * Content negotiation\n  * Focus on high performance\n  * Environment based configuration\n  * Executable for generating applications quickly\n  * High test coverage\n\n## Philosophy\n\n  The Express philosophy is to provide small, robust tooling for HTTP servers. Making\n  it a great solution for single page applications, web sites, hybrids, or public\n  HTTP APIs.\n  \n  Built on Connect you can use _only_ what you need, and nothing more, applications\n  can be as big or as small as you like, even a single file. Express does\n  not force you to use any specific ORM or template engine. With support for over\n  14 template engines via [Consolidate.js](http://github.com/visionmedia/consolidate.js)\n  you can quickly craft your perfect framework.\n\n## More Information\n\n  * Join #express on freenode\n  * [Google Group](http://groups.google.com/group/express-js) for discussion\n  * Follow [tjholowaychuk](http://twitter.com/tjholowaychuk) on twitter for updates\n  * Visit the [Wiki](http://github.com/visionmedia/express/wiki)\n  * [日本語ドキュメンテーション](http://hideyukisaito.com/doc/expressjs/) by [hideyukisaito](https://github.com/hideyukisaito)\n  * [Русскоязычная документация](http://express-js.ru/)\n\n## Viewing Examples\n\nClone the Express repo, then install the dev dependencies to install all the example / test suite deps:\n\n    $ git clone git://github.com/visionmedia/express.git --depth 1\n    $ cd express\n    $ npm install\n\nthen run whichever tests you want:\n\n    $ node examples/content-negotiation\n\n## Running Tests\n\nTo run the test suite first invoke the following command within the repo, installing the development dependencies:\n\n    $ npm install\n\nthen run the tests:\n\n    $ make test\n\n## Contributors\n\n```\nproject: express\ncommits: 3559\nactive : 468 days\nfiles  : 237\nauthors: \n 1891\tTj Holowaychuk          53.1%\n 1285\tvisionmedia             36.1%\n  182\tTJ Holowaychuk          5.1%\n   54\tAaron Heckmann          1.5%\n   34\tcsausdev                1.0%\n   26\tciaranj                 0.7%\n   21\tRobert Sköld          0.6%\n    6\tGuillermo Rauch         0.2%\n    3\tDav Glass               0.1%\n    3\tNick Poulden            0.1%\n    2\tRandy Merrill           0.1%\n    2\tBenny Wong              0.1%\n    2\tHunter Loftis           0.1%\n    2\tJake Gordon             0.1%\n    2\tBrian McKinney          0.1%\n    2\tRoman Shtylman          0.1%\n    2\tBen Weaver              0.1%\n    2\tDave Hoover             0.1%\n    2\tEivind Fjeldstad        0.1%\n    2\tDaniel Shaw             0.1%\n    1\tMatt Colyer             0.0%\n    1\tPau Ramon               0.0%\n    1\tPero Pejovic            0.0%\n    1\tPeter Rekdal Sunde      0.0%\n    1\tRaynos                  0.0%\n    1\tTeng Siong Ong          0.0%\n    1\tViktor Kelemen          0.0%\n    1\tctide                   0.0%\n    1\t8bitDesigner            0.0%\n    1\tisaacs                  0.0%\n    1\tmgutz                   0.0%\n    1\tpikeas                  0.0%\n    1\tshuwatto                0.0%\n    1\ttstrimple               0.0%\n    1\tewoudj                  0.0%\n    1\tAdam Sanderson          0.0%\n    1\tAndrii Kostenko         0.0%\n    1\tAndy Hiew               0.0%\n    1\tArpad Borsos            0.0%\n    1\tAshwin Purohit          0.0%\n    1\tBenjen                  0.0%\n    1\tDarren Torpey           0.0%\n    1\tGreg Ritter             0.0%\n    1\tGregory Ritter          0.0%\n    1\tJames Herdman           0.0%\n    1\tJim Snodgrass           0.0%\n    1\tJoe McCann              0.0%\n    1\tJonathan Dumaine        0.0%\n    1\tJonathan Palardy        0.0%\n    1\tJonathan Zacsh          0.0%\n    1\tJustin Lilly            0.0%\n    1\tKen Sato                0.0%\n    1\tMaciej Małecki         0.0%\n    1\tMasahiro Hayashi        0.0%\n```\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2009-2012 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+629 silly resolved     readmeFilename: 'Readme.md',
+629 silly resolved     bugs: { url: 'https://github.com/visionmedia/express/issues' },
+629 silly resolved     _id: 'express@3.0.0-rc5',
+629 silly resolved     dist: { shasum: 'c8898a30683c9adea37a42d73fe932686b87ec46' },
+629 silly resolved     _from: 'express@3.0.0rc5',
+629 silly resolved     _resolved: 'https://registry.npmjs.org/express/-/express-3.0.0rc5.tgz' },
+629 silly resolved   { name: 'ejs',
+629 silly resolved     description: 'Embedded JavaScript templates',
+629 silly resolved     keywords: [ 'template', 'engine', 'ejs' ],
+629 silly resolved     version: '2.2.3',
+629 silly resolved     author:
+629 silly resolved      { name: 'Matthew Eernisse',
+629 silly resolved        email: 'mde@fleegix.org',
+629 silly resolved        url: 'http://fleegix.org' },
+629 silly resolved     contributors: [ [Object] ],
+629 silly resolved     license: 'Apache-2.0',
+629 silly resolved     main: './lib/ejs.js',
+629 silly resolved     repository: { type: 'git', url: 'git://github.com/mde/ejs.git' },
+629 silly resolved     bugs: { url: 'https://github.com/mde/ejs/issues' },
+629 silly resolved     homepage: 'https://github.com/mde/ejs',
+629 silly resolved     dependencies: {},
+629 silly resolved     devDependencies:
+629 silly resolved      { browserify: '^8.0.3',
+629 silly resolved        'uglify-js': '^2.4.16',
+629 silly resolved        mocha: '^2.1.0',
+629 silly resolved        jake: '^8.0.0',
+629 silly resolved        istanbul: '~0.3.5' },
+629 silly resolved     engines: { node: '>=0.10.0' },
+629 silly resolved     scripts:
+629 silly resolved      { test: 'mocha',
+629 silly resolved        coverage: 'istanbul cover node_modules/mocha/bin/_mocha' },
+629 silly resolved     readme: '# EJS\n\nEmbedded JavaScript templates\n\n[![Build Status](https://img.shields.io/travis/mde/ejs/master.svg?style=flat)](https://travis-ci.org/mde/ejs)\n[![Developing Dependencies](https://img.shields.io/david/dev/mde/ejs.svg?style=flat)](https://david-dm.org/mde/ejs#info=devDependencies)\n\n## Installation\n\n```bash\n$ npm install ejs\n```\n\n## Features\n\n  * Control flow with `<% %>`\n  * Escaped output with `<%= %>`\n  * Unescaped raw output with `<%- %>`\n  * Trim-mode (\'newline slurping\') with `-%>` ending tag\n  * Custom delimiters (e.g., use \'<? ?>\' instead of \'<% %>\')\n  * Includes\n  * Client-side support\n  * Static caching of intermediate JavaScript\n  * Static caching of templates\n  * Complies with the [Express](http://expressjs.com) view system\n\n## Example\n\n```html\n<% if (user) { %>\n  <h2><%= user.name %></h2>\n<% } %>\n```\n\n## Usage\n\n```javascript\nvar template = ejs.compile(str, options);\ntemplate(data);\n// => Rendered HTML string\n\nejs.render(str, data, options);\n// => Rendered HTML string\n```\n\nYou can also use the shortcut `ejs.render(dataAndOptions);` where you pass\neverything in a single object. In that case, you\'ll end up with local variables\nfor all the passed options.\n\n## Options\n\n  - `cache`           Compiled functions are cached, requires `filename`\n  - `filename`        Used by `cache` to key caches, and for includes\n  - `context`         Function execution context\n  - `compileDebug`    When `false` no debug instrumentation is compiled\n  - `client`          Returns standalone compiled function\n  - `delimiter`       Character to use with angle brackets for open/close\n  - `debug`           Output generated function body\n  - `_with`           Whether or not to use `with() {}` constructs. If `false`\n                      then the locals will be stored in the `locals` object.\n\n## Tags\n\n  - `<%`              \'Scriptlet\' tag, for control-flow, no output\n  - `<%=`             Outputs the value into the template (HTML escaped)\n  - `<%-`             Outputs the unescaped value into the template\n  - `<%#`             Comment tag, no execution, no output\n  - `<%%`             Outputs a literal \'<%\'\n  - `%>`              Plain ending tag\n  - `-%>`             Trim-mode (\'newline slurp\') tag, trims following newline\n\n## Includes\n\nIncludes are relative to the template with the `include` call. (This\nrequires the \'filename\' option.) For example if you have "./views/users.ejs" and\n"./views/user/show.ejs" you would use `<%- include(\'user/show\'); %>`.\n\nYou\'ll likely want to use the raw output tag (`<%-`) with your include to avoid\ndouble-escaping the HTML output.\n\n```html\n<ul>\n  <% users.forEach(function(user){ %>\n    <%- include(\'user/show\', {user: user}); %>\n  <% }); %>\n</ul>\n```\n\nIncludes are inserted at runtime, so you can use variables for the path in the\n`include` call (for example `<%- include(somePath); %>`). Variables in your\ntop-level data object are available to all your includes, but local variables\nneed to be passed down.\n\nNOTE: Include preprocessor directives (`<% include user/show  %>`) are\nstill supported.\n\n## Custom delimiters\n\nCustom delimiters can be applied on a per-template basis, or globally:\n\n```javascript\nvar ejs = require(\'ejs\'),\n    users = [\'geddy\', \'neil\', \'alex\'];\n\n// Just one template\nejs.render(\'<?= users.join(" | "); ?>\', {users: users}, {delimiter: \'?\'});\n// => \'geddy | neil | alex\'\n\n// Or globally\nejs.delimiter = \'$\';\nejs.render(\'<$= users.join(" | "); $>\', {users: users});\n// => \'geddy | neil | alex\'\n```\n\n## Layouts\n\nEJS does not specifically support blocks, but layouts can be implemented by\nincluding headers and footers, like so:\n\n\n```html\n<%- include(\'header\'); -%>\n<h1>\n  Title\n</h1>\n<p>\n  My page\n</p>\n<%- include(\'footer\'); -%>\n```\n\n## Client-side support\n\nGo to the [Latest Release](https://github.com/mde/ejs/releases/latest), download\n`./ejs.js` or `./ejs.min.js`.\n\nInclude one of these on your page, and `ejs.render(str)`.\n\n## Related projects\n\nThere are a number of implementations of EJS:\n\n * TJ\'s implementation, the v1 of this library: https://github.com/tj/ejs\n * Jupiter Consulting\'s EJS: http://www.embeddedjs.com/\n * EJS Embedded JavaScript Framework on Google Code: https://code.google.com/p/embeddedjavascript/\n * Sam Stephenson\'s Ruby implementation: https://rubygems.org/gems/ejs\n * Erubis, an ERB implementation which also runs JavaScript: http://www.kuwata-lab.com/erubis/users-guide.04.html#lang-javascript\n\n## License\n\nLicensed under the Apache License, Version 2.0\n(<http://www.apache.org/licenses/LICENSE-2.0>)\n\n- - -\nEJS Embedded JavaScript templates copyright 2112\nmde@fleegix.org.\n\n\n',
+629 silly resolved     readmeFilename: 'README.md',
+629 silly resolved     _id: 'ejs@2.2.3',
+629 silly resolved     dist: { shasum: '3ce8faa30fcaa6808fe40268098868c48bf4122e' },
+629 silly resolved     _from: 'ejs@*',
+629 silly resolved     _resolved: 'https://registry.npmjs.org/ejs/-/ejs-2.2.3.tgz' },
+629 silly resolved   { name: 'mongoose',
+629 silly resolved     description: 'Mongoose MongoDB ODM',
+629 silly resolved     version: '3.5.4',
+629 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+629 silly resolved     keywords:
+629 silly resolved      [ 'mongodb',
+629 silly resolved        'mongoose',
+629 silly resolved        'orm',
+629 silly resolved        'data',
+629 silly resolved        'datastore',
+629 silly resolved        'nosql',
+629 silly resolved        'odm',
+629 silly resolved        'sql',
+629 silly resolved        'db',
+629 silly resolved        'database' ],
+629 silly resolved     dependencies:
+629 silly resolved      { hooks: '0.2.1',
+629 silly resolved        mongodb: '1.2.8',
+629 silly resolved        ms: '0.1.0',
+629 silly resolved        sliced: '0.0.3',
+629 silly resolved        muri: '0.1.0' },
+629 silly resolved     devDependencies:
+629 silly resolved      { mocha: '1.7.4',
+629 silly resolved        'node-static': '0.5.9',
+629 silly resolved        dox: '0.3.1',
+629 silly resolved        jade: '0.26.3',
+629 silly resolved        'highlight.js': '7.0.1',
+629 silly resolved        markdown: '0.3.1' },
+629 silly resolved     directories: { lib: './lib/mongoose' },
+629 silly resolved     scripts: { test: 'make test' },
+629 silly resolved     main: './index.js',
+629 silly resolved     engines: { node: '>= 0.4.0' },
+629 silly resolved     bugs: { url: 'https://github.com/learnboost/mongoose/issues/new' },
+629 silly resolved     repository: { type: 'git', url: 'git://github.com/LearnBoost/mongoose.git' },
+629 silly resolved     homepage: 'http://mongoosejs.com',
+629 silly resolved     readme: '## What\'s Mongoose?\n\nMongoose is a [MongoDB](http://www.mongodb.org/) object modeling tool designed to work in an asynchronous environment.\n\nDefining a model is as easy as:\n\n    var Comment = new Schema({\n        title     : String\n      , body      : String\n      , date      : Date\n    });\n\n    var BlogPost = new Schema({\n        author    : ObjectId\n      , title     : String\n      , body      : String\n      , buf       : Buffer\n      , date      : Date\n      , comments  : [Comment]\n      , meta      : {\n          votes : Number\n        , favs  : Number\n      }\n    });\n\n    var Post = mongoose.model(\'BlogPost\', BlogPost);\n\n## Documentation\n\n[mongoosejs.com](http://mongoosejs.com/)\n\n## Try it live\n<a href="https://runnable.com/#learnboost/mongoose/code.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>\n## Installation\n\nThe recommended way is through the excellent [NPM](http://www.npmjs.org/):\n\n    $ npm install mongoose\n\nOtherwise, you can check it in your repository and then expose it:\n\n    $ git clone git://github.com/LearnBoost/mongoose.git node_modules/mongoose/\n\nAnd install dependency modules written on `package.json`.\n\nThen you can `require` it:\n\n    require(\'mongoose\')\n\n## Connecting to MongoDB\n\nFirst, we need to define a connection. If your app uses only one database, you should use `mongose.connect`. If you need to create additional connections, use `mongoose.createConnection`.\n\nBoth `connect` and `createConnection` take a `mongodb://` URI, or the parameters `host, database, port, options`.\n\n    var mongoose = require(\'mongoose\');\n\n    mongoose.connect(\'mongodb://localhost/my_database\');\n\nOnce connected, the `open` event is fired on the `Connection` instance. If you\'re using `mongoose.connect`, the `Connection` is `mongoose.connection`. Otherwise, `mongoose.createConnection` return value is a `Connection`.\n\n**Important!** Mongoose buffers all the commands until it\'s connected to the database. This means that you don\'t have to wait until it connects to MongoDB in order to define models, run queries, etc.\n\n## Defining a Model\n\nModels are defined through the `Schema` interface. \n\n    var Schema = mongoose.Schema\n      , ObjectId = Schema.ObjectId;\n\n    var BlogPost = new Schema({\n        author    : ObjectId\n      , title     : String\n      , body      : String\n      , date      : Date\n    });\n\nAside from defining the structure of your documents and the types of data you\'re storing, a Schema handles the definition of:\n\n* [Validators](http://mongoosejs.com/docs/validation.html) (async and sync)\n* [Defaults](http://mongoosejs.com/docs/api.html#schematype_SchemaType-default)\n* [Getters](http://mongoosejs.com/docs/api.html#schematype_SchemaType-get)\n* [Setters](http://mongoosejs.com/docs/api.html#schematype_SchemaType-set)\n* [Indexes](http://mongoosejs.com/docs/guide.html#indexes)\n* [Middleware](http://mongoosejs.com/docs/middleware.html)\n* [Methods](http://mongoosejs.com/docs/guide.html#methods) definition\n* [Statics](http://mongoosejs.com/docs/guide.html#statics) definition\n* [Plugins](http://mongoosejs.com/docs/plugins.html)\n* [psuedo-JOINs](http://mongoosejs.com/docs/populate.html)\n\nThe following example shows some of these features:\n\n    var Comment = new Schema({\n        name  :  { type: String, default: \'hahaha\' }\n      , age   :  { type: Number, min: 18, index: true }\n      , bio   :  { type: String, match: /[a-z]/ }\n      , date  :  { type: Date, default: Date.now }\n      , buff  :  Buffer\n    });\n\n    // a setter\n    Comment.path(\'name\').set(function (v) {\n      return capitalize(v);\n    });\n\n    // middleware\n    Comment.pre(\'save\', function (next) {\n      notify(this.get(\'email\'));\n      next();\n    });\n\nTake a look at the example in `examples/schema.js` for an end-to-end example of a typical setup.\n\n## Accessing a Model\n\nOnce we define a model through `mongoose.model(\'ModelName\', mySchema)`, we can access it through the same function\n\n    var myModel = mongoose.model(\'ModelName\');\n\nOr just do it all at once\n\n    var MyModel = mongoose.model(\'ModelName\', mySchema);\n\nWe can then instantiate it, and save it:\n\n    var instance = new MyModel();\n    instance.my.key = \'hello\';\n    instance.save(function (err) {\n      //\n    });\n\nOr we can find documents from the same collection\n\n    MyModel.find({}, function (err, docs) {\n      // docs.forEach\n    });\n\nYou can also `findOne`, `findById`, `update`, etc. For more details check out [this link](http://mongoosejs.com/docs/queries.html).\n\n**Important!** If you opened a separate connection using `mongoose.createConnection()` but attempt to access the model through `mongoose.model(\'ModelName\')` it will not work as expected since it is not hooked up to an active db connection. In this case access your model through the connection you created:\n\n    var conn = mongoose.createConnection(\'your connection string\');\n    var MyModel = conn.model(\'ModelName\', schema);\n    var m = new MyModel;\n    m.save() // works\n\n    vs\n\n    var conn = mongoose.createConnection(\'your connection string\');\n    var MyModel = mongoose.model(\'ModelName\', schema);\n    var m = new MyModel;\n    m.save() // does not work b/c the default connection object was never connected\n\n## Embedded Documents\n\nIn the first example snippet, we defined a key in the Schema that looks like:\n\n    comments: [Comments]\n\nWhere `Comments` is a `Schema` we created. This means that creating embedded documents is as simple as:\n\n    // retrieve my model\n    var BlogPost = mongoose.model(\'BlogPost\');\n\n    // create a blog post\n    var post = new BlogPost();\n\n    // create a comment\n    post.comments.push({ title: \'My comment\' });\n\n    post.save(function (err) {\n      if (!err) console.log(\'Success!\');\n    });\n\nThe same goes for removing them:\n\n    BlogPost.findById(myId, function (err, post) {\n      if (!err) {\n        post.comments[0].remove();\n        post.save(function (err) {\n          // do something\n        });\n      }\n    });\n\nEmbedded documents enjoy all the same features as your models. Defaults, validators, middleware. Whenever an error occurs, it\'s bubbled to the `save()` error callback, so error handling is a snap!\n\nMongoose interacts with your embedded documents in arrays _atomically_, out of the box.\n\n## Middleware\n\nMiddleware is one of the most exciting features about Mongoose. Middleware takes away all the pain of nested callbacks.\n\nMiddleware are defined at the Schema level and are applied for the methods `init` (when a document is initialized with data from MongoDB), `save` (when a document or embedded document is saved).\n\nThere\'s two types of middleware:\n\n- Serial\n  Serial middleware are defined like:\n\n        .pre(method, function (next, methodArg1, methodArg2, ...) {\n          // ...\n        })\n\n  They\'re executed one after the other, when each middleware calls `next`.\n\n  You can also intercept the `method`\'s incoming arguments via your middleware -- notice `methodArg1`, `methodArg2`, etc in the `pre` definition above. See section "Intercepting and mutating method arguments" below.\n\n\n- Parallel\n  Parallel middleware offer more fine-grained flow control, and are defined like:\n\n        .pre(method, true, function (next, done, methodArg1, methodArg2) {\n          // ...\n        })\n\n  Parallel middleware can `next()` immediately, but the final argument will be called when all the parallel middleware have called `done()`.\n\n### Error handling\n\nIf any middleware calls `next` or `done` with an `Error` instance, the flow is interrupted, and the error is passed to the function passed as an argument.\n\nFor example:\n\n    schema.pre(\'save\', function (next) {\n      // something goes wrong\n      next(new Error(\'something went wrong\'));\n    });\n\n    // later...\n\n    myModel.save(function (err) {\n      // err can come from a middleware\n    });\n\n### Intercepting and mutating method arguments\n\nYou can intercept method arguments via middleware.\n\nFor example, this would allow you to broadcast changes about your Documents every time someone `set`s a path in your Document to a new value:\n\n    schema.pre(\'set\', function (next, path, val, typel) {\n      // `this` is the current Document\n      this.emit(\'set\', path, val);\n\n      // Pass control to the next pre\n      next();\n    });\n\nMoreover, you can mutate the incoming `method` arguments so that subsequent middleware see different values for those arguments. To do so, just pass the new values to `next`:\n\n    .pre(method, function firstPre (next, methodArg1, methodArg2) {\n      // Mutate methodArg1\n      next("altered-" + methodArg1.toString(), methodArg2);\n    })\n\n    // pre declaration is chainable\n    .pre(method, function secondPre (next, methodArg1, methodArg2) {\n      console.log(methodArg1);\n      // => \'altered-originalValOfMethodArg1\' \n      \n      console.log(methodArg2);\n      // => \'originalValOfMethodArg2\' \n      \n      // Passing no arguments to `next` automatically passes along the current argument values\n      // i.e., the following `next()` is equivalent to `next(methodArg1, methodArg2)`\n      // and also equivalent to, with the example method arg \n      // values, `next(\'altered-originalValOfMethodArg1\', \'originalValOfMethodArg2\')`\n      next();\n    })\n\n### Schema gotcha\n\n`type`, when used in a schema has special meaning within Mongoose. If your schema requires using `type` as a nested property you must use object notation:\n\n    new Schema({\n        broken: { type: Boolean }\n      , asset : {\n            name: String\n          , type: String // uh oh, it broke. asset will be interpreted as String\n        }\n    });\n\n    new Schema({\n        works: { type: Boolean }\n      , asset : {\n            name: String\n          , type: { type: String } // works. asset is an object with a type property\n        }\n    });\n\n## API docs\n\nYou can find the [Dox](http://github.com/visionmedia/dox) generated API docs [here](http://mongoosejs.com/docs/api.html).\n\n## Getting support\n\n- Google Groups [mailing list](http://groups.google.com/group/mongoose-orm)\n- (irc) #mongoosejs on freenode\n- reporting [issues](https://github.com/learnboost/mongoose/issues/)\n- [10gen](http://www.mongodb.org/display/DOCS/Technical+Support)\n\n## Driver access\n\nThe driver being used defaults to [node-mongodb-native](https://github.com/mongodb/node-mongodb-native) and is directly accessible through `YourModel.collection`. **Note**: using the driver directly bypasses all Mongoose power-tools like validation, getters, setters, hooks, etc.\n\n## Mongoose Plugins\n\nTake a peek at the [plugins search site](http://plugins.mongoosejs.com/) to see related modules from the community.\n\n## Contributing to Mongoose\n\n### Cloning the repository\n\n    git clone git://github.com/LearnBoost/mongoose.git\n\n### Guidelines\n\nSee [contributing](http://mongoosejs.com/docs/contributing.html).\n\n## Credits\n\n[contributors](https://github.com/learnboost/mongoose/graphs/contributors)\n\n## License\n\nCopyright (c) 2010-2012 LearnBoost &lt;dev@learnboost.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+629 silly resolved     readmeFilename: 'README.md',
+629 silly resolved     _id: 'mongoose@3.5.4',
+629 silly resolved     dist: { shasum: '83a7139255fa292587b03ccf076345719667b3ba' },
+629 silly resolved     _from: 'mongoose@3.5.4',
+629 silly resolved     _resolved: 'https://registry.npmjs.org/mongoose/-/mongoose-3.5.4.tgz' } ]
+630 info install request@2.51.0 into /Users/fbsc/Sites/foxcast/server
+631 info install crypto@0.0.3 into /Users/fbsc/Sites/foxcast/server
+632 info install cors@2.5.3 into /Users/fbsc/Sites/foxcast/server
+633 info install express@3.0.0-rc5 into /Users/fbsc/Sites/foxcast/server
+634 info install ejs@2.2.3 into /Users/fbsc/Sites/foxcast/server
+635 info install mongoose@3.5.4 into /Users/fbsc/Sites/foxcast/server
+636 info installOne request@2.51.0
+637 info installOne crypto@0.0.3
+638 info installOne cors@2.5.3
+639 info installOne express@3.0.0-rc5
+640 info installOne ejs@2.2.3
+641 info installOne mongoose@3.5.4
+642 info /Users/fbsc/Sites/foxcast/server/node_modules/request unbuild
+643 info /Users/fbsc/Sites/foxcast/server/node_modules/crypto unbuild
+644 info /Users/fbsc/Sites/foxcast/server/node_modules/cors unbuild
+645 info /Users/fbsc/Sites/foxcast/server/node_modules/express unbuild
+646 info /Users/fbsc/Sites/foxcast/server/node_modules/ejs unbuild
+647 info /Users/fbsc/Sites/foxcast/server/node_modules/mongoose unbuild
+648 verbose tar unpack /Users/fbsc/.npm/request/2.51.0/package.tgz
+649 silly lockFile 4ad4a426-cast-server-node-modules-request tar:///Users/fbsc/Sites/foxcast/server/node_modules/request
+650 verbose lock tar:///Users/fbsc/Sites/foxcast/server/node_modules/request /Users/fbsc/.npm/4ad4a426-cast-server-node-modules-request.lock
+651 silly lockFile 2f9536da-c-npm-request-2-51-0-package-tgz tar:///Users/fbsc/.npm/request/2.51.0/package.tgz
+652 verbose lock tar:///Users/fbsc/.npm/request/2.51.0/package.tgz /Users/fbsc/.npm/2f9536da-c-npm-request-2-51-0-package-tgz.lock
+653 verbose tar unpack /Users/fbsc/.npm/crypto/0.0.3/package.tgz
+654 silly lockFile 84713f53-xcast-server-node-modules-crypto tar:///Users/fbsc/Sites/foxcast/server/node_modules/crypto
+655 verbose lock tar:///Users/fbsc/Sites/foxcast/server/node_modules/crypto /Users/fbsc/.npm/84713f53-xcast-server-node-modules-crypto.lock
+656 silly lockFile e91c9253-bsc-npm-crypto-0-0-3-package-tgz tar:///Users/fbsc/.npm/crypto/0.0.3/package.tgz
+657 verbose lock tar:///Users/fbsc/.npm/crypto/0.0.3/package.tgz /Users/fbsc/.npm/e91c9253-bsc-npm-crypto-0-0-3-package-tgz.lock
+658 verbose tar unpack /Users/fbsc/.npm/cors/2.5.3/package.tgz
+659 silly lockFile d649e056-foxcast-server-node-modules-cors tar:///Users/fbsc/Sites/foxcast/server/node_modules/cors
+660 verbose lock tar:///Users/fbsc/Sites/foxcast/server/node_modules/cors /Users/fbsc/.npm/d649e056-foxcast-server-node-modules-cors.lock
+661 silly lockFile fa447ea1--fbsc-npm-cors-2-5-3-package-tgz tar:///Users/fbsc/.npm/cors/2.5.3/package.tgz
+662 verbose lock tar:///Users/fbsc/.npm/cors/2.5.3/package.tgz /Users/fbsc/.npm/fa447ea1--fbsc-npm-cors-2-5-3-package-tgz.lock
+663 verbose tar unpack /Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+664 silly lockFile cdf7ff31-cast-server-node-modules-express tar:///Users/fbsc/Sites/foxcast/server/node_modules/express
+665 verbose lock tar:///Users/fbsc/Sites/foxcast/server/node_modules/express /Users/fbsc/.npm/cdf7ff31-cast-server-node-modules-express.lock
+666 silly lockFile 5da8ed2c-pm-express-3-0-0-rc5-package-tgz tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+667 verbose lock tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz /Users/fbsc/.npm/5da8ed2c-pm-express-3-0-0-rc5-package-tgz.lock
+668 verbose tar unpack /Users/fbsc/.npm/ejs/2.2.3/package.tgz
+669 silly lockFile 766e04cb--foxcast-server-node-modules-ejs tar:///Users/fbsc/Sites/foxcast/server/node_modules/ejs
+670 verbose lock tar:///Users/fbsc/Sites/foxcast/server/node_modules/ejs /Users/fbsc/.npm/766e04cb--foxcast-server-node-modules-ejs.lock
+671 silly lockFile 2b198ca8-s-fbsc-npm-ejs-2-2-3-package-tgz tar:///Users/fbsc/.npm/ejs/2.2.3/package.tgz
+672 verbose lock tar:///Users/fbsc/.npm/ejs/2.2.3/package.tgz /Users/fbsc/.npm/2b198ca8-s-fbsc-npm-ejs-2-2-3-package-tgz.lock
+673 verbose tar unpack /Users/fbsc/.npm/mongoose/3.5.4/package.tgz
+674 silly lockFile cdcdf041-ast-server-node-modules-mongoose tar:///Users/fbsc/Sites/foxcast/server/node_modules/mongoose
+675 verbose lock tar:///Users/fbsc/Sites/foxcast/server/node_modules/mongoose /Users/fbsc/.npm/cdcdf041-ast-server-node-modules-mongoose.lock
+676 silly lockFile 5446cd0f-c-npm-mongoose-3-5-4-package-tgz tar:///Users/fbsc/.npm/mongoose/3.5.4/package.tgz
+677 verbose lock tar:///Users/fbsc/.npm/mongoose/3.5.4/package.tgz /Users/fbsc/.npm/5446cd0f-c-npm-mongoose-3-5-4-package-tgz.lock
+678 silly gunzTarPerm modes [ '755', '644' ]
+679 silly gunzTarPerm modes [ '755', '644' ]
+680 silly gunzTarPerm modes [ '755', '644' ]
+681 silly gunzTarPerm modes [ '755', '644' ]
+682 silly gunzTarPerm modes [ '755', '644' ]
+683 silly gunzTarPerm modes [ '755', '644' ]
+684 silly gunzTarPerm extractEntry package.json
+685 silly gunzTarPerm extractEntry package.json
+686 silly gunzTarPerm extractEntry package.json
+687 silly gunzTarPerm extractEntry package.json
+688 silly gunzTarPerm extractEntry package.json
+689 silly gunzTarPerm extractEntry package.json
+690 silly gunzTarPerm extractEntry .npmignore
+691 silly gunzTarPerm extractEntry LICENSE
+692 silly gunzTarPerm extractEntry .npmignore
+693 silly gunzTarPerm extractEntry README.md
+694 silly gunzTarPerm extractEntry .npmignore
+695 silly gunzTarPerm extractEntry README.md
+696 silly gunzTarPerm extractEntry md5.js
+697 silly gunzTarPerm extractEntry sha1.js
+698 silly gunzTarPerm extractEntry README.md
+699 silly gunzTarPerm extractEntry ejs.js
+700 silly gunzTarPerm extractEntry .npmignore
+701 silly gunzTarPerm extractEntry README.md
+702 silly gunzTarPerm extractEntry index.js
+703 silly gunzTarPerm extractEntry client.js
+704 silly gunzTarPerm extractEntry .md5.js.un~
+705 silly gunzTarPerm extractEntry LICENSE
+706 silly gunzTarPerm extractEntry .travis.yml
+707 silly gunzTarPerm extractEntry ejs.min.js
+708 silly gunzTarPerm extractEntry LICENSE
+709 silly gunzTarPerm extractEntry static.js
+710 silly gunzTarPerm extractEntry index.js
+711 silly gunzTarPerm extractEntry test.js
+712 silly gunzTarPerm extractEntry .travis.yml
+713 silly gunzTarPerm extractEntry CONTRIBUTING.md
+714 silly gunzTarPerm extractEntry lib/index.js
+715 silly gunzTarPerm extractEntry request.js
+716 silly gunzTarPerm extractEntry index.js
+717 silly gunzTarPerm extractEntry website.js
+718 silly gunzTarPerm extractEntry .travis.yml
+719 silly gunzTarPerm extractEntry Readme.md
+720 silly gunzTarPerm extractEntry Makefile
+721 silly gunzTarPerm extractEntry Jakefile
+722 silly gunzTarPerm extractEntry lib/ejs.js
+723 silly gunzTarPerm extractEntry lib/application.js
+724 silly gunzTarPerm extractEntry test/basic-auth.js
+725 silly gunzTarPerm extractEntry .package.json.un~
+726 silly gunzTarPerm extractEntry .sha1.js.un~
+727 silly gunzTarPerm extractEntry lib/express.js
+728 silly gunzTarPerm extractEntry lib/middleware.js
+729 silly gunzTarPerm extractEntry test/body-events.js
+730 silly gunzTarPerm extractEntry test/cors.js
+731 silly gunzTarPerm extractEntry lib/collection.js
+732 silly gunzTarPerm extractEntry lib/error.js
+733 silly gunzTarPerm extractEntry lib/request.js
+734 silly gunzTarPerm extractEntry lib/response.js
+735 silly gunzTarPerm extractEntry test/error-response.js
+736 silly gunzTarPerm extractEntry test/example-app.js
+737 silly gunzTarPerm extractEntry History.md
+738 silly gunzTarPerm extractEntry Readme.md
+739 silly gunzTarPerm extractEntry lib/statemachine.js
+740 silly gunzTarPerm extractEntry lib/index.js
+741 silly gunzTarPerm extractEntry lib/utils.js
+742 silly gunzTarPerm extractEntry lib/view.js
+743 silly gunzTarPerm extractEntry test/issue-2.js
+744 silly gunzTarPerm extractEntry test/issue-31.js
+745 silly gunzTarPerm extractEntry lib/utils.js
+746 silly gunzTarPerm extractEntry lib/namedscope.js
+747 silly gunzTarPerm extractEntry test/test-crypto.js
+748 silly gunzTarPerm extractEntry lib/router/index.js
+749 silly gunzTarPerm extractEntry lib/router/route.js
+750 silly gunzTarPerm extractEntry lib/connection.js
+751 silly gunzTarPerm extractEntry lib/query.js
+752 silly gunzTarPerm extractEntry lib/utils.js
+753 silly gunzTarPerm extractEntry test/ejs.js
+754 silly gunzTarPerm extractEntry History.md
+755 silly gunzTarPerm extractEntry bin/express
+756 silly gunzTarPerm extractEntry .travis.yml
+757 silly gunzTarPerm extractEntry CHANGELOG.md
+758 silly gunzTarPerm extractEntry lib/querystream.js
+759 silly gunzTarPerm extractEntry lib/schematype.js
+760 silly gunzTarPerm extractEntry test/mocha.opts
+761 silly gunzTarPerm extractEntry lib/document.js
+762 silly gunzTarPerm extractEntry lib/schema.js
+763 silly gunzTarPerm extractEntry examples/README.md
+764 silly gunzTarPerm extractEntry CONTRIBUTING.md
+765 silly gunzTarPerm extractEntry lib/connectionstate.js
+766 silly gunzTarPerm extractEntry lib/schemadefault.js
+767 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.html
+768 silly gunzTarPerm extractEntry test/fixtures/backslash.ejs
+769 silly gunzTarPerm extractEntry test/fixtures/comments.ejs
+770 silly gunzTarPerm extractEntry test/fixtures/comments.html
+771 silly gunzTarPerm extractEntry lib/model.js
+772 silly gunzTarPerm extractEntry lib/virtualtype.js
+773 silly lockFile 84713f53-xcast-server-node-modules-crypto tar:///Users/fbsc/Sites/foxcast/server/node_modules/crypto
+774 silly lockFile 84713f53-xcast-server-node-modules-crypto tar:///Users/fbsc/Sites/foxcast/server/node_modules/crypto
+775 silly lockFile e91c9253-bsc-npm-crypto-0-0-3-package-tgz tar:///Users/fbsc/.npm/crypto/0.0.3/package.tgz
+776 silly lockFile e91c9253-bsc-npm-crypto-0-0-3-package-tgz tar:///Users/fbsc/.npm/crypto/0.0.3/package.tgz
+777 info preinstall crypto@0.0.3
+778 verbose readDependencies using package.json deps
+779 verbose readDependencies using package.json deps
+780 silly resolved []
+781 verbose about to build /Users/fbsc/Sites/foxcast/server/node_modules/crypto
+782 info build /Users/fbsc/Sites/foxcast/server/node_modules/crypto
+783 verbose linkStuff [ false,
+783 verbose linkStuff   false,
+783 verbose linkStuff   false,
+783 verbose linkStuff   '/Users/fbsc/Sites/foxcast/server/node_modules' ]
+784 info linkStuff crypto@0.0.3
+785 verbose linkBins crypto@0.0.3
+786 verbose linkMans crypto@0.0.3
+787 verbose rebuildBundles crypto@0.0.3
+788 info install crypto@0.0.3
+789 info postinstall crypto@0.0.3
+790 silly gunzTarPerm extractEntry lib/promise.js
+791 silly gunzTarPerm extractEntry lib/schema/array.js
+792 silly gunzTarPerm extractEntry lib/schema/boolean.js
+793 silly gunzTarPerm extractEntry lib/schema/buffer.js
+794 silly gunzTarPerm extractEntry lib/schema/date.js
+795 silly gunzTarPerm extractEntry lib/schema/documentarray.js
+796 silly gunzTarPerm extractEntry lib/schema/index.js
+797 silly gunzTarPerm extractEntry lib/schema/mixed.js
+798 silly gunzTarPerm extractEntry lib/schema/number.js
+799 silly gunzTarPerm extractEntry lib/schema/objectid.js
+800 silly gunzTarPerm extractEntry lib/schema/string.js
+801 silly gunzTarPerm extractEntry lib/errors/cast.js
+802 silly gunzTarPerm extractEntry lib/errors/document.js
+803 silly gunzTarPerm extractEntry lib/errors/missingSchema.js
+804 silly gunzTarPerm extractEntry lib/errors/overwriteModel.js
+805 silly gunzTarPerm extractEntry lib/errors/validation.js
+806 silly gunzTarPerm extractEntry lib/errors/validator.js
+807 silly gunzTarPerm extractEntry lib/errors/version.js
+808 silly gunzTarPerm extractEntry lib/types/array.js
+809 silly gunzTarPerm extractEntry lib/types/buffer.js
+810 silly gunzTarPerm extractEntry lib/types/documentarray.js
+811 silly gunzTarPerm extractEntry lib/types/embedded.js
+812 silly gunzTarPerm extractEntry lib/types/index.js
+813 silly gunzTarPerm extractEntry lib/types/objectid.js
+814 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/binary.js
+815 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/collection.js
+816 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/connection.js
+817 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/objectid.js
+818 silly gunzTarPerm extractEntry History.md
+819 silly gunzTarPerm extractEntry CONTRIBUTING.md
+820 silly gunzTarPerm extractEntry examples/schema.js
+821 silly gunzTarPerm extractEntry test/fixtures/consecutive-tags.ejs
+822 silly gunzTarPerm extractEntry test/fixtures/consecutive-tags.html
+823 silly gunzTarPerm extractEntry test/fixtures/double-quote.ejs
+824 silly gunzTarPerm extractEntry test/fixtures/double-quote.html
+825 silly gunzTarPerm extractEntry lib/cookies.js
+826 silly gunzTarPerm extractEntry lib/copy.js
+827 silly lockFile d649e056-foxcast-server-node-modules-cors tar:///Users/fbsc/Sites/foxcast/server/node_modules/cors
+828 silly lockFile d649e056-foxcast-server-node-modules-cors tar:///Users/fbsc/Sites/foxcast/server/node_modules/cors
+829 silly lockFile fa447ea1--fbsc-npm-cors-2-5-3-package-tgz tar:///Users/fbsc/.npm/cors/2.5.3/package.tgz
+830 silly lockFile fa447ea1--fbsc-npm-cors-2-5-3-package-tgz tar:///Users/fbsc/.npm/cors/2.5.3/package.tgz
+831 silly gunzTarPerm extractEntry test/fixtures/error.ejs
+832 silly gunzTarPerm extractEntry test/fixtures/error.out
+833 info preinstall cors@2.5.3
+834 verbose readDependencies using package.json deps
+835 verbose readDependencies using package.json deps
+836 silly gunzTarPerm extractEntry test/fixtures/fail.ejs
+837 silly gunzTarPerm extractEntry test/fixtures/hello-world.ejs
+838 verbose cache add [ 'vary@^1', null ]
+839 verbose cache add name=undefined spec="vary@^1" args=["vary@^1",null]
+840 verbose parsed url { protocol: null,
+840 verbose parsed url   slashes: null,
+840 verbose parsed url   auth: null,
+840 verbose parsed url   host: null,
+840 verbose parsed url   port: null,
+840 verbose parsed url   hostname: null,
+840 verbose parsed url   hash: null,
+840 verbose parsed url   search: null,
+840 verbose parsed url   query: null,
+840 verbose parsed url   pathname: 'vary@^1',
+840 verbose parsed url   path: 'vary@^1',
+840 verbose parsed url   href: 'vary@^1' }
+841 verbose cache add name="vary" spec="^1" args=["vary","^1"]
+842 verbose parsed url { protocol: null,
+842 verbose parsed url   slashes: null,
+842 verbose parsed url   auth: null,
+842 verbose parsed url   host: null,
+842 verbose parsed url   port: null,
+842 verbose parsed url   hostname: null,
+842 verbose parsed url   hash: null,
+842 verbose parsed url   search: null,
+842 verbose parsed url   query: null,
+842 verbose parsed url   pathname: '^1',
+842 verbose parsed url   path: '^1',
+842 verbose parsed url   href: '^1' }
+843 verbose addNamed [ 'vary', '^1' ]
+844 verbose addNamed [ null, null ]
+845 silly lockFile 78aa9a33-vary-1 vary@^1
+846 verbose lock vary@^1 /Users/fbsc/.npm/78aa9a33-vary-1.lock
+847 silly gunzTarPerm extractEntry lib/debug.js
+848 silly gunzTarPerm extractEntry lib/helpers.js
+849 info addNameTag [ 'vary', '^1' ]
+850 silly gunzTarPerm extractEntry test/fixtures/include-abspath.ejs
+851 silly gunzTarPerm extractEntry test/fixtures/include-simple.ejs
+852 silly gunzTarPerm extractEntry .eslintrc
+853 silly gunzTarPerm extractEntry release.sh
+854 verbose url raw vary
+855 verbose url resolving [ 'https://registry.npmjs.org/', './vary' ]
+856 verbose url resolved https://registry.npmjs.org/vary
+857 info trying registry request attempt 1 at 14:54:58
+858 verbose etag "DZ1KQLU9HB4W75WM1UYODN908"
+859 http GET https://registry.npmjs.org/vary
+860 silly gunzTarPerm extractEntry test/fixtures/include-simple.html
+861 silly gunzTarPerm extractEntry test/fixtures/include.css.ejs
+862 silly gunzTarPerm extractEntry test/fixtures/include.css.html
+863 silly gunzTarPerm extractEntry test/fixtures/include.ejs
+864 silly gunzTarPerm extractEntry test/fixtures/include.html
+865 silly gunzTarPerm extractEntry test/fixtures/include_cache.ejs
+866 silly gunzTarPerm extractEntry test/fixtures/include_cache.html
+867 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.css.ejs
+868 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.css.html
+869 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor.ejs
+870 silly gunzTarPerm extractEntry test/fixtures/backslash.html
+871 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_cache.ejs
+872 silly gunzTarPerm extractEntry test/fixtures/include_preprocessor_cache.html
+873 silly gunzTarPerm extractEntry test/fixtures/includes/menu/item.ejs
+874 silly gunzTarPerm extractEntry test/fixtures/includes/menu-item.ejs
+875 silly gunzTarPerm extractEntry test/fixtures/literal.ejs
+876 silly gunzTarPerm extractEntry disabled.appveyor.yml
+877 silly gunzTarPerm extractEntry test/fixtures/literal.html
+878 silly gunzTarPerm extractEntry test/fixtures/menu.ejs
+879 silly gunzTarPerm extractEntry test/fixtures/menu.html
+880 silly gunzTarPerm extractEntry test/fixtures/menu_preprocessor.ejs
+881 silly gunzTarPerm extractEntry test/fixtures/menu_preprocessor.html
+882 silly gunzTarPerm extractEntry test/fixtures/menu_var.ejs
+883 silly gunzTarPerm extractEntry test/fixtures/messed.ejs
+884 silly gunzTarPerm extractEntry test/fixtures/messed.html
+885 silly gunzTarPerm extractEntry test/fixtures/newlines.ejs
+886 silly gunzTarPerm extractEntry test/fixtures/newlines.html
+887 silly gunzTarPerm extractEntry test/fixtures/no.newlines.ejs
+888 silly gunzTarPerm extractEntry test/fixtures/no.newlines.html
+889 silly gunzTarPerm extractEntry test/fixtures/para.ejs
+890 silly gunzTarPerm extractEntry test/fixtures/pet.ejs
+891 silly lockFile cdf7ff31-cast-server-node-modules-express tar:///Users/fbsc/Sites/foxcast/server/node_modules/express
+892 silly lockFile cdf7ff31-cast-server-node-modules-express tar:///Users/fbsc/Sites/foxcast/server/node_modules/express
+893 silly lockFile 5da8ed2c-pm-express-3-0-0-rc5-package-tgz tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+894 silly lockFile 5da8ed2c-pm-express-3-0-0-rc5-package-tgz tar:///Users/fbsc/.npm/express/3.0.0-rc5/package.tgz
+895 silly gunzTarPerm extractEntry test/fixtures/single-quote.ejs
+896 silly gunzTarPerm extractEntry test/fixtures/single-quote.html
+897 info preinstall express@3.0.0-rc5
+898 verbose readDependencies using package.json deps
+899 verbose readDependencies using package.json deps
+900 silly gunzTarPerm extractEntry test/fixtures/style.css
+901 silly gunzTarPerm extractEntry test/fixtures/user-no-with.ejs
+902 verbose cache add [ 'connect@2.5.0', null ]
+903 verbose cache add name=undefined spec="connect@2.5.0" args=["connect@2.5.0",null]
+904 verbose parsed url { protocol: null,
+904 verbose parsed url   slashes: null,
+904 verbose parsed url   auth: null,
+904 verbose parsed url   host: null,
+904 verbose parsed url   port: null,
+904 verbose parsed url   hostname: null,
+904 verbose parsed url   hash: null,
+904 verbose parsed url   search: null,
+904 verbose parsed url   query: null,
+904 verbose parsed url   pathname: 'connect@2.5.0',
+904 verbose parsed url   path: 'connect@2.5.0',
+904 verbose parsed url   href: 'connect@2.5.0' }
+905 verbose cache add name="connect" spec="2.5.0" args=["connect","2.5.0"]
+906 verbose parsed url { protocol: null,
+906 verbose parsed url   slashes: null,
+906 verbose parsed url   auth: null,
+906 verbose parsed url   host: null,
+906 verbose parsed url   port: null,
+906 verbose parsed url   hostname: null,
+906 verbose parsed url   hash: null,
+906 verbose parsed url   search: null,
+906 verbose parsed url   query: null,
+906 verbose parsed url   pathname: '2.5.0',
+906 verbose parsed url   path: '2.5.0',
+906 verbose parsed url   href: '2.5.0' }
+907 verbose addNamed [ 'connect', '2.5.0' ]
+908 verbose addNamed [ '2.5.0', '2.5.0' ]
+909 silly lockFile 0bffa092-connect-2-5-0 connect@2.5.0
+910 verbose lock connect@2.5.0 /Users/fbsc/.npm/0bffa092-connect-2-5-0.lock
+911 verbose cache add [ 'commander@0.6.1', null ]
+912 verbose cache add name=undefined spec="commander@0.6.1" args=["commander@0.6.1",null]
+913 verbose parsed url { protocol: null,
+913 verbose parsed url   slashes: null,
+913 verbose parsed url   auth: null,
+913 verbose parsed url   host: null,
+913 verbose parsed url   port: null,
+913 verbose parsed url   hostname: null,
+913 verbose parsed url   hash: null,
+913 verbose parsed url   search: null,
+913 verbose parsed url   query: null,
+913 verbose parsed url   pathname: 'commander@0.6.1',
+913 verbose parsed url   path: 'commander@0.6.1',
+913 verbose parsed url   href: 'commander@0.6.1' }
+914 verbose cache add name="commander" spec="0.6.1" args=["commander","0.6.1"]
+915 verbose parsed url { protocol: null,
+915 verbose parsed url   slashes: null,
+915 verbose parsed url   auth: null,
+915 verbose parsed url   host: null,
+915 verbose parsed url   port: null,
+915 verbose parsed url   hostname: null,
+915 verbose parsed url   hash: null,
+915 verbose parsed url   search: null,
+915 verbose parsed url   query: null,
+915 verbose parsed url   pathname: '0.6.1',
+915 verbose parsed url   path: '0.6.1',
+915 verbose parsed url   href: '0.6.1' }
+916 verbose addNamed [ 'commander', '0.6.1' ]
+917 verbose addNamed [ '0.6.1', '0.6.1' ]
+918 silly lockFile fa16a2ce-commander-0-6-1 commander@0.6.1
+919 verbose lock commander@0.6.1 /Users/fbsc/.npm/fa16a2ce-commander-0-6-1.lock
+920 verbose cache add [ 'mkdirp@0.3.3', null ]
+921 verbose cache add name=undefined spec="mkdirp@0.3.3" args=["mkdirp@0.3.3",null]
+922 verbose parsed url { protocol: null,
+922 verbose parsed url   slashes: null,
+922 verbose parsed url   auth: null,
+922 verbose parsed url   host: null,
+922 verbose parsed url   port: null,
+922 verbose parsed url   hostname: null,
+922 verbose parsed url   hash: null,
+922 verbose parsed url   search: null,
+922 verbose parsed url   query: null,
+922 verbose parsed url   pathname: 'mkdirp@0.3.3',
+922 verbose parsed url   path: 'mkdirp@0.3.3',
+922 verbose parsed url   href: 'mkdirp@0.3.3' }
+923 verbose cache add name="mkdirp" spec="0.3.3" args=["mkdirp","0.3.3"]
+924 verbose parsed url { protocol: null,
+924 verbose parsed url   slashes: null,
+924 verbose parsed url   auth: null,
+924 verbose parsed url   host: null,
+924 verbose parsed url   port: null,
+924 verbose parsed url   hostname: null,
+924 verbose parsed url   hash: null,
+924 verbose parsed url   search: null,
+924 verbose parsed url   query: null,
+924 verbose parsed url   pathname: '0.3.3',
+924 verbose parsed url   path: '0.3.3',
+924 verbose parsed url   href: '0.3.3' }
+925 verbose addNamed [ 'mkdirp', '0.3.3' ]
+926 verbose addNamed [ '0.3.3', '0.3.3' ]
+927 silly lockFile 453bb99b-mkdirp-0-3-3 mkdirp@0.3.3
+928 verbose lock mkdirp@0.3.3 /Users/fbsc/.npm/453bb99b-mkdirp-0-3-3.lock
+929 verbose cache add [ 'range-parser@0.0.4', null ]
+930 verbose cache add name=undefined spec="range-parser@0.0.4" args=["range-parser@0.0.4",null]
+931 verbose parsed url { protocol: null,
+931 verbose parsed url   slashes: null,
+931 verbose parsed url   auth: null,
+931 verbose parsed url   host: null,
+931 verbose parsed url   port: null,
+931 verbose parsed url   hostname: null,
+931 verbose parsed url   hash: null,
+931 verbose parsed url   search: null,
+931 verbose parsed url   query: null,
+931 verbose parsed url   pathname: 'range-parser@0.0.4',
+931 verbose parsed url   path: 'range-parser@0.0.4',
+931 verbose parsed url   href: 'range-parser@0.0.4' }
+932 verbose cache add name="range-parser" spec="0.0.4" args=["range-parser","0.0.4"]
+933 verbose parsed url { protocol: null,
+933 verbose parsed url   slashes: null,
+933 verbose parsed url   auth: null,
+933 verbose parsed url   host: null,
+933 verbose parsed url   port: null,
+933 verbose parsed url   hostname: null,
+933 verbose parsed url   hash: null,
+933 verbose parsed url   search: null,
+933 verbose parsed url   query: null,
+933 verbose parsed url   pathname: '0.0.4',
+933 verbose parsed url   path: '0.0.4',
+933 verbose parsed url   href: '0.0.4' }
+934 verbose addNamed [ 'range-parser', '0.0.4' ]
+935 verbose addNamed [ '0.0.4', '0.0.4' ]
+936 silly lockFile 0760c556-range-parser-0-0-4 range-parser@0.0.4
+937 verbose lock range-parser@0.0.4 /Users/fbsc/.npm/0760c556-range-parser-0-0-4.lock
+938 verbose cache add [ 'cookie@0.0.4', null ]
+939 verbose cache add name=undefined spec="cookie@0.0.4" args=["cookie@0.0.4",null]
+940 verbose parsed url { protocol: null,
+940 verbose parsed url   slashes: null,
+940 verbose parsed url   auth: null,
+940 verbose parsed url   host: null,
+940 verbose parsed url   port: null,
+940 verbose parsed url   hostname: null,
+940 verbose parsed url   hash: null,
+940 verbose parsed url   search: null,
+940 verbose parsed url   query: null,
+940 verbose parsed url   pathname: 'cookie@0.0.4',
+940 verbose parsed url   path: 'cookie@0.0.4',
+940 verbose parsed url   href: 'cookie@0.0.4' }
+941 verbose cache add name="cookie" spec="0.0.4" args=["cookie","0.0.4"]
+942 verbose parsed url { protocol: null,
+942 verbose parsed url   slashes: null,
+942 verbose parsed url   auth: null,
+942 verbose parsed url   host: null,
+942 verbose parsed url   port: null,
+942 verbose parsed url   hostname: null,
+942 verbose parsed url   hash: null,
+942 verbose parsed url   search: null,
+942 verbose parsed url   query: null,
+942 verbose parsed url   pathname: '0.0.4',
+942 verbose parsed url   path: '0.0.4',
+942 verbose parsed url   href: '0.0.4' }
+943 verbose addNamed [ 'cookie', '0.0.4' ]
+944 verbose addNamed [ '0.0.4', '0.0.4' ]
+945 silly lockFile c11bcebd-cookie-0-0-4 cookie@0.0.4
+946 verbose lock cookie@0.0.4 /Users/fbsc/.npm/c11bcebd-cookie-0-0-4.lock
+947 verbose cache add [ 'crc@0.2.0', null ]
+948 verbose cache add name=undefined spec="crc@0.2.0" args=["crc@0.2.0",null]
+949 verbose parsed url { protocol: null,
+949 verbose parsed url   slashes: null,
+949 verbose parsed url   auth: null,
+949 verbose parsed url   host: null,
+949 verbose parsed url   port: null,
+949 verbose parsed url   hostname: null,
+949 verbose parsed url   hash: null,
+949 verbose parsed url   search: null,
+949 verbose parsed url   query: null,
+949 verbose parsed url   pathname: 'crc@0.2.0',
+949 verbose parsed url   path: 'crc@0.2.0',
+949 verbose parsed url   href: 'crc@0.2.0' }
+950 verbose cache add name="crc" spec="0.2.0" args=["crc","0.2.0"]
+951 verbose parsed url { protocol: null,
+951 verbose parsed url   slashes: null,
+951 verbose parsed url   auth: null,
+951 verbose parsed url   host: null,
+951 verbose parsed url   port: null,
+951 verbose parsed url   hostname: null,
+951 verbose parsed url   hash: null,
+951 verbose parsed url   search: null,
+951 verbose parsed url   query: null,
+951 verbose parsed url   pathname: '0.2.0',
+951 verbose parsed url   path: '0.2.0',
+951 verbose parsed url   href: '0.2.0' }
+952 verbose addNamed [ 'crc', '0.2.0' ]
+953 verbose addNamed [ '0.2.0', '0.2.0' ]
+954 silly lockFile 3e4de13a-crc-0-2-0 crc@0.2.0
+955 verbose lock crc@0.2.0 /Users/fbsc/.npm/3e4de13a-crc-0-2-0.lock
+956 verbose cache add [ 'fresh@0.1.0', null ]
+957 verbose cache add name=undefined spec="fresh@0.1.0" args=["fresh@0.1.0",null]
+958 verbose parsed url { protocol: null,
+958 verbose parsed url   slashes: null,
+958 verbose parsed url   auth: null,
+958 verbose parsed url   host: null,
+958 verbose parsed url   port: null,
+958 verbose parsed url   hostname: null,
+958 verbose parsed url   hash: null,
+958 verbose parsed url   search: null,
+958 verbose parsed url   query: null,
+958 verbose parsed url   pathname: 'fresh@0.1.0',
+958 verbose parsed url   path: 'fresh@0.1.0',
+958 verbose parsed url   href: 'fresh@0.1.0' }
+959 verbose cache add name="fresh" spec="0.1.0" args=["fresh","0.1.0"]
+960 verbose parsed url { protocol: null,
+960 verbose parsed url   slashes: null,
+960 verbose parsed url   auth: null,
+960 verbose parsed url   host: null,
+960 verbose parsed url   port: null,
+960 verbose parsed url   hostname: null,
+960 verbose parsed url   hash: null,
+960 verbose parsed url   search: null,
+960 verbose parsed url   query: null,
+960 verbose parsed url   pathname: '0.1.0',
+960 verbose parsed url   path: '0.1.0',
+960 verbose parsed url   href: '0.1.0' }
+961 verbose addNamed [ 'fresh', '0.1.0' ]
+962 verbose addNamed [ '0.1.0', '0.1.0' ]
+963 silly lockFile 3dea7da8-fresh-0-1-0 fresh@0.1.0
+964 verbose lock fresh@0.1.0 /Users/fbsc/.npm/3dea7da8-fresh-0-1-0.lock
+965 verbose cache add [ 'methods@0.0.1', null ]
+966 verbose cache add name=undefined spec="methods@0.0.1" args=["methods@0.0.1",null]
+967 verbose parsed url { protocol: null,
+967 verbose parsed url   slashes: null,
+967 verbose parsed url   auth: null,
+967 verbose parsed url   host: null,
+967 verbose parsed url   port: null,
+967 verbose parsed url   hostname: null,
+967 verbose parsed url   hash: null,
+967 verbose parsed url   search: null,
+967 verbose parsed url   query: null,
+967 verbose parsed url   pathname: 'methods@0.0.1',
+967 verbose parsed url   path: 'methods@0.0.1',
+967 verbose parsed url   href: 'methods@0.0.1' }
+968 verbose cache add name="methods" spec="0.0.1" args=["methods","0.0.1"]
+969 verbose parsed url { protocol: null,
+969 verbose parsed url   slashes: null,
+969 verbose parsed url   auth: null,
+969 verbose parsed url   host: null,
+969 verbose parsed url   port: null,
+969 verbose parsed url   hostname: null,
+969 verbose parsed url   hash: null,
+969 verbose parsed url   search: null,
+969 verbose parsed url   query: null,
+969 verbose parsed url   pathname: '0.0.1',
+969 verbose parsed url   path: '0.0.1',
+969 verbose parsed url   href: '0.0.1' }
+970 verbose addNamed [ 'methods', '0.0.1' ]
+971 verbose addNamed [ '0.0.1', '0.0.1' ]
+972 silly lockFile 209c2920-methods-0-0-1 methods@0.0.1
+973 verbose lock methods@0.0.1 /Users/fbsc/.npm/209c2920-methods-0-0-1.lock
+974 verbose cache add [ 'send@0.1.0', null ]
+975 verbose cache add name=undefined spec="send@0.1.0" args=["send@0.1.0",null]
+976 verbose parsed url { protocol: null,
+976 verbose parsed url   slashes: null,
+976 verbose parsed url   auth: null,
+976 verbose parsed url   host: null,
+976 verbose parsed url   port: null,
+976 verbose parsed url   hostname: null,
+976 verbose parsed url   hash: null,
+976 verbose parsed url   search: null,
+976 verbose parsed url   query: null,
+976 verbose parsed url   pathname: 'send@0.1.0',
+976 verbose parsed url   path: 'send@0.1.0',
+976 verbose parsed url   href: 'send@0.1.0' }
+977 verbose cache add name="send" spec="0.1.0" args=["send","0.1.0"]
+978 verbose parsed url { protocol: null,
+978 verbose parsed url   slashes: null,
+978 verbose parsed url   auth: null,
+978 verbose parsed url   host: null,
+978 verbose parsed url   port: null,
+978 verbose parsed url   hostname: null,
+978 verbose parsed url   hash: null,
+978 verbose parsed url   search: null,
+978 verbose parsed url   query: null,
+978 verbose parsed url   pathname: '0.1.0',
+978 verbose parsed url   path: '0.1.0',
+978 verbose parsed url   href: '0.1.0' }
+979 verbose addNamed [ 'send', '0.1.0' ]
+980 verbose addNamed [ '0.1.0', '0.1.0' ]
+981 silly lockFile ef2886cd-send-0-1-0 send@0.1.0
+982 verbose lock send@0.1.0 /Users/fbsc/.npm/ef2886cd-send-0-1-0.lock
+983 verbose cache add [ 'debug@*', null ]
+984 verbose cache add name=undefined spec="debug@*" args=["debug@*",null]
+985 verbose parsed url { protocol: null,
+985 verbose parsed url   slashes: null,
+985 verbose parsed url   auth: null,
+985 verbose parsed url   host: null,
+985 verbose parsed url   port: null,
+985 verbose parsed url   hostname: null,
+985 verbose parsed url   hash: null,
+985 verbose parsed url   search: null,
+985 verbose parsed url   query: null,
+985 verbose parsed url   pathname: 'debug@*',
+985 verbose parsed url   path: 'debug@*',
+985 verbose parsed url   href: 'debug@*' }
+986 verbose cache add name="debug" spec="*" args=["debug","*"]
+987 verbose parsed url { protocol: null,
+987 verbose parsed url   slashes: null,
+987 verbose parsed url   auth: null,
+987 verbose parsed url   host: null,
+987 verbose parsed url   port: null,
+987 verbose parsed url   hostname: null,
+987 verbose parsed url   hash: null,
+987 verbose parsed url   search: null,
+987 verbose parsed url   query: null,
+987 verbose parsed url   pathname: '*',
+987 verbose parsed url   path: '*',
+987 verbose parsed url   href: '*' }
+988 verbose addNamed [ 'debug', '*' ]
+989 verbose addNamed [ null, '*' ]
+990 silly lockFile 3ac45eff-debug debug@*
+991 verbose lock debug@* /Users/fbsc/.npm/3ac45eff-debug.lock
+992 silly addNameRange { name: 'debug', range: '*', hasData: false }
+993 silly gunzTarPerm extractEntry test/fixtures/user.ejs
+994 silly gunzTarPerm extractEntry test/mocha.opts
+995 verbose url raw connect/2.5.0
+996 verbose url resolving [ 'https://registry.npmjs.org/', './connect/2.5.0' ]
+997 verbose url resolved https://registry.npmjs.org/connect/2.5.0
+998 info trying registry request attempt 1 at 14:54:58
+999 verbose etag "MDFA7N1POHFNWJQ66SGU9PVN"
+1000 http GET https://registry.npmjs.org/connect/2.5.0
+1001 verbose url raw commander/0.6.1
+1002 verbose url resolving [ 'https://registry.npmjs.org/', './commander/0.6.1' ]
+1003 verbose url resolved https://registry.npmjs.org/commander/0.6.1
+1004 info trying registry request attempt 1 at 14:54:58
+1005 verbose etag "2KIR3C15933RNN7U1PD7FHSAP"
+1006 http GET https://registry.npmjs.org/commander/0.6.1
+1007 verbose url raw mkdirp/0.3.3
+1008 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp/0.3.3' ]
+1009 verbose url resolved https://registry.npmjs.org/mkdirp/0.3.3
+1010 info trying registry request attempt 1 at 14:54:58
+1011 verbose etag "6MQQKAAIIOS7DRH7CTUBEWSVB"
+1012 http GET https://registry.npmjs.org/mkdirp/0.3.3
+1013 verbose url raw range-parser/0.0.4
+1014 verbose url resolving [ 'https://registry.npmjs.org/', './range-parser/0.0.4' ]
+1015 verbose url resolved https://registry.npmjs.org/range-parser/0.0.4
+1016 info trying registry request attempt 1 at 14:54:58
+1017 verbose etag "88WVBV55ZHJ1PNHJK25001JKF"
+1018 http GET https://registry.npmjs.org/range-parser/0.0.4
+1019 verbose url raw crc/0.2.0
+1020 verbose url resolving [ 'https://registry.npmjs.org/', './crc/0.2.0' ]
+1021 verbose url resolved https://registry.npmjs.org/crc/0.2.0
+1022 info trying registry request attempt 1 at 14:54:58
+1023 verbose etag "2SIKYBVZJCWKXC7JQ272BE81"
+1024 http GET https://registry.npmjs.org/crc/0.2.0
+1025 verbose url raw cookie/0.0.4
+1026 verbose url resolving [ 'https://registry.npmjs.org/', './cookie/0.0.4' ]
+1027 verbose url resolved https://registry.npmjs.org/cookie/0.0.4
+1028 info trying registry request attempt 1 at 14:54:58
+1029 verbose etag "E0F503BW0Y1PS1FP7JPZM7WLF"
+1030 http GET https://registry.npmjs.org/cookie/0.0.4
+1031 http 200 https://registry.npmjs.org/vary
+1032 silly registry.get cb [ 200,
+1032 silly registry.get   { date: 'Mon, 26 Jan 2015 14:55:00 GMT',
+1032 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1032 silly registry.get     etag: '"9UAYTBKIE2ZDNRJMONH2XXB37"',
+1032 silly registry.get     'content-type': 'application/json',
+1032 silly registry.get     'cache-control': 'max-age=60',
+1032 silly registry.get     'content-length': '6562',
+1032 silly registry.get     'accept-ranges': 'bytes',
+1032 silly registry.get     via: '1.1 varnish',
+1032 silly registry.get     age: '41',
+1032 silly registry.get     'x-served-by': 'cache-ams4137-AMS',
+1032 silly registry.get     'x-cache': 'HIT',
+1032 silly registry.get     'x-cache-hits': '317',
+1032 silly registry.get     'x-timer': 'S1422284100.552242,VS0,VE0',
+1032 silly registry.get     vary: 'Accept',
+1032 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1032 silly registry.get     connection: 'Keep-Alive' } ]
+1033 verbose url raw fresh/0.1.0
+1034 verbose url resolving [ 'https://registry.npmjs.org/', './fresh/0.1.0' ]
+1035 verbose url resolved https://registry.npmjs.org/fresh/0.1.0
+1036 info trying registry request attempt 1 at 14:54:58
+1037 verbose etag "26623SZNK0UVCOY2EO7566V18"
+1038 http GET https://registry.npmjs.org/fresh/0.1.0
+1039 verbose url raw methods/0.0.1
+1040 verbose url resolving [ 'https://registry.npmjs.org/', './methods/0.0.1' ]
+1041 verbose url resolved https://registry.npmjs.org/methods/0.0.1
+1042 info trying registry request attempt 1 at 14:54:58
+1043 verbose etag "EICNGYI89EQE0AMVOGLT6L142"
+1044 http GET https://registry.npmjs.org/methods/0.0.1
+1045 verbose url raw debug
+1046 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+1047 verbose url resolved https://registry.npmjs.org/debug
+1048 info trying registry request attempt 1 at 14:54:58
+1049 verbose etag "6R6FWY1U413DTV4HRORWONX8E"
+1050 http GET https://registry.npmjs.org/debug
+1051 verbose url raw send/0.1.0
+1052 verbose url resolving [ 'https://registry.npmjs.org/', './send/0.1.0' ]
+1053 verbose url resolved https://registry.npmjs.org/send/0.1.0
+1054 info trying registry request attempt 1 at 14:54:58
+1055 verbose etag "5VKP9LBS1AZ3UW8X9U9BZCDUB"
+1056 http GET https://registry.npmjs.org/send/0.1.0
+1057 silly gunzTarPerm extractEntry test/tmp/include.ejs
+1058 silly gunzTarPerm extractEntry test/tmp/include_preprocessor.ejs
+1059 silly lockFile 78aa9a33-vary-1 vary@^1
+1060 silly lockFile 78aa9a33-vary-1 vary@^1
+1061 verbose about to build /Users/fbsc/Sites/foxcast/server/node_modules/cors
+1062 info /Users/fbsc/Sites/foxcast/server/node_modules/cors unbuild
+1063 info preuninstall cors@2.5.3
+1064 info uninstall cors@2.5.3
+1065 verbose true,/Users/fbsc/Sites/foxcast/server/node_modules,/Users/fbsc/Sites/foxcast/server/node_modules unbuild cors@2.5.3
+1066 info postuninstall cors@2.5.3
+1067 silly gunzTarPerm extractEntry test/tmp/renderFile.ejs
+1068 silly lockFile 4ad4a426-cast-server-node-modules-request tar:///Users/fbsc/Sites/foxcast/server/node_modules/request
+1069 silly lockFile 4ad4a426-cast-server-node-modules-request tar:///Users/fbsc/Sites/foxcast/server/node_modules/request
+1070 silly lockFile 2f9536da-c-npm-request-2-51-0-package-tgz tar:///Users/fbsc/.npm/request/2.51.0/package.tgz
+1071 silly lockFile 2f9536da-c-npm-request-2-51-0-package-tgz tar:///Users/fbsc/.npm/request/2.51.0/package.tgz
+1072 error Error: No compatible version found: vary@'^1'
+1072 error Valid install targets:
+1072 error ["0.0.0","0.1.0","1.0.0"]
+1072 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:719:10)
+1072 error     at /usr/local/lib/node_modules/npm/lib/cache.js:638:10
+1072 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+1072 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+1072 error     at Object.oncomplete (fs.js:107:15)
+1073 error If you need help, you may report this log at:
+1073 error     <http://github.com/isaacs/npm/issues>
+1073 error or email it to:
+1073 error     <npm-@googlegroups.com>
+1074 error System Darwin 12.4.0
+1075 error command "node" "/usr/local/bin/npm" "install"
+1076 error cwd /Users/fbsc/Sites/foxcast/server
+1077 error node -v v0.10.15
+1078 error npm -v 1.3.5
+1079 verbose exit [ 1, true ]

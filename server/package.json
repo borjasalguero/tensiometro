@@ -1,0 +1,18 @@
+{
+  "name": "tensiometro_backend",
+  "version": "0.0.1",
+  "author": "Borja Salguero <borja.salguero@gmail.com>",
+  "description": "Backend for Tensiometro",
+  "dependencies": {
+    "express": "3.0.0rc5",
+    "request": "*",
+    "mongoose" : "3.5.4",
+    "ejs": "*",
+    "cors": "*",
+    "crypto": "*"
+  },
+  "engines" : {
+    "node" : "0.8.x",
+    "npm" : "1.1.x"
+  }
+}
