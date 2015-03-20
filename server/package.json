@@ -4,12 +4,20 @@
   "author": "Borja Salguero <borja.salguero@gmail.com>",
   "description": "Backend for Tensiometro",
   "dependencies": {
-    "express": "3.0.0rc5",
+    "express": "4.x",
+    "hogan-express" : "0.3.3",
     "request": "*",
     "mongoose" : "3.5.4",
     "ejs": "*",
     "cors": "*",
-    "crypto": "*"
+    "crypto": "*",
+    "passport": "0.1.x",
+    "passport-local": "0.1.x",
+    "passport-local-mongoose": "0.2.0",
+    "connect-mongodb" : "1.1.5",
+    "bcrypt-nodejs": "*",
+    "body-parser" : "*",
+    "express-session": "*"
   },
   "engines" : {
     "node" : "0.8.x",
