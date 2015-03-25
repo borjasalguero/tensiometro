@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+</head>
+<body>
+  Este es un ejemplo
+    {{{body}}}
+
+    {{#if samples}}
+    <div class="container">
+      <h1> {{title}} </h1>
+      <ul>
+        {{#samples}}
+            <li title="Valor ">
+            {{value}}
+            </li>
+        {{/samples}}
+      </ul>
+    </div>
+    {{/if}}
+
+
+
+</body>
+</html>

@@ -1,16 +1,13 @@
 // Load required packages
 var User = require('../models/user');
 
+var errors = require('../errors/api.js');
+
 // Create endpoint /api/users for POST
 exports.register = function(req, res) {
   if (!req.body.username ||
       !req.body.password) {
-    res.json(
-      {
-        code: 101,
-        message: 'Error: Username/Password are not defined properly'
-      }
-    );
+    res.json(errors['register_params']);
     return;
   }
 
@@ -21,18 +18,13 @@ exports.register = function(req, res) {
 
   user.save(function(err) {
     if (err) {
-      res.json(
-        {
-          code: 102,
-          message: 'Error: Username is already used'
-        }
-      );
+      res.json(errors['username_already_used']);
       return;
     }
 
     res.json(
       {
-        message: 'User registered properly'
+        registered: true
       }
     );
   });
@@ -41,20 +33,21 @@ exports.register = function(req, res) {
 
 // Create endpoint /api/users for POST
 exports.login = function(req, res) {
-  if (req.isAuthenticated()) {
-    res.send('AHORA ESTAS AUTENTICADO');
-  } else {
-    res.send('NO ESTAS AUTENTICADO');
-  }
+  res.json(
+    {
+      authenticated:  req.isAuthenticated()
+    }
+  );
 };
 
 // Create endpoint /api/users for POST
-exports.logout = function(req, res) {
+exports.logout = function(req, res, next) {
   req.session.destroy(function(err) {
     if (err) {
-      res.send('Error when /logout :(');
+      res.json(errors['logout_error']);
+      return;
     }
     req.session = null;
-    res.send('LOGOUT con éxito');
+    next();
   });
 };

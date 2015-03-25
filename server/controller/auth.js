@@ -3,26 +3,27 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var User = require('../models/user');
 
+var debug = false;
+
 // Necesario para serializar la sesion. Si lo quito NO funciona
 passport.serializeUser(function(user, done) {
-  console.log('Serializando USUARIO');
+  debug && console.log('Serializando USUARIO');
   done(null, user);
 });
 // Igual
 passport.deserializeUser(function(user, done) {
-  console.log('*****************');
-  console.log(JSON.stringify(user));
-  console.log('*****************');
-  console.log('DES-serializando USUARIO');
+  debug && console.log('DES-serializando USUARIO');
   done(null, user);
 });
 // En el caso de estar en un LOGIN, acudiremos a esta funcion
 // para consultar en la BBDD si el usuario existe, y si las credenciales
 // son válidas
+
+// TODO Como modificar el mensaje de vuelta para que sea un JSON
 passport.use(new LocalStrategy(
   function(username, password, done) {
-    console.log('username: ' + username);
-    console.log('password: ' + password);
+    debug && console.log('username: ' + username);
+    debug && console.log('password: ' + password);
 
     User.findOne({ username: username }, function(err, user) {
       if (err) {

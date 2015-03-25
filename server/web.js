@@ -16,13 +16,14 @@ var bodyParser = require('body-parser');
 // Ahora estas librerías se cargan por separado desde express > 4.x
 var session = require('express-session');
 
-// Los mecanismos de login son manejados a través de la librería
-// "passport"
-var passport = require('passport');
 
 // Nuestro mecanismo de comprobacion de contraseña estará
 // en auth.js
 var authController = require('./controller/auth.js');
+
+// Los mecanismos de login son manejados a través de la librería
+// "passport"
+var passport = require('passport');
 
 // Needed as a connector for our DB in MongoDB
 var mongoose = require('mongoose');
@@ -31,17 +32,15 @@ var mongoose = require('mongoose');
 // ES NECESARIO???
 var cors = require('cors');
 
+// Let's use handlebars in our code
+var exphbs  = require('express-handlebars');
 
+// Required for exposing the paths properly *INVESTIGAR
+var path = require('path');
 
-// Creamos nuestras identidades
-var userController = require('./controller/user.js');
-// SAMPLE: Hay que descomentar esto cuando esté listo
-// // var sampleManager = require('./models/sample.js');
-
-
-
-
-
+// Needed as a connector for our DB in MongoDB
+var _web = require('./routers/web.js');
+var _api = require('./routers/api.js');
 
 // Let's create the app based on 'express'
 var app = express();
@@ -50,6 +49,15 @@ var app = express();
 // port defined in the enviroment, or the 8080 by default
 var port = process.env.PORT || 8080;
 app.set('port', port);
+
+// Settings for handlebars module
+app.engine('handlebars', exphbs());
+app.set('view engine', 'handlebars');
+
+
+app.set('views', path.join(__dirname, 'views'));
+app.use(express.static(path.join(__dirname, 'static')));
+
 
 // Connect with the DB. As before, we need to connect it with
 // the right ENV params, based on the platform to deploy.
@@ -75,124 +83,11 @@ app.use(passport.session());
 // COMPROBAR SI ES NECESARIO
 // app.use(cors()); // Enable cors module
 
-
-// Create our Express router. Está genial ya que podemos
-// redirigir nuestras peticiones tomando una base diferente
-// Ahora usamos /api/v1, pero si esto queremos que se modifique
-// en el futuro se puede hacer sólo modificando una línea.
-
-var router = express.Router();
-
-router.all('*', function(req, res, next) {
-  // Por cada petición imprimo su info.
-  console.log('*******************************************');
-  console.log('req.app ' + req.app);
-  console.log('req.originalUrl ' + req.originalUrl);
-  console.log('req.params ' + JSON.stringify(req.params));
-  console.log('req.body ' + req.body);
-  console.log('req.session ' + JSON.stringify(req.session));
-  console.log('req.isAuthenticated ' + req.isAuthenticated());
-  console.log('*******************************************');
-  next();
-});
-
-// - ¿Tenemos una sesion?
-// - NO: Devolvemos al cliente una nota para que muestre el /login
-// o lo hacemos con templates aquí si finalmente tomamos esta decision
-// - SI: Permitimos ejecutar la consulta moviendonos al siguiente paso
-function isSessionAuthenticated(req, res, next) {
-  if (req.isAuthenticated()) {
-    console.log('ESTAS AUTENTICADO PREVIAMENTE');
-    return next();
-  } else {
-    // res.send('NO ESTAS AUTENTICADO');
-    res.json(
-      {
-        code: 101,
-        message: 'Error: Username/Password are not defined properly'
-      }
-    );
-  }
-}
-
-router.route('/samples')
-  .get(
-    isSessionAuthenticated,
-    function(req, res) {
-      res.send('GET SAMPLES de ' + req.session);
-    }
-  )
-  .post(
-    isSessionAuthenticated,
-    function(req, res) {
-      res.send('POST SAMPLES de ' + req.session.passport.user.username);
-    }
-  );
-
-function isNotSessionAuthenticated(req, res, next) {
-  if (req.isAuthenticated()) {
-    res.send('ESTAS AUTENTICADO PREVIAMENTE');
-    // res.json(
-    //   {
-    //     authenticated: true
-    //   }
-    // );
-  } else {
-    console.log('NO ESTAS AUTENTICADO');
-    return next();
-  }
-}
-
-
-router.route('/login')
-  .post(
-    // Compruebo si hay una sesion y, por lo tanto,
-    // no es necesario login
-    isNotSessionAuthenticated,
-    // Si no hay sesion, compruebo si username y password
-    // están registrados
-    authController.isAuthenticated,
-    // Si no están registrados, tendremos que llevarle
-    // a una página de error o de sign up
-    userController.login
-  );
-
-
-router.route('/logout')
-  .post(
-    // Compruebo si no hay una sesion y, por lo tanto,
-    // no es necesario logout
-    isSessionAuthenticated,
-    // Si está registrado, procedemos al logout
-    userController.logout
-  );
-
-router.route('/register')
-  .post(userController.register);
-
-// Register all our routes with /api
-app.use('/api/v1', router);
-
-
-/**************************************/
-// Now the 'templates' model
-
-app.get('/', function(req, res) {
-  res.send('Estas en el index');
-});
-
-app.get('/users/:user_id/', function(req, res) {
-  res.send('LANDING el usuario ' + req.params.user_id);
-});
-
-
-app.get('/users/:user_id/chart', function(req, res) {
-  res.send('CHART para el usuario ' + req.params.user_id);
-});
-
-app.get('/login', function(req, res) {
-  res.send('LOGIN');
-});
+// Register routes!
+// Expose the API in the right path
+app.use('/api/v1', _api.getRouter());
+// Expose the App in the root path
+app.use('/', _web.getRouter());
 
 http.createServer(app).listen(app.get('port'), function() {
   console.log('Express server listening on port ' + app.get('port'));
