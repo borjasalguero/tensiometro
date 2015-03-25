@@ -105,7 +105,13 @@ function isSessionAuthenticated(req, res, next) {
     console.log('ESTAS AUTENTICADO PREVIAMENTE');
     return next();
   } else {
-    res.send('NO ESTAS AUTENTICADO');
+    // res.send('NO ESTAS AUTENTICADO');
+    res.json(
+      {
+        code: 101,
+        message: 'Error: Username/Password are not defined properly'
+      }
+    );
   }
 }
 
@@ -126,6 +132,11 @@ router.route('/samples')
 function isNotSessionAuthenticated(req, res, next) {
   if (req.isAuthenticated()) {
     res.send('ESTAS AUTENTICADO PREVIAMENTE');
+    // res.json(
+    //   {
+    //     authenticated: true
+    //   }
+    // );
   } else {
     console.log('NO ESTAS AUTENTICADO');
     return next();
@@ -143,13 +154,8 @@ router.route('/login')
     authController.isAuthenticated,
     // Si no están registrados, tendremos que llevarle
     // a una página de error o de sign up
-    function(req, res) {
-    if (req.isAuthenticated()) {
-      res.send('AHORA ESTAS AUTENTICADO');
-    } else {
-      res.send('NO ESTAS AUTENTICADO');
-    }
-  });
+    userController.login
+  );
 
 
 router.route('/logout')
@@ -158,16 +164,7 @@ router.route('/logout')
     // no es necesario logout
     isSessionAuthenticated,
     // Si está registrado, procedemos al logout
-    function(req, res) {
-      req.session.destroy(function(err) {
-        if (err) {
-          res.send('Error when /logout :(');
-        }
-        req.session = null; // Deletes the cookie.
-        res.session = null;
-        res.send('LOGOUT con éxito');
-      });
-    }
+    userController.logout
   );
 
 router.route('/register')
@@ -176,6 +173,26 @@ router.route('/register')
 // Register all our routes with /api
 app.use('/api/v1', router);
 
+
+/**************************************/
+// Now the 'templates' model
+
+app.get('/', function(req, res) {
+  res.send('Estas en el index');
+});
+
+app.get('/users/:user_id/', function(req, res) {
+  res.send('LANDING el usuario ' + req.params.user_id);
+});
+
+
+app.get('/users/:user_id/chart', function(req, res) {
+  res.send('CHART para el usuario ' + req.params.user_id);
+});
+
+app.get('/login', function(req, res) {
+  res.send('LOGIN');
+});
 
 http.createServer(app).listen(app.get('port'), function() {
   console.log('Express server listening on port ' + app.get('port'));
