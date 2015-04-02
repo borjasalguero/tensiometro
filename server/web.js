@@ -25,6 +25,11 @@ var authController = require('./controller/auth.js');
 // "passport"
 var passport = require('passport');
 
+// Flash is needed in order to connect all errors given by passport
+// when checking if a user/pass is valid, and passing them to the
+// next request.
+var flash = require('connect-flash');
+
 // Needed as a connector for our DB in MongoDB
 var mongoose = require('mongoose');
 
@@ -78,6 +83,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 // NOTA IMPORTANTE! Hay que establecer primero la sesion
 // de express y después la sesion de passport
+app.use(flash());
 app.use(session(sessionOpts));
 app.use(passport.initialize());
 app.use(passport.session());
@@ -93,6 +99,15 @@ app.use('/api/v1', _api.getRouter());
 // Expose the Webb-app in the root path
 app.use('/', _web.getRouter());
 
+// Añadimos este código para controlar el caso por defecto.
+// Si intento acceder a dominio.es/LOQUESEA, redirijo apropiadamente
+// al root, y este se encargará de hacer lo que deba (debe estar
+// bien definido en "_web")
+app.use(function(req, res){
+  res.redirect('/');
+});
+
+// Arrancamos el router en el puerto deseado
 http.createServer(app).listen(app.get('port'), function() {
   console.log('Express server listening on port ' + app.get('port'));
 });

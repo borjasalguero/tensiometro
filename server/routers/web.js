@@ -45,14 +45,47 @@ exports.getRouter = function() {
           // Vista que quiero rellenar
           // Estará dentro de 'views' como $NOMBRE.handlebars
           // Puedo inyectar esta vista dentro de un layout.
+          'home',
+          {
+            // Layout donde podría inyectar la vista. Podría
+            // ser un HTML con un header, y en {{body}}
+            // inyectar diferentes vistas.
+            layout: 'main',
+            // A partir de ahora sólo parámetros, tanto del layout
+            // como de la view
+            title: 'AQUI VA EL TITULO',
+            username: req.params.user_id
+          }
+        );
+      }
+    );
+
+  router.route('/users/:user_id/samples')
+    .get(
+      isServerSessionAuthenticated,
+      function(req, res) {
+        res.render(
+          // Vista que quiero rellenar
+          // Estará dentro de 'views' como $NOMBRE.handlebars
+          // Puedo inyectar esta vista dentro de un layout.
           'samples',
           {
             // Layout donde podría inyectar la vista. Podría
             // ser un HTML con un header, y en {{body}}
             // inyectar diferentes vistas.
-            // layout: 'landing',
-            // A partir de ahora sólo parámetros
-            title: req.params.user_id
+            layout: 'main',
+            // A partir de ahora sólo parámetros, tanto del layout
+            // como de la view
+            title: 'AQUI VA EL TITULO',
+            username: req.params.user_id,
+            samples: [
+              {
+                value: 1
+              },
+              {
+                value: 2
+              }
+            ]
           }
         );
       }
@@ -82,7 +115,18 @@ exports.getRouter = function() {
     .get(
       isNotServerSessionAuthenticated,
       function(req, res) {
-        res.send('FORMULARIO LOGIN');
+        res.render(
+          // Vista que quiero rellenar
+          // Estará dentro de 'views' como $NOMBRE.handlebars
+          // Puedo inyectar esta vista dentro de un layout.
+          'login'
+          ,
+          {
+            appname: 'TensiometroApp',
+            author: 'Powered by AUTHOR',
+            error: req.flash('error')
+          }
+        );
       }
     )
     .post(
@@ -96,7 +140,7 @@ exports.getRouter = function() {
         if (req.isAuthenticated()) {
           res.redirect('/users/' + req.session.passport.user.username);
         } else {
-
+          res.redirect('/login');
         }
       }
     );

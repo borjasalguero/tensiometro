@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
+    <!-- <meta http-equiv="pragma" content="no-cache"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
     <title>{{title}}</title>
-</head>
-<body>
-  Este es un ejemplo
-    {{{body}}}
 
-    {{#if samples}}
-    <div class="container">
-      <h1> {{title}} </h1>
-      <ul>
-        {{#samples}}
-            <li title="Valor ">
-            {{value}}
-            </li>
-        {{/samples}}
-      </ul>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/style/fonts/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="/style/reset.css">
+    <link rel="stylesheet" type="text/css" href="/style/app.css">
+    <!-- Scripts -->
+    <script defer src="/js/app.js"></script>
+
+  </head>
+
+  <body role="application" class="landscape">
+    <div id="background"></div>
+    <div id="scrollable">
+      {{{body}}}
     </div>
-    {{/if}}
-
-
-
-</body>
+  </body>
 </html>

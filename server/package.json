@@ -17,7 +17,8 @@
     "bcrypt-nodejs": "*",
     "body-parser" : "*",
     "express-session": "*",
-    "express-handlebars": "*"
+    "express-handlebars": "*",
+    "connect-flash": "*"
   },
   "engines": {
     "npm": "2.1.x"
