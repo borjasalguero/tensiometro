@@ -22,11 +22,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="login-form">
       <h1>{{appname}} Login</h1>
       <div class="head">
-          <img src="/style/images/login-user.png" alt=""/>
+        <!-- <img src="/style/images/login-user.png" alt=""/> -->
       </div>
       <form action="/login" method="post">
-        <input type="text" class="text" name="username" value="tesat">
-        <input type="password" name="password" value="test">
+        <input type="text" class="text" name="username" value="" required placeholder="user">
+        <input type="password" name="password" value="" required placeholder="password">
         <div class="submit">
           <input type="submit">
         </div>
