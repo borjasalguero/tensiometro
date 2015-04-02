@@ -31,11 +31,25 @@ img{max-width:100%;}
 body{
   /*background:#F7DA55;*/
   background: #009999;
+  background: #FF3939;
   font-family: 'Open Sans', sans-serif;
 
 }
+
+#logo {
+  /*background: red;*/
+  height: 160px;
+  width: 100%;
+  /*position: absolute;*/
+  left: 20px;
+  top: 20px;
+  background-image: url(images/mideme.png);
+  background-size: 80% auto;
+  background-position: center 70%;
+  background-repeat: no-repeat;
+}
 .login-form {
-  background:#eee;
+  background:white;
   width: 26%;
   margin:9% auto 4% auto;
   position: relative;
@@ -228,8 +242,9 @@ body{
 
 .head {
   position: absolute;
-  top:-15%;
+  top:-12%;
   left: 35%;
+  left: calc(50% - 60px);
   height: 120px;
   width: 120px;
   border-radius: 60px;
@@ -240,7 +255,8 @@ body{
   background-repeat: no-repeat;
   box-sizing: border-box;
   border: 6px solid #ccc;
-
+  border-color: white;
+  border-radius: 60px;
 }
 
 .main{
@@ -257,7 +273,7 @@ body{
 .main form {
   width: 80%;
   margin: 0 auto;
-  padding: 6% 0 9% 0;
+  padding: 0 0 9% 0;
 }
 .main p {
 text-align: center;
@@ -332,7 +348,7 @@ input[type="submit"]:hover{
 /****************/
 .copy-right {
   position: absolute;
-  bottom:-19%;
+  bottom:-10%;
   left: 43.7%;
 }
 .copy-right p {
@@ -842,12 +858,17 @@ input[type="submit"]:hover{
     border-radius: 55px;
   top: -22%;
   left: 34%;
+  left: calc(50% - 55px);
   }
   input[type="text"], input[type="password"], input[type="submit"] {
   font-weight: 600;
   margin-bottom: 4%;
   }
 @media (max-width:320px){
+  #logo {
+    height: 120px;
+  }
+
   .login-form  {
     margin:20% auto 0;
     width: 85%;
@@ -929,6 +950,7 @@ input[type="submit"]:hover{
     border-radius: 40px;
   top: -14%;
   left: 36%;
+  left: calc(50% - 40px);
   }
   input[type="text"], input[type="password"],input[type="submit"] {
   font-weight:600;

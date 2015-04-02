@@ -122,7 +122,7 @@ exports.getRouter = function() {
           'login'
           ,
           {
-            appname: 'TensiometroApp',
+            appname: 'mide.me',
             author: 'Powered by AUTHOR',
             error: req.flash('error')
           }
