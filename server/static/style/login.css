@@ -349,13 +349,14 @@ input[type="submit"]:hover{
 .copy-right {
   position: absolute;
   bottom:-10%;
-  left: 43.7%;
+  width: 100%;
+  text-align: center;
 }
 .copy-right p {
   color: #fff;
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 200;
 }
 .copy-right p a {
   font-family: 'Open Sans', sans-serif;
@@ -545,7 +546,7 @@ input[type="submit"]:hover{
    rgba(243, 208, 39, 0.33) 150px 150px*/
   }
   .copy-right {
-  left: 41%;
+  /*left: 41%;*/
   bottom:-18%;
   }
 }
@@ -705,7 +706,7 @@ input[type="submit"]:hover{
    rgba(243, 208, 39, 0.33) 150px 150px*/
   }
   .copy-right {
-  left: 41%;
+  /*left: 41%;*/
   bottom:-18%;
   }
 }
@@ -715,7 +716,7 @@ input[type="submit"]:hover{
     width: 59%;
   }
   .copy-right {
-  left:38%;
+  /*left:38%;*/
   bottom:-14%;
   }
 }
@@ -725,11 +726,14 @@ input[type="submit"]:hover{
   width: 63%;
   }
   .copy-right {
-  left:36%;
+  /*left:36%;*/
   bottom:-18%;
   }
 }
 @media (max-width:480px){
+    #logo {
+    height: 110px;
+  }
   .login-form {
   margin: 32% auto 0;
   width: 74%;
@@ -845,7 +849,7 @@ input[type="submit"]:hover{
    rgba(243, 208, 39, 0.33) 110px 110px*/
   }
   .copy-right {
-  left:30%;
+  /*left:30%;*/
   bottom:-17%;
   }
   .main h1 {
@@ -866,7 +870,7 @@ input[type="submit"]:hover{
   }
 @media (max-width:320px){
   #logo {
-    height: 120px;
+    height: 110px;
   }
 
   .login-form  {
