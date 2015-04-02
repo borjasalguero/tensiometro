@@ -8,7 +8,6 @@
     "hogan-express" : "0.3.3",
     "request": "*",
     "mongoose" : "3.5.4",
-    "ejs": "*",
     "cors": "*",
     "crypto": "*",
     "passport": "0.1.x",
@@ -20,8 +19,7 @@
     "express-session": "*",
     "express-handlebars": "*"
   },
-  "engines" : {
-    "node" : "0.8.x",
-    "npm" : "1.1.x"
+  "engines": {
+    "npm": "2.1.x"
   }
 }

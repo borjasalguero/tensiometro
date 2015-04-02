@@ -42,9 +42,15 @@ exports.getRouter = function() {
       isServerSessionAuthenticated,
       function(req, res) {
         res.render(
-          'samples', // Template/Vista que quiero rellenar
+          // Vista que quiero rellenar
+          // Estará dentro de 'views' como $NOMBRE.handlebars
+          // Puedo inyectar esta vista dentro de un layout.
+          'samples',
           {
-            // layout: 'landing', // Layout dónde podría inyectar la vista
+            // Layout donde podría inyectar la vista. Podría
+            // ser un HTML con un header, y en {{body}}
+            // inyectar diferentes vistas.
+            // layout: 'landing',
             // A partir de ahora sólo parámetros
             title: req.params.user_id
           }

@@ -38,7 +38,8 @@ var exphbs  = require('express-handlebars');
 // Required for exposing the paths properly *INVESTIGAR
 var path = require('path');
 
-// Needed as a connector for our DB in MongoDB
+// Declaramos nuestros puntos de entrada. Tenemos la
+// API expuesta y la WEB basada en plantillas con Handlebar
 var _web = require('./routers/web.js');
 var _api = require('./routers/api.js');
 
@@ -53,7 +54,8 @@ app.set('port', port);
 // Settings for handlebars module
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
-
+// TODO: EN PRODUCCION USAR LA CACHE.
+// app.enable('view cache');
 
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'static')));
@@ -68,7 +70,7 @@ app.db = mongoose.connect(process.env.MONGOLAB_URI);
 var sessionOpts = {
   saveUninitialized: true, // saved new sessions
   resave: false, // do not automatically write to the session store
-  secret: 'SECRET',
+  secret: 'SECRET', // TODO: Deberíamos de coger este valor de una variable de entorno
   cookie : { httpOnly: true, maxAge: 2419200000 } // configure when sessions expires
 };
 
@@ -84,9 +86,11 @@ app.use(passport.session());
 // app.use(cors()); // Enable cors module
 
 // Register routes!
+
 // Expose the API in the right path
 app.use('/api/v1', _api.getRouter());
-// Expose the App in the root path
+
+// Expose the Webb-app in the root path
 app.use('/', _web.getRouter());
 
 http.createServer(app).listen(app.get('port'), function() {
