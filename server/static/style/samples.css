@@ -1,0 +1,94 @@
+.samples-panel {
+  background: #FF3939;
+  overflow: scroll;
+}
+
+.samples-panel h1 {
+  padding: 1rem 2rem 1rem 2rem;
+  font-weight: 300;
+  font-size: 2.2rem;
+  text-align: center;
+  background: rgba(255, 255, 255,.3);
+  margin-top: 0rem;
+
+}
+
+.samples-panel h2 {
+  padding: 0rem 2rem 1rem 2rem;
+  font-weight: 300;
+  font-size: 1.8rem;
+  text-align: center;
+  background: rgba(255, 255, 255,.3);
+  margin-bottom: 2rem;
+  /*margin-top: 0rem;
+  margin-bottom: 2rem;*/
+}
+
+.sp-last li {
+  height: 6rem;
+}
+
+.sp-last-section {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.sp-last-value {
+  text-align: right;
+  font-size: 6rem;
+  height: 100%;
+  line-height: 6rem;
+  /*background: green;*/
+}
+
+.sp-last-unit {
+  text-align: left;
+  vertical-align: bottom;
+  /*background: red;*/
+  height: 100%;
+  line-height: 8.5rem;
+  font-size: 2rem;
+}
+
+.sp-button {
+  margin-top: 2rem;
+  background: rgba(255, 255, 255,.8);
+  width: 100%;
+  border: none;
+  height: 6rem;
+  font-size: 2.2rem;
+  color: #FF3939;
+  margin-bottom: 1rem;
+}
+
+.sp-button:active {
+  color: rgba(255, 255, 255,.8);
+  background: #FF3939;
+}
+
+.sp-history li {
+  box-sizing: border-box;
+  padding: 0 2rem;
+  height: 5rem;
+  background: rgba(0, 0, 0,.2);
+}
+
+.sp-history-section {
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+  line-height: 5rem;
+}
+
+.sp-history-time {
+  width: 67%;
+  font-size: 1.8rem;
+}
+
+.sp-history-value {
+  width: 32%;
+  font-size: 2.5rem;
+  text-align: right;
+}

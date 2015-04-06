@@ -11,16 +11,41 @@
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="/style/fonts/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="/style/reset.css">
-    <link rel="stylesheet" type="text/css" href="/style/app.css">
+    <link rel="stylesheet" type="text/css" href="/style/home.css">
     <!-- Scripts -->
     <script defer src="/js/app.js"></script>
 
   </head>
 
   <body role="application" class="landscape">
-    <div id="background"></div>
+    <div id="header">
+      <button id="h-menu-button"></button>
+    </div>
     <div id="scrollable">
       {{{body}}}
+    </div>
+    <div id="menu-background"></div>
+    <div id="menu">
+     <!--  <header id="m-header">
+        Menu
+      </header> -->
+      <div id="m-user">
+        <span class="m-user-photo">
+          <img src="/style/images/borja.jpeg">
+        </span>
+        <span class="m-user-name">BORJA SALGUERO</span>
+      </div>
+      <ul id="m-options">
+        <li id="m-options-pulse">
+          Tension y pulso
+        </li>
+        <li id="m-options-settings">
+          Ajustes
+        </li>
+        <li id="m-options-exit">
+          Salir
+        </li>
+      </ul>
     </div>
   </body>
 </html>

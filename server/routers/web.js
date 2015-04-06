@@ -53,8 +53,9 @@ exports.getRouter = function() {
             layout: 'main',
             // A partir de ahora sólo parámetros, tanto del layout
             // como de la view
-            title: 'AQUI VA EL TITULO',
-            username: req.params.user_id
+            title: 'Mideme:' + req.params.user_id
+            // ,
+            // username: req.params.user_id
           }
         );
       }

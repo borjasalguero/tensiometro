@@ -1,0 +1,246 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  min-width: 200px !important;
+  padding: 0;
+  margin: 0;
+  font-size: 10px !important;
+  overflow: hidden !important;
+  font-family: 'fira_sanslight', sans-serif;
+  position: absolute;
+  color: white;
+  overflow: hidden !important;
+  background-color: #FF3939;
+}
+
+button:focus, textarea:focus, input:focus{
+    outline: 0;
+}
+
+/*
+ * Background will be the container for the background.
+ * This can be a random image picked from any Service as
+ * Instagram or FB. By know we show a set of fixed ones.
+ */
+
+#background {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+
+  background-image: url(images/background.jpg);
+  background-size:  auto 100%;
+  background-repeat: no-repeat;
+  background-position: 30%;
+  background-color: rgba(57,138,255,0);
+  background-blend-mode: multiply;
+}
+
+body.landscape #background {
+  background-size:  100% auto;
+}
+
+@media (min-width: 1024px) {
+  #background {
+    background-size: 100% auto !important;
+  }
+}
+
+#header {
+  width: 100%;
+  min-width: 200px !important;
+  height: 7rem;
+  box-sizing: border-box;
+  font-size: 3rem;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background-image: url(images/mideme_white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 60%;
+  background-color: #FF3939;
+}
+
+#h-menu-button {
+  background-image: url(images/menu.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 3rem;
+  height: 7rem;
+  width: 7rem;
+  background-color: transparent;
+  border: none;
+}
+
+/*
+ * Main area of content. This will display the latest
+ * sample and one list of the last 'n' samples-
+ */
+
+#scrollable {
+  color: white;
+  font-size: 4rem;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 7rem;
+  width: 100%;
+
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+
+  overflow: scroll;
+}
+
+#menu {
+  position: absolute;
+  width: 27rem;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: white;
+  transition: transform .3s ease;
+  transform: translateX(-100%);
+}
+
+#menu-background {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.3);
+  pointer-events: all;
+  z-index: 99;
+}
+
+body.menu #menu,
+body.menu #menu-background {
+  display: block;
+}
+body.menu #menu {
+  transform: translateX(0);
+}
+
+
+#m-user {
+  height: 7rem;
+  width: 100%;
+  background: #FF3939;
+
+}
+
+.m-user-photo {
+  height: 100%;
+  width: 7rem;
+  /*background: blue;*/
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.m-user-photo img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 2.5rem;
+}
+
+.m-user-name {
+  height: 100%;
+  width: calc(100% - 7rem);
+  /*background: blue;*/
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  line-height: 7rem;
+  float: right;
+  font-size: 2rem;
+}
+
+#m-header {
+  color: #FF3939;
+  height: 6rem;
+  position: relative;
+  width: 100%;
+  line-height: 6rem;
+  text-align: center;
+  font-size: 3.5rem;
+  background-image: url(images/back.png);
+  background-position: center left ;
+  background-repeat: no-repeat;
+  background-size: auto 3rem;
+}
+
+#m-options {
+  color: red;
+  position: relative;
+  padding: 0rem 0rem 1rem 0rem;
+}
+
+#m-options li {
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2.1rem;
+  box-sizing: border-box;
+  padding-left: 7rem;
+}
+
+#m-options li:active {
+  background-color: #FF3939;
+  color: white;
+}
+
+#m-options li:before {
+  content: '';
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  /*background-image: url(images/exit.png);*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3rem 3rem;
+  left: 1rem;
+}
+
+#m-options-back:before {
+  background-image: url(images/back.png);
+}
+
+#m-options-pulse:before {
+  background-image: url(images/corazon.png);
+}
+
+#m-options-pulse:active:before {
+  background-image: url(images/corazon_white.png);
+}
+
+#m-options-exit:before {
+  background-image: url(images/exit.png);
+}
+
+#m-options-exit:active:before {
+  background-image: url(images/exit_white.png);
+}
+
+#m-options-settings:before {
+  background-image: url(images/settings.png);
+}
+
+#m-options-settings:active:before {
+  background-image: url(images/settings_white.png);
+}
+
+
+.panel {
+  background: pink;
+  height: 100%;
+}

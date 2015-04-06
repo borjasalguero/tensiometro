@@ -44,8 +44,8 @@ body{
   left: 20px;
   top: 20px;
   background-image: url(images/mideme.png);
-  background-size: 80% auto;
-  background-position: center 70%;
+  background-size: 80% auto !important;
+  background-position: center 70% !important;
   background-repeat: no-repeat;
 }
 .login-form {
@@ -56,6 +56,7 @@ body{
   -webkit-border-radius: 0.4em;
   -o-border-radius: 0.4em;
   -moz-border-radius: 0.4em;
+  border-radius: 0.4em;
  /* box-shadow: rgba(243, 208, 39, 0.33) 1px 1px,
  rgba(243, 208, 39, 0.33) 2px 2px,
  rgba(243, 208, 39, 0.33) 3px 3px,
@@ -249,7 +250,7 @@ body{
   width: 120px;
   border-radius: 60px;
   background-color: white;
-  background-image: url(images/login-user.svg);
+  background-image: url(images/login-user.png);
   background-size: 64%;
   background-position: center 60%;
   background-repeat: no-repeat;
@@ -953,7 +954,7 @@ input[type="submit"]:hover{
     height: 80px;
     border-radius: 40px;
   top: -14%;
-  left: 36%;
+  left: 30%;
   left: calc(50% - 40px);
   }
   input[type="text"], input[type="password"],input[type="submit"] {
