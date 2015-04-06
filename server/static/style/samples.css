@@ -3,7 +3,7 @@
   overflow: scroll;
 }
 
-.samples-panel h1 {
+.panel h1 {
   padding: 1rem 2rem 1rem 2rem;
   font-weight: 300;
   font-size: 2.2rem;
@@ -13,7 +13,7 @@
 
 }
 
-.samples-panel h2 {
+.panel h2 {
   padding: 0rem 2rem 1rem 2rem;
   font-weight: 300;
   font-size: 1.8rem;
@@ -91,4 +91,85 @@
   width: 32%;
   font-size: 2.5rem;
   text-align: right;
+}
+
+
+
+/*
+ * New sample panel
+ */
+
+body.new .new-sample-panel {
+  display: block;
+}
+
+.new-sample-panel {
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  position: absolute;
+  background: grey;
+  top: 0;
+  padding-top: 7rem;
+  box-sizing: border-box;
+}
+
+.new-sample-panel input {
+  width: 100%;
+  height: 7rem;
+  border: none;
+  background: transparent;
+  font-size: 5rem;
+  line-height: 7rem;
+  text-align: center;
+}
+
+.new-sample-panel ::-webkit-input-placeholder {
+  font-size: 3rem;
+  color: pink;
+}
+.new-sample-panel ::-moz-placeholder { color:#f00; } /* firefox 19+ */
+.new-sample-panel :-ms-input-placeholder { color:#f00; } /* ie */
+.new-sample-panel input:-moz-placeholder { color:#f00; }
+
+.new-sample-panel h1 {
+  margin-bottom: 2rem;
+}
+
+.new-sample-panel button {
+  background: white;
+  width: 100%;
+  border: none;
+  height: 7rem;
+  box-sizing: border-box;
+  margin-top: 1rem;
+  font-size: 3rem;
+  line-height: 7rem;
+}
+
+
+/*
+ * First time experience!
+ */
+
+.sp-first-time-image {
+  margin-top: 2rem;
+  height: 60%;
+  width: 100%;
+  background: url(images/corazon_white_grande.png);
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+  background-position: center 90%;
+  position: relative;
+}
+
+.sp-first-time-text {
+  width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 3rem;
+  position: absolute;
+  bottom: top;
 }

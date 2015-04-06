@@ -2,57 +2,57 @@
 <link rel="stylesheet" type="text/css" href="/style/samples.css">
 
 <section class="panel samples-panel">
+  <h1>Tension y pulso</h1>
 
-<h1>Tension y pulso</h1>
-<h2>Hoy a las 12:23</h2>
-<ul class="sp-last">
-	<li>
-		<span class="sp-last-section sp-last-value">128</span>
-		<span class="sp-last-section sp-last-unit">mmHg</span>
-	</li>
-	<li>
-		<span class="sp-last-section sp-last-value">76</span>
-		<span class="sp-last-section sp-last-unit">mmHg</span>
-	</li>
-	<li>
-		<span class="sp-last-section sp-last-value">68</span>
-		<span class="sp-last-section sp-last-unit">rpm</span>
-	</li>
-</ul>
-<button class="sp-button" id="sp-button">
-	+ Añadir medida
-</button>
-<h1>Historico</h1>
-<ul class="sp-history">
-	<li>
-		<span class="sp-history-section sp-history-time">22 de Septiembre, 2015</span>
-		<span class="sp-history-section sp-history-value">123/67/67</span>
-	</li>
-	<li>
-		<span class="sp-history-section sp-history-time">22 de Septiembre, 2015</span>
-		<span class="sp-history-section sp-history-value">123/67/67</span>
-	</li>
-	<li>
-		<span class="sp-history-section sp-history-time">22 de Septiembre, 2015</span>
-		<span class="sp-history-section sp-history-value">123/67/67</span>
-	</li>
-	<li>
-		<span class="sp-history-section sp-history-time">22 de Septiembre, 2015</span>
-		<span class="sp-history-section sp-history-value">123/67/67</span>
-	</li>
-	<li>
-		<span class="sp-history-section sp-history-time">22 de Septiembre, 2015</span>
-		<span class="sp-history-section sp-history-value">123/67/67</span>
-	</li>
-	<li>
-		<span class="sp-history-section sp-history-time">22 de Septiembre, 2015</span>
-		<span class="sp-history-section sp-history-value">123/67/67</span>
-	</li>
-	<li>
-		<span class="sp-history-section sp-history-time">22 de Septiembre, 2015</span>
-		<span class="sp-history-section sp-history-value">123/67/67</span>
-	</li>
-</ul>
-<!-- <a href="http://localhost:5000/users/{{username}}/samples">SAMPLES</a> -->
+  {{#if lastSample}}
+    {{#lastSample}}
+    <h2>{{created}}</h2>
+    <ul class="sp-last">
+      <li>
+        <span class="sp-last-section sp-last-value">{{sistolic}}</span>
+        <span class="sp-last-section sp-last-unit">mmHg</span>
+      </li>
+      <li>
+        <span class="sp-last-section sp-last-value">{{diastolic}}</span>
+        <span class="sp-last-section sp-last-unit">mmHg</span>
+      </li>
+      <li>
+        <span class="sp-last-section sp-last-value">{{rpm}}</span>
+        <span class="sp-last-section sp-last-unit">rpm</span>
+      </li>
+    </ul>
+    {{/lastSample}}
+  {{else}}
+    <div class="sp-first-time-image ">
+      <div class="sp-first-time-text">
+      ¡Empieza a controlar tu tensión!
+      </div>
+    </div>
+  {{/if}}
+
+  <button class="sp-button" id="sp-button">
+    + Añadir medida
+  </button>
+
+  {{#if samples}}
+  <h1>Historico</h1>
+  <ul class="sp-history">
+    {{#samples}}
+      <li>
+        <span class="sp-history-section sp-history-time">{{created}}</span>
+        <span class="sp-history-section sp-history-value">{{sistolic}}/{{diastolic}}/{{rpm}}</span>
+      </li>
+    {{/samples}}
+  </ul>
+  {{/if}}
 </section>
+<form action="{{username}}/samples" class="panel new-sample-panel" method="post">
+  <h1>Nueva medida</h1>
+  <input class="value" required autofocus type="number" name="sistolic" min="10" max="300" placeholder="---"></input>
+  <input class="value" required type="number" name="diastolic" min="10" max="300" placeholder="---"></input>
+  <input class="value" required type="number" name="rpm" min="10" max="300" placeholder="---"></input>
+  <button>
+    Enviar
+  </button>
+</form>
 

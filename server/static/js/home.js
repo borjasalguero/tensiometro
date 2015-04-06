@@ -45,6 +45,13 @@ window.onload = function() {
     }
   );
 
+  document.getElementById('sp-button').addEventListener(
+    'click',
+    function() {
+      document.body.classList.add('new');
+    }
+  );
+
   document.getElementById('m-options').addEventListener(
     'click',
     function() {

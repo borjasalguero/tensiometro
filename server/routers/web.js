@@ -9,6 +9,8 @@ var express = require('express');
 var authController = require('../controller/auth.js');
 // Creamos nuestras identidades
 var userController = require('../controller/user.js');
+// Creamos nuestras muestras
+var samplesController = require('../controller/sample.js');
 
 function isServerSessionAuthenticated(req, res, next) {
   if (req.isAuthenticated()) {
@@ -41,54 +43,79 @@ exports.getRouter = function() {
     .get(
       isServerSessionAuthenticated,
       function(req, res) {
-        res.render(
-          // Vista que quiero rellenar
-          // Estará dentro de 'views' como $NOMBRE.handlebars
-          // Puedo inyectar esta vista dentro de un layout.
-          'home',
-          {
-            // Layout donde podría inyectar la vista. Podría
-            // ser un HTML con un header, y en {{body}}
-            // inyectar diferentes vistas.
-            layout: 'main',
-            // A partir de ahora sólo parámetros, tanto del layout
-            // como de la view
-            title: 'Mideme:' + req.params.user_id
-            // ,
-            // username: req.params.user_id
+        samplesController.get(req, function(samples) {
+          console.log('Vamos con las samples ' + samples);
+          var lastSample, samplesSorted = [];
+
+          if (samples.length > 0) {
+            lastSample = samples.pop();
           }
-        );
+
+          if (samples.length > 0) {
+            samplesSorted = samples.sort(function(a, b) {
+              return b.created - a.created;
+            });
+          }
+
+          res.render(
+            // Vista que quiero rellenar
+            // Estará dentro de 'views' como $NOMBRE.handlebars
+            // Puedo inyectar esta vista dentro de un layout.
+            'home',
+            {
+              // Layout donde podría inyectar la vista. Podría
+              // ser un HTML con un header, y en {{body}}
+              // inyectar diferentes vistas.
+              layout: 'main',
+              // A partir de ahora sólo parámetros, tanto del layout
+              // como de la view
+              title: 'Mideme:' + req.params.user_id,
+              username: req.params.user_id,
+              lastSample: lastSample,
+              samples: samplesSorted
+            }
+          );
+        });
+
       }
     );
 
   router.route('/users/:user_id/samples')
-    .get(
+    // .get(
+    //   isServerSessionAuthenticated,
+    //   function(req, res) {
+    //     res.render(
+    //       // Vista que quiero rellenar
+    //       // Estará dentro de 'views' como $NOMBRE.handlebars
+    //       // Puedo inyectar esta vista dentro de un layout.
+    //       'samples',
+    //       {
+    //         // Layout donde podría inyectar la vista. Podría
+    //         // ser un HTML con un header, y en {{body}}
+    //         // inyectar diferentes vistas.
+    //         layout: 'main',
+    //         // A partir de ahora sólo parámetros, tanto del layout
+    //         // como de la view
+    //         title: 'AQUI VA EL TITULO',
+    //         username: req.params.user_id,
+    //         samples: [
+    //           {
+    //             value: 1
+    //           },
+    //           {
+    //             value: 2
+    //           }
+    //         ]
+    //       }
+    //     );
+    //   }
+    // )
+    .post(
       isServerSessionAuthenticated,
+      samplesController.create,
+      // function(err, req, rf{
       function(req, res) {
-        res.render(
-          // Vista que quiero rellenar
-          // Estará dentro de 'views' como $NOMBRE.handlebars
-          // Puedo inyectar esta vista dentro de un layout.
-          'samples',
-          {
-            // Layout donde podría inyectar la vista. Podría
-            // ser un HTML con un header, y en {{body}}
-            // inyectar diferentes vistas.
-            layout: 'main',
-            // A partir de ahora sólo parámetros, tanto del layout
-            // como de la view
-            title: 'AQUI VA EL TITULO',
-            username: req.params.user_id,
-            samples: [
-              {
-                value: 1
-              },
-              {
-                value: 2
-              }
-            ]
-          }
-        );
+        res.redirect('/');
       }
     );
 
